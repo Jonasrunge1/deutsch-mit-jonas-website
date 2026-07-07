@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "title": "Deutsch mit Jonas – Hör auf zu lernen. Fang an zu sprechen.",
+    "description": "1:1 Online-Deutschunterricht mit Jonas – individuell auf dich zugeschnitten. Echte Sätze und Alltagssituationen statt noch mehr Theorie. Kostenlose Probestunde."
+  },
+  "brand": {
+    "pre": "Deutsch mit ",
+    "accent": "Jonas"
+  },
+  "nav": {
+    "about": "Über mich",
+    "benefits": "Warum ich",
+    "how": "Ablauf",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "cta": "Probestunde buchen"
+  },
+  "hero": {
+    "kicker": "Hör auf zu lernen. Fang an zu sprechen.",
+    "headline": "Du verstehst Deutsch, aber kannst nicht sprechen?",
+    "subline": "1:1 Deutschunterricht – individuell auf dich zugeschnitten.",
+    "sub": "Viele Menschen haben dieses Problem. Ich helfe dir, endlich frei zu sprechen.",
+    "question": "Was blockiert dich beim Sprechen?",
+    "ctaPrimary": "Kostenlose Probestunde buchen",
+    "ctaSecondary": "Methode ansehen",
+    "ctaMicrotext": "Finde heraus, wie ich dir helfen kann",
+    "supportLine": "100% online · Für Anfänger bis Fortgeschrittene (A1–C1)",
+    "badge": "Jonas · Speaking Coach & Deutschlehrer"
+  },
+  "social": {
+    "title": "Darum lohnt es sich, mit mir zu lernen",
+    "items": [
+      { "value": "1.000.000+", "label": "Follower mit meinem Team" },
+      { "value": "5+ Jahre", "label": "Erfahrung als Deutschlehrer" },
+      { "value": "Wissenschaftlich", "label": "fundierte Methode" },
+      { "value": "1:1 Coaching", "label": "& Speaking Club" }
+    ]
+  },
+  "results": {
+    "title": "Nach dem Training kannst du …",
+    "chips": [
+      "spontaner antworten",
+      "weniger im Kopf übersetzen",
+      "mehr sprechen, weniger blockieren",
+      "Alltagssituationen sicherer meistern"
+    ]
+  },
+  "method": {
+    "title": "Wie du wirklich sprechen lernst",
+    "pillarsLead": "Sprache besteht aus drei Bausteinen:",
+    "pillars": [
+      { "icon": "check", "title": "Grammatik" },
+      { "icon": "chat", "title": "Vokabeln" },
+      { "icon": "star", "title": "Selbstbewusstsein" }
+    ],
+    "pillarsText": "Die ersten beiden hast du wahrscheinlich schon. Am dritten arbeiten wir – mit echten Sätzen, lautem Sprechen und ohne Perfektionsdruck.",
+    "formula": ["Echter Satz", "laut nachsprechen", "Feedback bekommen", "im Gespräch benutzen"],
+    "cards": [
+      {
+        "icon": "chat",
+        "title": "Echte Alltagssätze",
+        "text": "Du lernst Sätze, die du wirklich brauchst – beim Arzt, im Job, bei Behörden, mit Nachbarn oder im Smalltalk."
+      },
+      {
+        "icon": "speak",
+        "title": "Laut sprechen statt schweigen",
+        "text": "Du sprichst echte Sätze laut nach, bis sie dir leicht über die Lippen gehen — und ganz natürlich bei dir bleiben."
+      },
+      {
+        "icon": "star",
+        "title": "Sprechen vor Perfektion",
+        "text": "Du musst nicht perfekt sein. Du musst ins Gespräch kommen – und genau das trainieren wir."
+      }
+    ]
+  },
+  "about": {
+    "title": "Über Jonas",
+    "tagline": "Hör auf zu lernen. Fang an zu sprechen.",
+    "bio": [
+      "Ich bin Jonas – sprachbegeistert und überzeugt davon, dass man eine Sprache nicht nur im Kopf lernt, sondern vor allem mit dem Mund. Ich unterrichte auf Deutsch, Englisch und Spanisch – je nachdem, was für dich am besten funktioniert.",
+      "Ich weiß selbst, wie groß der Unterschied ist zwischen „Ich lerne eine Sprache“ und „Ich kann sie wirklich sprechen“. Genau deshalb ist mein Unterricht nicht auf noch mehr Theorie aufgebaut, sondern auf echte Sätze und Gespräche, die du im Alltag wirklich brauchst.",
+      "Gemeinsam mit meinem Team habe ich über 1.000.000 Follower auf Social Media aufgebaut. Mit Expatly verfolgen wir eine klare Idee: Hör auf zu lernen. Fang an zu sprechen.",
+      "In meinen 1:1 Online-Stunden helfe ich dir, Deutsch natürlicher, spontaner und mit mehr Selbstvertrauen zu sprechen – egal ob im Alltag, im Job, beim Arzt, bei Behörden oder im Smalltalk."
+    ],
+    "badge1": "1.000.000+ Follower mit meinem Team",
+    "badge2": "Mehr Sprechen, weniger Theorie"
+  },
+  "painpoints": {
+    "title": "Kommt dir das bekannt vor?",
+    "cards": [
+      "Du verstehst Deutsch, aber antwortest zu langsam.",
+      "Du kennst Grammatik, aber echte Gespräche stressen dich.",
+      "Du lernst viel, aber sprichst zu wenig.",
+      "Du willst im Alltag endlich spontaner reagieren."
+    ],
+    "conclusion": "Das Problem ist nicht dein Deutsch. Das Problem ist, dass du zu wenig echtes Sprechen trainierst."
+  },
+  "perfect": {
+    "title": "Perfekt für dich, wenn du …",
+    "bullets": [
+      "schon Deutsch lernst, aber beim Sprechen unsicher bist.",
+      "im Alltag, Job oder bei Terminen spontaner reagieren willst.",
+      "keine Lust mehr auf trockene Grammatikübungen hast.",
+      "sprechen willst, ohne jeden Satz vorher im Kopf zu übersetzen."
+    ],
+    "closing": "Dann ist die kostenlose Probestunde der richtige erste Schritt."
+  },
+  "benefits": {
+    "title": "Warum du mit dieser Methode schneller ins Sprechen kommst",
+    "sub": "Sprache lernt man im Gespräch, nicht im Vokabeltrainer.",
+    "items": [
+      {
+        "icon": "chat",
+        "title": "Du trainierst echte Situationen",
+        "text": "Nicht abstrakte Lehrbuchdialoge, sondern Sätze für Arzt, Job, Behörden, Nachbarn und Alltag."
+      },
+      {
+        "icon": "speak",
+        "title": "Du sprichst laut — nicht nur im Kopf",
+        "text": "Du gewöhnst deinen Mund an deutsche Sätze, Rhythmus und Reaktionen."
+      },
+      {
+        "icon": "check",
+        "title": "Du bekommst direktes Feedback",
+        "text": "Ich korrigiere dich so, dass du verstehst, was du ändern musst — ohne dich zu blockieren."
+      },
+      {
+        "icon": "star",
+        "title": "Du baust Selbstvertrauen auf",
+        "text": "Das Ziel ist nicht Perfektion. Das Ziel ist, dass du dich traust, wirklich zu sprechen."
+      }
+    ]
+  },
+  "how": {
+    "title": "So starten wir",
+    "sub": "Drei Schritte, keine Überraschungen.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Kostenlose Probestunde",
+        "text": "In der kostenlosen Probestunde schauen wir nicht nur auf dein Level. Wir finden heraus, welcher Kurs, welche Situationen und welcher Speaking-Plan wirklich zu dir passen."
+      },
+      {
+        "number": "2",
+        "title": "Dein individueller Speaking-Plan",
+        "text": "Auf Basis deines Levels, deiner Ziele und deiner Probleme bekommst du einen klaren Plan mit echten Sätzen, Themen und Übungen für deinen Alltag."
+      },
+      {
+        "number": "3",
+        "title": "Sprechtraining + echte Gespräche",
+        "text": "In den Online-Stunden trainieren wir Aussprache, Reaktionen, Korrektur und freie Gespräche — passend zu deinem Level von A1 bis C1."
+      }
+    ],
+    "ctaButton": "Kostenlose Probestunde buchen"
+  },
+  "courses": {
+    "kicker": "Kein Grammatikkurs. Ein Sprechkurs.",
+    "title": "Deine Speaking-Journey",
+    "subtitle": "Vom Verstehen zum selbstbewussten Sprechen — in deinem Tempo, nach deinem Level.",
+    "grammarNote": "Die Grammatik ist da, aber sie steht nicht im Weg. Du trainierst sie über echte Sätze und Wiederholung beim Sprechen.",
+    "duration": "Dauer: flexibel nach deinem Tempo",
+    "cards": [
+      {
+        "level": "A1–A2",
+        "name": "Ich überlebe",
+        "text": "Du lernst, dich in einfachen Alltagssituationen zurechtzufinden: Fragen stellen, reagieren, verneinen, erzählen und erste Gespräche führen."
+      },
+      {
+        "level": "A2–B1",
+        "name": "Ich rede mit",
+        "text": "Du verbindest Sätze, erzählst mehr, reagierst natürlicher und lernst, dich in Gesprächen wirklich einzubringen."
+      },
+      {
+        "level": "B1–B2",
+        "name": "Ich klinge echt",
+        "text": "Du lernst, natürlicher zu klingen, überzeugender zu sprechen und auf Deutsch mehr du selbst zu sein."
+      }
+    ],
+    "explanation": "Jeder Kurs hat einen klaren Grammatik-Backbone. Aber du lernst die Grammatik nicht isoliert, sondern über Sätze, Situationen und Wiederholung. So wird aus Wissen echte Sprechfähigkeit.",
+    "accordionQ": "Was steckt hinter den Kursen?",
+    "accordionA": "Jeder Kurs hat im Hintergrund einen klaren grammatischen Aufbau – von den ersten einfachen Sätzen bis zu natürlichen Gesprächsmustern. Du lernst ihn nie isoliert, sondern immer eingebettet in echte Sätze, Situationen und Wiederholung.",
+    "ctaText": "In der kostenlosen Probestunde finden wir heraus, wo du startest und wie schnell du vorankommst.",
+    "ctaButton": "Kostenlose Probestunde buchen"
+  },
+  "offers": {
+    "title": "So kannst du mit mir lernen",
+    "sub": "Drei Wege, um mehr zu sprechen – wähle, was zu dir passt.",
+    "comingSoon": "Coming soon",
+    "ctaButton": "Kostenlose Probestunde buchen",
+    "cards": [
+      {
+        "title": "Private 1:1 Speaking Lessons",
+        "text": "Individueller Online-Unterricht mit echten Alltagssätzen, persönlichem Feedback und klarer Struktur.",
+        "soon": false
+      },
+      {
+        "title": "Speaking-Journey",
+        "text": "Drei Level von A1 bis B2 – in deinem Tempo. Echte Sätze, echtes Sprechen, echter Fortschritt.",
+        "soon": false
+      },
+      {
+        "title": "German Speaking Club",
+        "text": "Kleine Gruppen, echte Gesprächsthemen und regelmäßige Speaking Practice. Ideal, wenn du mehr sprechen willst, aber nicht immer 1:1 Unterricht brauchst.",
+        "soon": true
+      }
+    ]
+  },
+  "offer": {
+    "title": "Wähle dein 1:1 Speaking-Paket",
+    "sub": "Einmal entscheiden, dann gezielt sprechen trainieren. Alle Pakete enthalten 60-minütige 1:1 Online-Stunden mit persönlichem Feedback und echter Speaking Practice.",
+    "totalLabel": "Gesamt:",
+    "plans": [
+      {
+        "label": "Starter",
+        "hours": "10 Stunden personalisiertes Speaking-Coaching",
+        "perHour": "59,50 €",
+        "perHourUnit": "/ Stunde",
+        "price": "595 €",
+        "tagline": "Für den ersten Durchbruch",
+        "tag": null,
+        "highlight": false
+      },
+      {
+        "label": "Progress",
+        "hours": "20 Stunden personalisiertes Speaking-Coaching",
+        "perHour": "54,75 €",
+        "perHourUnit": "/ Stunde",
+        "price": "1.095 €",
+        "tagline": "Für echte Sprechsicherheit",
+        "tag": "Beliebt",
+        "highlight": true
+      },
+      {
+        "label": "Fluency",
+        "hours": "30 Stunden personalisiertes Speaking-Coaching",
+        "perHour": "49,83 €",
+        "perHourUnit": "/ Stunde",
+        "price": "1.495 €",
+        "tagline": "Für langfristige Routine",
+        "tag": "Bester Preis",
+        "highlight": false
+      }
+    ],
+    "note": "Nicht sicher, welches Paket passt? Genau dafür ist die kostenlose Probestunde da."
+  },
+  "outcomes": {
+    "title": "Wobei ich dir helfen kann",
+    "items": [
+      "Spontaner im Alltag antworten",
+      "Sicherer im Job sprechen",
+      "Arzttermine und Behörden besser meistern",
+      "Weniger Angst vor Fehlern",
+      "Smalltalk natürlicher führen",
+      "Mehr sprechen statt nur lernen"
+    ],
+    "ctaButton": "Das will ich in der Probestunde besprechen"
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Für welches Sprachniveau eignet sich das Angebot?",
+        "a": "Der Unterricht eignet sich für Lernende von A1 bis C1 – vom absoluten Anfänger bis zu Fortgeschrittenen, die natürlicher und sicherer klingen wollen. In der kostenlosen Probestunde schauen wir zuerst auf dein aktuelles Level und finden heraus, welcher Plan zu dir passt."
+      },
+      {
+        "q": "Wie läuft die kostenlose Probestunde ab?",
+        "a": "In der kostenlosen Probestunde schauen wir uns dein aktuelles Deutschlevel an, sprechen über deine Ziele und finden heraus, wo du beim Sprechen blockierst. Danach bekommst du eine klare Empfehlung, welches Training und welches Paket zu dir passt – von A1 bis C1."
+      },
+      {
+        "q": "Findet der Unterricht online statt?",
+        "a": "Ja, der gesamte Unterricht findet online statt – bequem von zuhause oder unterwegs, per Videocall. Du brauchst nur eine stabile Internetverbindung."
+      },
+      {
+        "q": "In welchen Sprachen kann der Unterricht stattfinden?",
+        "a": "Ich unterrichte auf Deutsch, Englisch und Spanisch – je nachdem, was für dich am Anfang am besten funktioniert."
+      },
+      {
+        "q": "Was ist anders als normaler Deutschunterricht?",
+        "a": "Wir machen nicht einfach die nächste Grammatiklektion. Der Fokus liegt auf echten Sätzen, direktem Feedback und Situationen, die du wirklich im Alltag brauchst."
+      },
+      {
+        "q": "Was ist Shadowing?",
+        "a": "Du sprichst echte deutsche Sätze laut nach, bis sie dir leicht fallen. So trainierst du Aussprache und ein Gefühl für natürliche Sprache."
+      },
+      {
+        "q": "Ich habe Angst, Fehler zu machen. Ist das ein Problem?",
+        "a": "Nein. Genau dafür ist der Unterricht da. Du bekommst Korrektur, aber so, dass du dich nicht blockiert fühlst. Das Ziel ist nicht Perfektion, sondern mehr Sicherheit beim Sprechen."
+      },
+      {
+        "q": "Wie schnell merke ich Fortschritt?",
+        "a": "Das hängt von deinem Level und deiner Übung ab. Viele merken aber schon nach wenigen Stunden, dass sie schneller reagieren und weniger im Kopf übersetzen."
+      },
+      {
+        "q": "Wie schnell antwortet Jonas auf Anfragen?",
+        "a": "Ich antworte in der Regel innerhalb von 24 Stunden – per E-Mail oder direkt auf WhatsApp."
+      },
+      {
+        "q": "In welcher Zeitzone unterrichtest du?",
+        "a": "Ich unterrichte nach mitteleuropäischer Zeit (MEZ/MESZ). Deinen Termin buchst du direkt über Calendly – dort siehst du automatisch passende Zeiten für deine Zeitzone."
+      },
+      {
+        "q": "Gibt es auch Gruppenkurse oder einen Speaking Club?",
+        "a": "Ja, ein German Speaking Club ist geplant. Wenn du Interesse hast, kannst du in der Probestunde oder über die Warteliste Bescheid geben."
+      }
+    ]
+  },
+  "cta": {
+    "tagline": "In der kostenlosen Probestunde finden wir heraus, welcher Plan zu DIR passt.",
+    "title": "Der erste Schritt ist nicht noch mehr Theorie.",
+    "sub": "In der kostenlosen Probestunde schauen wir auf dein aktuelles Deutschlevel, deine Ziele und die Situationen, in denen du sicherer sprechen willst – ganz bequem online. Danach weißt du genau, welcher Plan zu dir passt – egal ob A1, B1 oder C1.",
+    "button": "Kostenlose Probestunde buchen",
+    "microtext": "Finde heraus, wie ich dir helfen kann",
+    "whatsappText": "Schreib mir gerne direkt auf WhatsApp"
+  },
+  "footer": {
+    "tagline": "1:1 Online-Speaking-Coaching mit Jonas.",
+    "contactTitle": "Kontakt",
+    "legalTitle": "Rechtliches",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "cookieSettings": "Cookie-Einstellungen",
+    "whatsapp": "Schreib mir gerne direkt auf WhatsApp",
+    "rights": "Deutsch mit Jonas"
+  },
+  "whatsapp": {
+    "label": "Auf WhatsApp schreiben"
+  }
+}

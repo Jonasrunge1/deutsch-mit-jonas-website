@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "title": "Alemán con Jonas – Deja de estudiar. Empieza a hablar.",
+    "description": "Clases de alemán online 1:1 con Jonas, adaptadas a ti. Frases reales y situaciones cotidianas en vez de más teoría. Clase de prueba gratuita."
+  },
+  "brand": {
+    "pre": "Alemán con ",
+    "accent": "Jonas"
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "benefits": "Por qué yo",
+    "how": "Cómo funciona",
+    "pricing": "Precios",
+    "contact": "Contacto",
+    "cta": "Reservar clase de prueba"
+  },
+  "hero": {
+    "kicker": "Deja de estudiar. Empieza a hablar.",
+    "headline": "¿Entiendes alemán, pero no puedes hablarlo?",
+    "subline": "Clases de alemán 1:1 – adaptadas a ti.",
+    "sub": "Muchas personas tienen este problema. Te ayudo a hablar por fin con libertad.",
+    "question": "¿Qué te bloquea a la hora de hablar?",
+    "ctaPrimary": "Reserva tu clase de prueba gratuita",
+    "ctaSecondary": "Ver el método",
+    "ctaMicrotext": "Descubre cómo puedo ayudarte",
+    "supportLine": "100% online · Para principiantes y niveles avanzados (A1–C1)",
+    "badge": "Jonas · Speaking Coach y profesor de alemán"
+  },
+  "social": {
+    "title": "Por eso merece la pena aprender conmigo",
+    "items": [
+      { "value": "1.000.000+", "label": "seguidores con mi equipo" },
+      { "value": "5+ años", "label": "de experiencia como profesor de alemán" },
+      { "value": "Método", "label": "con base científica" },
+      { "value": "Coaching 1:1", "label": "y Speaking Club" }
+    ]
+  },
+  "results": {
+    "title": "Después del entrenamiento podrás …",
+    "chips": [
+      "responder con más espontaneidad",
+      "traducir menos en tu cabeza",
+      "hablar más y bloquearte menos",
+      "manejar situaciones cotidianas con más seguridad"
+    ]
+  },
+  "method": {
+    "title": "Cómo aprendes a hablar de verdad",
+    "pillarsLead": "El idioma se compone de tres pilares:",
+    "pillars": [
+      { "icon": "check", "title": "Gramática" },
+      { "icon": "chat", "title": "Vocabulario" },
+      { "icon": "star", "title": "Confianza" }
+    ],
+    "pillarsText": "Los dos primeros seguramente ya los tienes. En el tercero trabajamos juntos – con frases reales, hablando en voz alta y sin presión de ser perfecto.",
+    "formula": ["Frase real", "repetir en voz alta", "recibir feedback", "usarla en una conversación"],
+    "cards": [
+      {
+        "icon": "chat",
+        "title": "Frases reales del día a día",
+        "text": "Aprendes frases que de verdad necesitas – en el médico, en el trabajo, con trámites, con vecinos o en una charla informal."
+      },
+      {
+        "icon": "speak",
+        "title": "Hablar en voz alta, no quedarte callado",
+        "text": "Repites frases reales en voz alta hasta que salgan con naturalidad — y se queden contigo de forma natural."
+      },
+      {
+        "icon": "star",
+        "title": "Hablar antes que ser perfecto",
+        "text": "No necesitas ser perfecto. Necesitas entrar en la conversación – y eso es exactamente lo que entrenamos."
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre Jonas",
+    "tagline": "Deja de estudiar. Empieza a hablar.",
+    "bio": [
+      "Soy Jonas – me apasionan los idiomas y estoy convencido de que una lengua no se aprende solo con la cabeza, sino sobre todo con la boca. Doy clases en alemán, inglés y español – lo que mejor funcione para ti.",
+      "Sé de primera mano lo grande que es la diferencia entre «estudiar un idioma» y «hablarlo de verdad». Por eso mis clases no se basan en más teoría, sino en frases y conversaciones reales que realmente necesitas en tu día a día.",
+      "Junto con mi equipo he conseguido más de 1.000.000 de seguidores en redes sociales. Con Expatly seguimos una idea clara: deja de estudiar, empieza a hablar.",
+      "En mis clases online 1:1 te ayudo a hablar alemán de forma más natural, más espontánea y con más confianza – ya sea en el día a día, en el trabajo, en el médico, con trámites o en una charla informal."
+    ],
+    "badge1": "1.000.000+ seguidores con mi equipo",
+    "badge2": "Más hablar, menos teoría"
+  },
+  "painpoints": {
+    "title": "¿Te suena familiar?",
+    "cards": [
+      "Entiendes alemán, pero respondes demasiado lento.",
+      "Conoces la gramática, pero las conversaciones reales te estresan.",
+      "Estudias mucho, pero hablas muy poco.",
+      "Quieres reaccionar con más naturalidad en el día a día."
+    ],
+    "conclusion": "El problema no es tu alemán. El problema es que entrenas muy poco el hablar de verdad."
+  },
+  "perfect": {
+    "title": "Es perfecto para ti si …",
+    "bullets": [
+      "ya estudias alemán, pero te sientes inseguro/a al hablar.",
+      "quieres reaccionar con más naturalidad en el día a día, el trabajo o citas.",
+      "estás cansado/a de los ejercicios de gramática aburridos.",
+      "quieres hablar sin traducir antes cada frase en tu cabeza."
+    ],
+    "closing": "Entonces la clase de prueba gratuita es el primer paso correcto."
+  },
+  "benefits": {
+    "title": "Por qué con este método hablarás más rápido",
+    "sub": "Un idioma se aprende hablándolo, no memorizando tarjetas de vocabulario.",
+    "items": [
+      {
+        "icon": "chat",
+        "title": "Entrenas situaciones reales",
+        "text": "No diálogos abstractos de libro de texto, sino frases para el médico, el trabajo, trámites, vecinos y el día a día."
+      },
+      {
+        "icon": "speak",
+        "title": "Hablas en voz alta — no solo en tu cabeza",
+        "text": "Acostumbras tu boca a las frases, el ritmo y las reacciones en alemán."
+      },
+      {
+        "icon": "check",
+        "title": "Recibes feedback directo",
+        "text": "Te corrijo de forma que entiendas qué cambiar — sin que te bloquees."
+      },
+      {
+        "icon": "star",
+        "title": "Construyes confianza",
+        "text": "El objetivo no es la perfección. El objetivo es que te atrevas a hablar de verdad."
+      }
+    ]
+  },
+  "how": {
+    "title": "Así empezamos",
+    "sub": "Tres pasos, sin sorpresas.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Clase de prueba gratuita",
+        "text": "En la clase de prueba gratuita no solo miramos tu nivel. Descubrimos qué curso, qué situaciones y qué plan de speaking encajan realmente contigo."
+      },
+      {
+        "number": "2",
+        "title": "Tu plan de speaking individual",
+        "text": "Según tu nivel, tus objetivos y tus dificultades, recibes un plan claro con frases reales, temas y ejercicios para tu día a día."
+      },
+      {
+        "number": "3",
+        "title": "Entrenamiento de speaking + conversaciones reales",
+        "text": "En las clases online entrenamos pronunciación, reacciones, corrección y conversación libre — adaptado a tu nivel, de A1 a C1."
+      }
+    ],
+    "ctaButton": "Reserva tu clase de prueba gratuita"
+  },
+  "courses": {
+    "kicker": "No es un curso de gramática. Es un curso de conversación.",
+    "title": "Tu Speaking Journey",
+    "subtitle": "De entender a hablar con confianza — a tu ritmo, según tu nivel.",
+    "grammarNote": "La gramática está presente, pero no se interpone en tu camino. La entrenas a través de frases reales y repetición al hablar.",
+    "duration": "Duración: flexible, a tu ritmo",
+    "cards": [
+      {
+        "level": "A1–A2",
+        "name": "Sobrevivo",
+        "text": "Aprendes a manejarte en situaciones cotidianas sencillas: hacer preguntas, reaccionar, decir que no, contar cosas y mantener las primeras conversaciones."
+      },
+      {
+        "level": "A2–B1",
+        "name": "Participo en la conversación",
+        "text": "Conectas frases, cuentas más cosas, reaccionas con más naturalidad y aprendes a participar de verdad en las conversaciones."
+      },
+      {
+        "level": "B1–B2",
+        "name": "Sueno natural",
+        "text": "Aprendes a sonar más natural, a hablar de forma más convincente y a ser más tú mismo/a en alemán."
+      }
+    ],
+    "explanation": "Cada curso tiene una base gramatical clara. Pero no aprendes la gramática de forma aislada, sino a través de frases, situaciones y repetición. Así el conocimiento se convierte en capacidad real de hablar.",
+    "accordionQ": "¿Qué hay detrás de los cursos?",
+    "accordionA": "Cada curso tiene, de fondo, una estructura gramatical clara – desde las primeras frases sencillas hasta patrones de conversación naturales. Nunca la aprendes de forma aislada, siempre integrada en frases, situaciones y repetición reales.",
+    "ctaText": "En la clase de prueba gratuita descubrimos dónde empiezas y a qué ritmo avanzas.",
+    "ctaButton": "Reserva tu clase de prueba gratuita"
+  },
+  "offers": {
+    "title": "Así puedes aprender conmigo",
+    "sub": "Tres formas de hablar más – elige la que encaje contigo.",
+    "comingSoon": "Próximamente",
+    "ctaButton": "Reserva tu clase de prueba gratuita",
+    "cards": [
+      {
+        "title": "Clases privadas de Speaking 1:1",
+        "text": "Clases online individuales con frases reales del día a día, feedback personal y una estructura clara.",
+        "soon": false
+      },
+      {
+        "title": "Speaking Journey",
+        "text": "Tres niveles de A1 a B2 – a tu ritmo. Frases reales, hablar de verdad, progreso real.",
+        "soon": false
+      },
+      {
+        "title": "German Speaking Club",
+        "text": "Grupos pequeños, temas de conversación reales y práctica de speaking regular. Ideal si quieres hablar más, pero no siempre necesitas clases 1:1.",
+        "soon": true
+      }
+    ]
+  },
+  "offer": {
+    "title": "Elige tu paquete de Speaking 1:1",
+    "sub": "Decide una vez y entrena el habla con foco. Todos los paquetes incluyen clases online 1:1 de 60 minutos con feedback personal y práctica real de speaking.",
+    "totalLabel": "Total:",
+    "plans": [
+      {
+        "label": "Starter",
+        "hours": "10 horas de coaching de speaking personalizado",
+        "perHour": "59,50 €",
+        "perHourUnit": "/ hora",
+        "price": "595 €",
+        "tagline": "Para tu primer avance",
+        "tag": null,
+        "highlight": false
+      },
+      {
+        "label": "Progress",
+        "hours": "20 horas de coaching de speaking personalizado",
+        "perHour": "54,75 €",
+        "perHourUnit": "/ hora",
+        "price": "1.095 €",
+        "tagline": "Para hablar con seguridad real",
+        "tag": "Más popular",
+        "highlight": true
+      },
+      {
+        "label": "Fluency",
+        "hours": "30 horas de coaching de speaking personalizado",
+        "perHour": "49,83 €",
+        "perHourUnit": "/ hora",
+        "price": "1.495 €",
+        "tagline": "Para una rutina a largo plazo",
+        "tag": "Mejor precio",
+        "highlight": false
+      }
+    ],
+    "note": "¿No estás seguro/a de qué paquete encaja contigo? Justo para eso está la clase de prueba gratuita."
+  },
+  "outcomes": {
+    "title": "En qué puedo ayudarte",
+    "items": [
+      "Responder con más naturalidad en el día a día",
+      "Hablar con más seguridad en el trabajo",
+      "Manejar mejor citas médicas y trámites",
+      "Tener menos miedo a los errores",
+      "Mantener charlas informales con más naturalidad",
+      "Hablar más en vez de solo estudiar"
+    ],
+    "ctaButton": "Quiero hablar de esto en la clase de prueba"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Para qué nivel es esta oferta?",
+        "a": "Las clases son para estudiantes de A1 a C1 – desde principiantes absolutos hasta niveles avanzados que quieren sonar más naturales y seguros. En la clase de prueba gratuita miramos primero tu nivel actual y descubrimos qué plan encaja contigo."
+      },
+      {
+        "q": "¿Cómo es la clase de prueba gratuita?",
+        "a": "Miramos tu nivel actual de alemán, hablamos de tus objetivos e identificamos dónde te bloqueas al hablar. Después recibes una recomendación clara sobre qué entrenamiento y qué paquete encajan contigo — de A1 a C1."
+      },
+      {
+        "q": "¿Las clases son online?",
+        "a": "Sí, todas las clases son online — desde casa o donde estés, por videollamada. Solo necesitas una conexión a internet estable."
+      },
+      {
+        "q": "¿En qué idiomas pueden darse las clases?",
+        "a": "Doy clases en alemán, inglés y español – lo que mejor funcione para ti al principio."
+      },
+      {
+        "q": "¿En qué se diferencia de una clase de alemán normal?",
+        "a": "No simplemente avanzamos a la siguiente lección de gramática. El foco está en frases reales, feedback directo y situaciones que realmente necesitas en tu día a día."
+      },
+      {
+        "q": "¿Qué es el shadowing?",
+        "a": "Repites frases reales en alemán en voz alta hasta que te resulten fáciles. Así entrenas la pronunciación y el sentido para un alemán natural."
+      },
+      {
+        "q": "Tengo miedo a cometer errores. ¿Es un problema?",
+        "a": "No. Para eso están precisamente las clases. Recibes correcciones, pero de una forma que no te bloquea. El objetivo no es la perfección, sino más seguridad al hablar."
+      },
+      {
+        "q": "¿Qué tan rápido notaré progreso?",
+        "a": "Depende de tu nivel y de cuánto practiques. Pero muchos alumnos notan ya tras pocas clases que reaccionan más rápido y traducen menos en su cabeza."
+      },
+      {
+        "q": "¿Qué tan rápido responde Jonas a los mensajes?",
+        "a": "Normalmente respondo en un plazo de 24 horas – por correo electrónico o directamente por WhatsApp."
+      },
+      {
+        "q": "¿En qué zona horaria das clases?",
+        "a": "Doy clases en horario de Europa Central (CET/CEST). Reservas tu cita directamente por Calendly, que te muestra automáticamente los horarios adaptados a tu zona horaria."
+      },
+      {
+        "q": "¿Hay cursos grupales o un Speaking Club?",
+        "a": "Sí, está previsto un German Speaking Club. Si te interesa, puedes mencionarlo en la clase de prueba o preguntar por la lista de espera."
+      }
+    ]
+  },
+  "cta": {
+    "tagline": "En la clase de prueba gratuita descubrimos qué plan encaja contigo.",
+    "title": "El primer paso no es más teoría.",
+    "sub": "En la clase de prueba gratuita miramos tu nivel actual de alemán, tus objetivos y las situaciones en las que quieres hablar con más seguridad – todo cómodamente online. Después sabrás exactamente qué plan encaja contigo — ya seas A1, B1 o C1.",
+    "button": "Reserva tu clase de prueba gratuita",
+    "microtext": "Descubre cómo puedo ayudarte",
+    "whatsappText": "Escríbeme directamente por WhatsApp"
+  },
+  "footer": {
+    "tagline": "Coaching de speaking online 1:1 con Jonas.",
+    "contactTitle": "Contacto",
+    "legalTitle": "Aviso legal",
+    "impressum": "Aviso legal",
+    "datenschutz": "Privacidad",
+    "cookiePolicy": "Política de cookies",
+    "cookieSettings": "Configuración de cookies",
+    "whatsapp": "Escríbeme directamente por WhatsApp",
+    "rights": "Alemán con Jonas"
+  },
+  "whatsapp": {
+    "label": "Escribir por WhatsApp"
+  }
+}

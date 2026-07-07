@@ -1,0 +1,17 @@
+{
+  "name": "deutsch-mit-jonas",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "pages": "node scripts/build-pages.mjs",
+    "predev": "npm run pages",
+    "dev": "vite",
+    "prebuild": "npm run pages",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "title": "German with Jonas – Stop Studying, Start Speaking",
+    "description": "1:1 online German lessons with Jonas – tailored to you. Real sentences and everyday situations instead of more theory. Free trial lesson."
+  },
+  "brand": {
+    "pre": "German with ",
+    "accent": "Jonas"
+  },
+  "nav": {
+    "about": "About",
+    "benefits": "Why me",
+    "how": "How it works",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "cta": "Book trial lesson"
+  },
+  "hero": {
+    "kicker": "Stop Studying, Start Speaking.",
+    "headline": "You understand German, but can't speak it?",
+    "subline": "1:1 German lessons – tailored to you.",
+    "sub": "Many people have this problem. I help you finally speak freely.",
+    "question": "What's blocking your speaking?",
+    "ctaPrimary": "Book a free trial lesson",
+    "ctaSecondary": "See the method",
+    "ctaMicrotext": "Find out how I can help you",
+    "supportLine": "100% online · For beginners to advanced learners (A1–C1)",
+    "badge": "Jonas · Speaking Coach & German Teacher"
+  },
+  "social": {
+    "title": "Why it's worth learning with me",
+    "items": [
+      { "value": "1,000,000+", "label": "followers with my team" },
+      { "value": "5+ years", "label": "experience as a German teacher" },
+      { "value": "Science-based", "label": "teaching method" },
+      { "value": "1:1 coaching", "label": "& Speaking Club" }
+    ]
+  },
+  "results": {
+    "title": "After the training, you can …",
+    "chips": [
+      "answer more naturally",
+      "translate less in your head",
+      "speak more, freeze less",
+      "handle daily situations with more confidence"
+    ]
+  },
+  "method": {
+    "title": "How you really learn to speak",
+    "pillarsLead": "Language is made of three building blocks:",
+    "pillars": [
+      { "icon": "check", "title": "Grammar" },
+      { "icon": "chat", "title": "Vocabulary" },
+      { "icon": "star", "title": "Confidence" }
+    ],
+    "pillarsText": "You probably already have the first two. We work on the third one — with real sentences, speaking out loud and no pressure to be perfect.",
+    "formula": ["Real sentence", "repeat out loud", "get feedback", "use it in conversation"],
+    "cards": [
+      {
+        "icon": "chat",
+        "title": "Real everyday sentences",
+        "text": "You learn sentences you actually need – at the doctor, at work, with paperwork, neighbours or small talk."
+      },
+      {
+        "icon": "speak",
+        "title": "Speak out loud, not stay silent",
+        "text": "You repeat real sentences out loud until they roll off your tongue — and stay with you naturally."
+      },
+      {
+        "icon": "star",
+        "title": "Speaking before perfection",
+        "text": "You do not need to be perfect. You need to get into conversations – and that is exactly what we train."
+      }
+    ]
+  },
+  "about": {
+    "title": "About Jonas",
+    "tagline": "Stop Studying, Start Speaking.",
+    "bio": [
+      "I'm Jonas – passionate about languages and convinced that you don't just learn a language in your head, but above all with your mouth. I teach in German, English and Spanish – whichever works best for you.",
+      "I know firsthand how big the gap is between \"studying a language\" and \"actually speaking it.\" That's exactly why my lessons aren't built on more theory, but on real sentences and conversations you actually need in daily life.",
+      "Together with my team, I've built a social media reach of over 1,000,000 followers. With Expatly, we follow one clear idea: Stop studying. Start speaking.",
+      "In my 1:1 online lessons, I help you speak German more naturally, more spontaneously and with more confidence – whether that's daily life, work, the doctor, paperwork or small talk."
+    ],
+    "badge1": "1,000,000+ followers with my team",
+    "badge2": "More speaking, less theory"
+  },
+  "painpoints": {
+    "title": "Does this sound familiar?",
+    "cards": [
+      "You understand German, but answer too slowly.",
+      "You know grammar, but real conversations feel stressful.",
+      "You study a lot, but speak too little.",
+      "You want to react more naturally in daily life."
+    ],
+    "conclusion": "The problem is not your German. The problem is that you do not train real speaking enough."
+  },
+  "perfect": {
+    "title": "Perfect for you if you …",
+    "bullets": [
+      "already study German, but feel insecure when speaking.",
+      "want to react more naturally in daily life, work or appointments.",
+      "are tired of dry grammar exercises.",
+      "want to speak without translating every sentence in your head first."
+    ],
+    "closing": "Then the free trial lesson is the right first step."
+  },
+  "benefits": {
+    "title": "Why this method gets you speaking faster",
+    "sub": "You learn a language by speaking it, not by memorizing flashcards.",
+    "items": [
+      {
+        "icon": "chat",
+        "title": "You train real situations",
+        "text": "Not abstract textbook dialogues, but sentences for doctor visits, work, paperwork, neighbours and daily life."
+      },
+      {
+        "icon": "speak",
+        "title": "You speak out loud — not only in your head",
+        "text": "You get your mouth used to German sentences, rhythm and reactions."
+      },
+      {
+        "icon": "check",
+        "title": "You get direct feedback",
+        "text": "I correct you in a way that helps you understand what to change — without making you freeze."
+      },
+      {
+        "icon": "star",
+        "title": "You build confidence",
+        "text": "The goal is not perfection. The goal is that you dare to actually speak."
+      }
+    ]
+  },
+  "how": {
+    "title": "How we get started",
+    "sub": "Three steps, no surprises.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Free trial lesson",
+        "text": "In the free trial lesson, we do not only look at your level. We find out which course, situations and speaking plan actually fit you."
+      },
+      {
+        "number": "2",
+        "title": "Your individual speaking plan",
+        "text": "Based on your level, goals and speaking problems, you get a clear plan with real sentences, topics and exercises for your daily life."
+      },
+      {
+        "number": "3",
+        "title": "Speaking practice + real conversations",
+        "text": "In the online lessons, we train pronunciation, reactions, correction and real conversation — matched to your level from A1 to C1."
+      }
+    ],
+    "ctaButton": "Book a free trial lesson"
+  },
+  "courses": {
+    "kicker": "Not a grammar course. A speaking course.",
+    "title": "Your Speaking Journey",
+    "subtitle": "From understanding to speaking confidently — at your pace, at your level.",
+    "grammarNote": "The grammar is there, but it does not get in the way. You train it through real sentences and repetition while speaking.",
+    "duration": "Duration: flexible, at your pace",
+    "cards": [
+      {
+        "level": "A1–A2",
+        "name": "I survive",
+        "text": "You learn to handle simple everyday situations: asking questions, reacting, saying no, telling stories and having first conversations."
+      },
+      {
+        "level": "A2–B1",
+        "name": "I join the conversation",
+        "text": "You connect sentences, tell more, react more naturally and learn to truly participate in conversations."
+      },
+      {
+        "level": "B1–B2",
+        "name": "I sound real",
+        "text": "You learn to sound more natural, speak more convincingly and feel more like yourself in German."
+      }
+    ],
+    "explanation": "Each course has a clear grammar backbone. But you do not learn grammar in isolation. You train it through sentences, situations and repetition. That turns knowledge into real speaking ability.",
+    "accordionQ": "What is behind the courses?",
+    "accordionA": "Each course has a clear grammar structure running in the background – from the first simple sentences to natural conversation patterns. You never learn it in isolation, always embedded in real sentences, situations and repetition.",
+    "ctaText": "In the free trial lesson, we find out where you start and how quickly you progress.",
+    "ctaButton": "Book a free trial lesson"
+  },
+  "offers": {
+    "title": "Ways to learn with me",
+    "sub": "Three ways to speak more – pick what fits you.",
+    "comingSoon": "Coming soon",
+    "ctaButton": "Book a free trial lesson",
+    "cards": [
+      {
+        "title": "Private 1:1 Speaking Lessons",
+        "text": "Individual online lessons with real everyday sentences, personal feedback and a clear structure.",
+        "soon": false
+      },
+      {
+        "title": "Speaking Journey",
+        "text": "Three levels from A1 to B2 – at your pace. Real sentences, real speaking, real progress.",
+        "soon": false
+      },
+      {
+        "title": "German Speaking Club",
+        "text": "Small groups, real conversation topics and regular speaking practice. Ideal if you want to speak more, but do not always need 1:1 lessons.",
+        "soon": true
+      }
+    ]
+  },
+  "offer": {
+    "title": "Choose your 1:1 speaking package",
+    "sub": "Choose once, then train speaking with focus. All packages include 60-minute 1:1 online lessons with personal feedback and real speaking practice.",
+    "totalLabel": "Total:",
+    "plans": [
+      {
+        "label": "Starter",
+        "hours": "10 hours of personalized speaking coaching",
+        "perHour": "€59.50",
+        "perHourUnit": "/ hour",
+        "price": "€595",
+        "tagline": "For your first breakthrough",
+        "tag": null,
+        "highlight": false
+      },
+      {
+        "label": "Progress",
+        "hours": "20 hours of personalized speaking coaching",
+        "perHour": "€54.75",
+        "perHourUnit": "/ hour",
+        "price": "€1,095",
+        "tagline": "For real speaking confidence",
+        "tag": "Most popular",
+        "highlight": true
+      },
+      {
+        "label": "Fluency",
+        "hours": "30 hours of personalized speaking coaching",
+        "perHour": "€49.83",
+        "perHourUnit": "/ hour",
+        "price": "€1,495",
+        "tagline": "For long-term speaking routine",
+        "tag": "Best value",
+        "highlight": false
+      }
+    ],
+    "note": "Not sure which package fits? That is exactly what the free trial lesson is for."
+  },
+  "outcomes": {
+    "title": "What I can help you improve",
+    "items": [
+      "Answer more naturally in daily life",
+      "Speak more confidently at work",
+      "Handle doctor visits and paperwork better",
+      "Feel less afraid of mistakes",
+      "Have more natural small talk",
+      "Speak more instead of only studying"
+    ],
+    "ctaButton": "I want to talk about this in the trial lesson"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "What level is this for?",
+        "a": "The lessons are for learners from A1 to C1 – from absolute beginners to advanced learners who want to sound more natural and confident. In the free trial lesson, we first look at your current level and find out which plan fits you."
+      },
+      {
+        "q": "What happens in the free trial lesson?",
+        "a": "We look at your current German level, talk about your goals and identify where you freeze when speaking. After that, you get a clear recommendation for the training and package that fits you — from A1 to C1."
+      },
+      {
+        "q": "Are the lessons online?",
+        "a": "Yes, all lessons take place online — from home or on the go, via video call. All you need is a stable internet connection."
+      },
+      {
+        "q": "Which languages can the lessons be taught in?",
+        "a": "I teach in German, English and Spanish – whichever works best for you at the start."
+      },
+      {
+        "q": "How is this different from normal German lessons?",
+        "a": "We do not just go through the next grammar lesson. The focus is on real sentences, direct feedback and situations you actually need in daily life."
+      },
+      {
+        "q": "What is shadowing?",
+        "a": "You repeat real German sentences out loud until they come easily. This trains pronunciation and your feeling for natural language."
+      },
+      {
+        "q": "I'm afraid of making mistakes. Is that a problem?",
+        "a": "No. That is exactly what the lessons are for. You get correction, but in a way that does not make you freeze. The goal is not perfection, but more confidence when speaking."
+      },
+      {
+        "q": "How fast will I notice progress?",
+        "a": "That depends on your level and how much you practice. But many learners notice after a few sessions that they react faster and translate less in their head."
+      },
+      {
+        "q": "How quickly does Jonas respond to messages?",
+        "a": "I usually respond within 24 hours – by email or directly on WhatsApp."
+      },
+      {
+        "q": "What time zone do you teach in?",
+        "a": "I teach in Central European Time (CET/CEST). You book your slot directly via Calendly, which automatically shows you the matching times for your time zone."
+      },
+      {
+        "q": "Are there group courses or a Speaking Club?",
+        "a": "Yes, a German Speaking Club is planned. If you are interested, you can mention it in the trial lesson or ask about the waitlist."
+      }
+    ]
+  },
+  "cta": {
+    "tagline": "In the free trial lesson, we find out which plan actually fits YOU.",
+    "title": "The first step is not more theory.",
+    "sub": "In the free trial lesson, we look at your current German level, your goals and the situations where you want to speak with more confidence – all comfortably online. After that, you'll know exactly which plan fits you — whether you are A1, B1 or C1.",
+    "button": "Book a free trial lesson",
+    "microtext": "Find out how I can help you",
+    "whatsappText": "Feel free to message me directly on WhatsApp"
+  },
+  "footer": {
+    "tagline": "1:1 online speaking coaching with Jonas.",
+    "contactTitle": "Contact",
+    "legalTitle": "Legal",
+    "impressum": "Impressum",
+    "datenschutz": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy",
+    "cookieSettings": "Cookie Settings",
+    "whatsapp": "Feel free to message me directly on WhatsApp",
+    "rights": "German with Jonas"
+  },
+  "whatsapp": {
+    "label": "Message on WhatsApp"
+  }
+}

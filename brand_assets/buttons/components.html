@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>learngermanwithjonas — component styles</title>
+<link rel="stylesheet" href="../tokens.css">
+<style>
+  body{font-family:var(--font-family);background:var(--color-creme);color:var(--color-black);padding:48px;margin:0}
+  h2{font-weight:800;margin-top:40px}
+  .row{display:flex;gap:24px;flex-wrap:wrap;align-items:center}
+
+  /* Primary CTA */
+  .btn{
+    font-family:var(--font-family);font-weight:700;font-size:18px;cursor:pointer;
+    background:var(--color-orange);color:var(--color-black);
+    border:var(--border);border-radius:var(--radius-pill);
+    padding:14px 28px;box-shadow:var(--shadow-md);
+    transition:transform .05s ease, box-shadow .05s ease;
+  }
+  .btn:active{transform:translate(4px,4px);box-shadow:var(--shadow-sm)}
+  .btn--ghost{background:var(--color-white)}
+
+  /* Card */
+  .card{
+    background:var(--color-white);border:var(--border);border-radius:var(--radius-lg);
+    box-shadow:var(--shadow-lg);padding:28px;max-width:280px;
+  }
+  .card h3{margin:0 0 8px;font-weight:800}
+  .price{font-size:40px;font-weight:800;line-height:1}
+  .per{font-size:14px;opacity:.7}
+
+  /* Tag / badge */
+  .tag{
+    display:inline-block;background:var(--color-black);color:var(--color-creme);
+    font-weight:700;font-size:13px;padding:6px 14px;border-radius:var(--radius-pill);
+  }
+</style>
+</head>
+<body>
+  <h2>Buttons</h2>
+  <div class="row">
+    <button class="btn">Book a lesson</button>
+    <button class="btn btn--ghost">Learn more</button>
+    <span class="tag">Best value</span>
+  </div>
+
+  <h2>Pricing card</h2>
+  <div class="row">
+    <div class="card">
+      <h3>30 Classes</h3>
+      <div class="price">599 €</div>
+      <div class="per">19,97 € / hour</div>
+    </div>
+  </div>
+</body>
+</html>
