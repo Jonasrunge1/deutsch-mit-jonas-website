@@ -78,6 +78,51 @@ function pillarBlocks(pillars) {
     .join('');
 }
 
+function evidenceBar(s) {
+  if (s.before == null || s.after == null) return '';
+  const beforeWidth = Math.round((s.before / s.after) * 100);
+  return `
+          <div class="evidence-bar">
+            <div class="evidence-bar-row">
+              <span class="evidence-bar-tag">${esc(s.beforeLabel)}</span>
+              <div class="evidence-bar-track"><div class="evidence-bar-fill evidence-bar-fill--before" style="width:${beforeWidth}%"></div></div>
+              <span class="evidence-bar-num">${esc(s.before)}</span>
+            </div>
+            <div class="evidence-bar-row">
+              <span class="evidence-bar-tag">${esc(s.afterLabel)}</span>
+              <div class="evidence-bar-track"><div class="evidence-bar-fill evidence-bar-fill--after" style="width:100%"></div></div>
+              <span class="evidence-bar-num">${esc(s.after)}</span>
+            </div>
+          </div>`;
+}
+
+function evidenceStats(stats) {
+  return stats
+    .map(
+      (s) => `
+        <div class="evidence-stat reveal">
+          <img class="evidence-stat-icon" src="${icon(s.icon)}" alt="" />
+          <span class="evidence-stat-value">${esc(s.value)}</span>
+          <span class="evidence-stat-label">${esc(s.label)}</span>
+          ${evidenceBar(s)}
+          <p class="evidence-stat-text">${esc(s.text)}</p>
+          ${s.comparison ? `<p class="evidence-stat-comparison">${esc(s.comparison)}</p>` : ''}
+        </div>`
+    )
+    .join('');
+}
+
+function evidenceSources(sources) {
+  return `
+        <ol class="evidence-sources">${sources
+          .map(
+            (s) => `
+          <li><a href="${s.url}" target="_blank" rel="noopener">${esc(s.text)}</a></li>`
+          )
+          .join('')}
+        </ol>`;
+}
+
 function methodFormula(steps) {
   return steps
     .map(
@@ -140,7 +185,7 @@ function benefitCards(items) {
 function howSteps(steps) {
   return steps
     .map(
-      (step) => `
+      (step, i) => `${i > 0 ? '<div class="how-arrow" aria-hidden="true">→</div>' : ''}
       <div class="how-step reveal">
         <div class="number">${esc(step.number)}</div>
         <h3>${esc(step.title)}</h3>
@@ -176,7 +221,7 @@ function offerCards(cards, ctaButton, comingSoon) {
         ${card.soon ? `<span class="tag tag--soon">${esc(comingSoon)}</span>` : ''}
         <h3>${esc(card.title)}</h3>
         <p>${esc(card.text)}</p>
-        <a class="btn btn--ghost btn--block" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(ctaButton)}</a>
+        <a class="btn btn--block" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(ctaButton)}</a>
       </div>`
     )
     .join('');
@@ -195,7 +240,7 @@ function pricingCards(plans, totalLabel, ctaLabel) {
           <span class="price-hero-amount">${esc(plan.perHour)}</span>
           <span class="price-hero-unit">${esc(plan.perHourUnit)}</span>
         </div>
-        <div class="price-total">${esc(totalLabel)} ${esc(plan.price)}</div>
+        <div class="price-total">${esc(totalLabel)} ${esc(plan.price)}${plan.saveBadge ? ` <span class="save-badge">${esc(plan.saveBadge)}</span>` : ''}</div>
         <a class="btn btn--block ${plan.highlight ? 'btn--ghost' : ''}" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(ctaLabel)}</a>
       </div>`
     )
@@ -262,7 +307,7 @@ ${faviconTags()}
       </nav>
 
       <div class="header-actions">${langSwitcher(lang)}
-        <a class="btn btn--ghost btn--header" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.nav.cta)}</a>
+        <a class="btn btn--header" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.nav.cta)}</a>
         <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
           <svg viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
         </button>
@@ -279,13 +324,11 @@ ${faviconTags()}
           <span class="eyebrow">${esc(t.hero.kicker)}</span>
           <h1>${esc(t.hero.headline)}</h1>
           <p class="hero-subline">${esc(t.hero.subline)}</p>
-          <p class="sub">${esc(t.hero.sub)}</p>
           <p class="hero-question">${esc(t.hero.question)}</p>
           <div class="hero-actions">
             <a class="btn" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.hero.ctaPrimary)}</a>
             <a class="btn btn--ghost" href="#method">${esc(t.hero.ctaSecondary)}</a>
           </div>
-          <p class="hero-cta-microtext">${esc(t.hero.ctaMicrotext)}</p>
           <p class="hero-support">${esc(t.hero.supportLine)}</p>
         </div>
         <div class="hero-visual">
@@ -301,19 +344,19 @@ ${faviconTags()}
       </div>
     </section>
 
-    <!-- Social proof -->
-    <section class="social-proof">
-      <div class="container">
-        <div class="social-proof-grid">${socialTiles(t.social.items)}
-        </div>
-      </div>
-    </section>
-
     <!-- Results -->
     <section class="results">
       <div class="container">
         <p class="results-title">${esc(t.results.title)}</p>
         <div class="results-chips">${resultChips(t.results.chips)}
+        </div>
+      </div>
+    </section>
+
+    <!-- Social proof -->
+    <section class="social-proof">
+      <div class="container">
+        <div class="social-proof-grid">${socialTiles(t.social.items)}
         </div>
       </div>
     </section>
@@ -463,6 +506,22 @@ ${faviconTags()}
       </div>
     </section>
 
+    <!-- Evidence-based learning -->
+    <section id="evidence" class="evidence">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="evidence-badge"><img src="${icon('check')}" alt="" />${esc(t.evidence.badge)}</span>
+          <h2>${esc(t.evidence.title)}</h2>
+          <p>${esc(t.evidence.intro)}</p>
+          <p class="evidence-authority">${esc(t.evidence.authority)}</p>
+        </div>
+        <div class="evidence-stats">${evidenceStats(t.evidence.stats)}
+        </div>
+        <p class="evidence-closing reveal">${esc(t.evidence.closing)}</p>
+        ${evidenceSources(t.evidence.sources)}
+      </div>
+    </section>
+
     <!-- Outcomes -->
     <section id="outcomes">
       <div class="container">
@@ -472,7 +531,7 @@ ${faviconTags()}
         <div class="outcomes-grid">${outcomeChips(t.outcomes.items)}
         </div>
         <div class="outcomes-cta">
-          <a class="btn btn--ghost" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.outcomes.ctaButton)}</a>
+          <a class="btn" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.outcomes.ctaButton)}</a>
         </div>
       </div>
     </section>
@@ -495,7 +554,6 @@ ${faviconTags()}
         <h2>${esc(t.cta.title)}</h2>
         <p>${esc(t.cta.sub)}</p>
         <a class="btn" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.cta.button)}</a>
-        <p class="final-cta-microtext">${esc(t.cta.microtext)}</p>
         <a class="final-cta-whatsapp" href="${WHATSAPP_URL}" target="_blank" rel="noopener">${esc(t.cta.whatsappText)}</a>
       </div>
     </section>

@@ -19,11 +19,9 @@
     "kicker": "Deja de estudiar. Empieza a hablar.",
     "headline": "¿Entiendes alemán, pero no puedes hablarlo?",
     "subline": "Clases de alemán 1:1 – adaptadas a ti.",
-    "sub": "Muchas personas tienen este problema. Te ayudo a hablar por fin con libertad.",
     "question": "¿Qué te bloquea a la hora de hablar?",
     "ctaPrimary": "Reserva tu clase de prueba gratuita",
     "ctaSecondary": "Ver el método",
-    "ctaMicrotext": "Descubre cómo puedo ayudarte",
     "supportLine": "100% online · Para principiantes y niveles avanzados (A1–C1)",
     "badge": "Jonas · Speaking Coach y profesor de alemán"
   },
@@ -45,6 +43,35 @@
       "manejar situaciones cotidianas con más seguridad"
     ]
   },
+  "evidence": {
+    "badge": "Científicamente comprobado",
+    "title": "Aprendizaje de idiomas basado en evidencia",
+    "intro": "El método detrás de Expatly no nos lo hemos inventado sin más: se basa en conocimientos establecidos de la investigación en adquisición de segundas lenguas y en lo que funciona una y otra vez en mis propias clases.",
+    "stats": [
+      {
+        "icon": "speak",
+        "title": "Tu cerebro",
+        "text": "El shadowing activa tu centro del habla (área de Broca) mucho más de lo que lo haría escuchar sin más, que solo usa tu centro de comprensión (área de Wernicke). Por eso puedes leer la carta del restaurante, pero te quedas en blanco con el camarero. En mis propias clases lo veo: quien practica shadowing 15 minutos al día habla notablemente con más fluidez en pocas semanas."
+      },
+      {
+        "icon": "check",
+        "title": "La gramática",
+        "text": "Mientras tu boca habla, tu cerebro va fijando patrones gramaticales de forma paralela – sin tablas de reglas. El lingüista Shuhei Kadota describe exactamente este efecto: la gramática se aprende usándola, no memorizándola (Kadota, 2019)."
+      },
+      {
+        "icon": "star",
+        "title": "Tu confianza",
+        "text": "Hablar no es solo una cuestión de habilidad, sino de miedo. La investigación sobre shadowing muestra que los estudiantes no solo mejoran, sino que disfrutan más al hablar. Veo exactamente lo mismo con mis alumnos: el miedo desaparece en cuanto la boca ya ha dicho las palabras varias veces."
+      }
+    ],
+    "closing": "No se trata de tablas de gramática. No de puntuaciones perfectas. Solo de ti, hablando – sin que el miedo se interponga en tu camino.",
+    "sources": [
+      {
+        "text": "Kadota, S. (2019). Shadowing as a Practice in Second Language Acquisition: Connecting Inputs and Outputs. Routledge.",
+        "url": "https://www.routledge.com/Shadowing-as-a-Practice-in-Second-Language-Acquisition-Connecting-Inputs-and-Outputs/Kadota/p/book/9781032092836"
+      }
+    ]
+  },
   "method": {
     "title": "Cómo aprendes a hablar de verdad",
     "pillarsLead": "El idioma se compone de tres pilares:",
@@ -53,7 +80,7 @@
       { "icon": "chat", "title": "Vocabulario" },
       { "icon": "star", "title": "Confianza" }
     ],
-    "pillarsText": "Los dos primeros seguramente ya los tienes. En el tercero trabajamos juntos – con frases reales, hablando en voz alta y sin presión de ser perfecto.",
+    "pillarsText": "Puede que ya tengas parte de los dos primeros. En el tercero trabajamos juntos – con frases reales, hablando en voz alta y sin presión de ser perfecto.",
     "formula": ["Frase real", "repetir en voz alta", "recibir feedback", "usarla en una conversación"],
     "cards": [
       {
@@ -77,7 +104,7 @@
     "title": "Sobre Jonas",
     "tagline": "Deja de estudiar. Empieza a hablar.",
     "bio": [
-      "Soy Jonas – me apasionan los idiomas y estoy convencido de que una lengua no se aprende solo con la cabeza, sino sobre todo con la boca. Doy clases en alemán, inglés y español – lo que mejor funcione para ti.",
+      "Soy Jonas – me apasionan los idiomas y estoy convencido de que una lengua no se aprende solo con la cabeza, sino sobre todo con la boca. Doy clases de alemán – y si tu nivel de idioma complica algo, te ayudo en inglés o español para que no se te escape nada.",
       "Sé de primera mano lo grande que es la diferencia entre «estudiar un idioma» y «hablarlo de verdad». Por eso mis clases no se basan en más teoría, sino en frases y conversaciones reales que realmente necesitas en tu día a día.",
       "Junto con mi equipo he conseguido más de 1.000.000 de seguidores en redes sociales. Con Expatly seguimos una idea clara: deja de estudiar, empieza a hablar.",
       "En mis clases online 1:1 te ayudo a hablar alemán de forma más natural, más espontánea y con más confianza – ya sea en el día a día, en el trabajo, en el médico, con trámites o en una charla informal."
@@ -213,31 +240,34 @@
       {
         "label": "Starter",
         "hours": "10 horas de coaching de speaking personalizado",
-        "perHour": "59,50 €",
+        "perHour": "89 €",
         "perHourUnit": "/ hora",
-        "price": "595 €",
+        "price": "890 €",
         "tagline": "Para tu primer avance",
         "tag": null,
+        "saveBadge": null,
         "highlight": false
       },
       {
         "label": "Progress",
         "hours": "20 horas de coaching de speaking personalizado",
-        "perHour": "54,75 €",
+        "perHour": "82 €",
         "perHourUnit": "/ hora",
-        "price": "1.095 €",
+        "price": "1.640 €",
         "tagline": "Para hablar con seguridad real",
         "tag": "Más popular",
+        "saveBadge": "Ahorras 8%",
         "highlight": true
       },
       {
         "label": "Fluency",
         "hours": "30 horas de coaching de speaking personalizado",
-        "perHour": "49,83 €",
+        "perHour": "75 €",
         "perHourUnit": "/ hora",
-        "price": "1.495 €",
+        "price": "2.250 €",
         "tagline": "Para una rutina a largo plazo",
         "tag": "Mejor precio",
+        "saveBadge": "Ahorras 16%",
         "highlight": false
       }
     ],
@@ -272,7 +302,7 @@
       },
       {
         "q": "¿En qué idiomas pueden darse las clases?",
-        "a": "Doy clases en alemán, inglés y español – lo que mejor funcione para ti al principio."
+        "a": "Las clases son en alemán. Si tu nivel de idioma complica algo, te ayudo en inglés o español para que no se te escape nada."
       },
       {
         "q": "¿En qué se diferencia de una clase de alemán normal?",
@@ -309,7 +339,6 @@
     "title": "El primer paso no es más teoría.",
     "sub": "En la clase de prueba gratuita miramos tu nivel actual de alemán, tus objetivos y las situaciones en las que quieres hablar con más seguridad – todo cómodamente online. Después sabrás exactamente qué plan encaja contigo — ya seas A1, B1 o C1.",
     "button": "Reserva tu clase de prueba gratuita",
-    "microtext": "Descubre cómo puedo ayudarte",
     "whatsappText": "Escríbeme directamente por WhatsApp"
   },
   "footer": {

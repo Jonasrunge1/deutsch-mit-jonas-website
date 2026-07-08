@@ -19,11 +19,9 @@
     "kicker": "Hör auf zu lernen. Fang an zu sprechen.",
     "headline": "Du verstehst Deutsch, aber kannst nicht sprechen?",
     "subline": "1:1 Deutschunterricht – individuell auf dich zugeschnitten.",
-    "sub": "Viele Menschen haben dieses Problem. Ich helfe dir, endlich frei zu sprechen.",
     "question": "Was blockiert dich beim Sprechen?",
     "ctaPrimary": "Kostenlose Probestunde buchen",
     "ctaSecondary": "Methode ansehen",
-    "ctaMicrotext": "Finde heraus, wie ich dir helfen kann",
     "supportLine": "100% online · Für Anfänger bis Fortgeschrittene (A1–C1)",
     "badge": "Jonas · Speaking Coach & Deutschlehrer"
   },
@@ -45,6 +43,35 @@
       "Alltagssituationen sicherer meistern"
     ]
   },
+  "evidence": {
+    "badge": "Wissenschaftlich geprüft",
+    "title": "Wissenschaftlich fundiertes Sprachenlernen",
+    "intro": "Die Methode hinter Expatly haben wir uns nicht einfach ausgedacht – sie basiert auf etablierten Erkenntnissen der Spracherwerbsforschung und auf dem, was in meinem eigenen Unterricht immer wieder funktioniert.",
+    "stats": [
+      {
+        "icon": "speak",
+        "title": "Dein Gehirn",
+        "text": "Shadowing aktiviert dein Sprechzentrum (Broca-Areal) weit stärker als reines Zuhören, das nur dein Verständniszentrum (Wernicke-Areal) nutzt. Deshalb kannst du die Speisekarte lesen, aber erstarrst beim Kellner. In meinem eigenen Unterricht sehe ich: Wer täglich 15 Minuten shadowt, spricht innerhalb weniger Wochen spürbar flüssiger."
+      },
+      {
+        "icon": "check",
+        "title": "Die Grammatik",
+        "text": "Während dein Mund spricht, verankert dein Gehirn Grammatikmuster nebenbei – ganz ohne Regeltabellen. Der Sprachforscher Shuhei Kadota beschreibt genau diesen Effekt: Grammatik wird durch Anwendung gelernt, nicht durch Pauken (Kadota, 2019)."
+      },
+      {
+        "icon": "star",
+        "title": "Dein Selbstvertrauen",
+        "text": "Sprechen ist nicht nur eine Frage des Könnens, sondern der Angst. Forschung zu Shadowing zeigt: Lernende fühlen sich dabei nicht nur sicherer, sie haben auch mehr Freude am Sprechen. Genau das erlebe ich auch bei meinen Schülern – die Angst verschwindet, sobald der Mund die Worte schon oft gesagt hat."
+      }
+    ],
+    "closing": "Nicht Grammatiktabellen. Nicht perfekte Testergebnisse. Nur du, wie du sprichst – ohne dass die Angst dir im Weg steht.",
+    "sources": [
+      {
+        "text": "Kadota, S. (2019). Shadowing as a Practice in Second Language Acquisition: Connecting Inputs and Outputs. Routledge.",
+        "url": "https://www.routledge.com/Shadowing-as-a-Practice-in-Second-Language-Acquisition-Connecting-Inputs-and-Outputs/Kadota/p/book/9781032092836"
+      }
+    ]
+  },
   "method": {
     "title": "Wie du wirklich sprechen lernst",
     "pillarsLead": "Sprache besteht aus drei Bausteinen:",
@@ -53,7 +80,7 @@
       { "icon": "chat", "title": "Vokabeln" },
       { "icon": "star", "title": "Selbstbewusstsein" }
     ],
-    "pillarsText": "Die ersten beiden hast du wahrscheinlich schon. Am dritten arbeiten wir – mit echten Sätzen, lautem Sprechen und ohne Perfektionsdruck.",
+    "pillarsText": "Die ersten beiden bringst du vielleicht schon teilweise mit. Am dritten arbeiten wir – mit echten Sätzen, lautem Sprechen und ohne Perfektionsdruck.",
     "formula": ["Echter Satz", "laut nachsprechen", "Feedback bekommen", "im Gespräch benutzen"],
     "cards": [
       {
@@ -77,7 +104,7 @@
     "title": "Über Jonas",
     "tagline": "Hör auf zu lernen. Fang an zu sprechen.",
     "bio": [
-      "Ich bin Jonas – sprachbegeistert und überzeugt davon, dass man eine Sprache nicht nur im Kopf lernt, sondern vor allem mit dem Mund. Ich unterrichte auf Deutsch, Englisch und Spanisch – je nachdem, was für dich am besten funktioniert.",
+      "Ich bin Jonas – sprachbegeistert und überzeugt davon, dass man eine Sprache nicht nur im Kopf lernt, sondern vor allem mit dem Mund. Ich unterrichte Deutsch – und wenn's an deinem Sprachlevel hakt, helfe ich dir auf Englisch oder Spanisch weiter, damit wirklich alles ankommt.",
       "Ich weiß selbst, wie groß der Unterschied ist zwischen „Ich lerne eine Sprache“ und „Ich kann sie wirklich sprechen“. Genau deshalb ist mein Unterricht nicht auf noch mehr Theorie aufgebaut, sondern auf echte Sätze und Gespräche, die du im Alltag wirklich brauchst.",
       "Gemeinsam mit meinem Team habe ich über 1.000.000 Follower auf Social Media aufgebaut. Mit Expatly verfolgen wir eine klare Idee: Hör auf zu lernen. Fang an zu sprechen.",
       "In meinen 1:1 Online-Stunden helfe ich dir, Deutsch natürlicher, spontaner und mit mehr Selbstvertrauen zu sprechen – egal ob im Alltag, im Job, beim Arzt, bei Behörden oder im Smalltalk."
@@ -213,31 +240,34 @@
       {
         "label": "Starter",
         "hours": "10 Stunden personalisiertes Speaking-Coaching",
-        "perHour": "59,50 €",
+        "perHour": "89 €",
         "perHourUnit": "/ Stunde",
-        "price": "595 €",
+        "price": "890 €",
         "tagline": "Für den ersten Durchbruch",
         "tag": null,
+        "saveBadge": null,
         "highlight": false
       },
       {
         "label": "Progress",
         "hours": "20 Stunden personalisiertes Speaking-Coaching",
-        "perHour": "54,75 €",
+        "perHour": "82 €",
         "perHourUnit": "/ Stunde",
-        "price": "1.095 €",
+        "price": "1.640 €",
         "tagline": "Für echte Sprechsicherheit",
         "tag": "Beliebt",
+        "saveBadge": "Sparst 8%",
         "highlight": true
       },
       {
         "label": "Fluency",
         "hours": "30 Stunden personalisiertes Speaking-Coaching",
-        "perHour": "49,83 €",
+        "perHour": "75 €",
         "perHourUnit": "/ Stunde",
-        "price": "1.495 €",
+        "price": "2.250 €",
         "tagline": "Für langfristige Routine",
         "tag": "Bester Preis",
+        "saveBadge": "Sparst 16%",
         "highlight": false
       }
     ],
@@ -272,7 +302,7 @@
       },
       {
         "q": "In welchen Sprachen kann der Unterricht stattfinden?",
-        "a": "Ich unterrichte auf Deutsch, Englisch und Spanisch – je nachdem, was für dich am Anfang am besten funktioniert."
+        "a": "Der Unterricht ist auf Deutsch. Falls es an deinem Sprachlevel hakt, helfe ich dir auf Englisch oder Spanisch weiter, damit wirklich alles ankommt."
       },
       {
         "q": "Was ist anders als normaler Deutschunterricht?",
@@ -309,7 +339,6 @@
     "title": "Der erste Schritt ist nicht noch mehr Theorie.",
     "sub": "In der kostenlosen Probestunde schauen wir auf dein aktuelles Deutschlevel, deine Ziele und die Situationen, in denen du sicherer sprechen willst – ganz bequem online. Danach weißt du genau, welcher Plan zu dir passt – egal ob A1, B1 oder C1.",
     "button": "Kostenlose Probestunde buchen",
-    "microtext": "Finde heraus, wie ich dir helfen kann",
     "whatsappText": "Schreib mir gerne direkt auf WhatsApp"
   },
   "footer": {

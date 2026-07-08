@@ -19,11 +19,9 @@
     "kicker": "Stop Studying, Start Speaking.",
     "headline": "You understand German, but can't speak it?",
     "subline": "1:1 German lessons – tailored to you.",
-    "sub": "Many people have this problem. I help you finally speak freely.",
     "question": "What's blocking your speaking?",
     "ctaPrimary": "Book a free trial lesson",
     "ctaSecondary": "See the method",
-    "ctaMicrotext": "Find out how I can help you",
     "supportLine": "100% online · For beginners to advanced learners (A1–C1)",
     "badge": "Jonas · Speaking Coach & German Teacher"
   },
@@ -45,6 +43,35 @@
       "handle daily situations with more confidence"
     ]
   },
+  "evidence": {
+    "badge": "Scientifically verified",
+    "title": "Evidence-Based Language Learning",
+    "intro": "The method behind Expatly isn't something we just made up — it's grounded in established second-language-acquisition research and in what actually works, again and again, in my own teaching.",
+    "stats": [
+      {
+        "icon": "speak",
+        "title": "Your brain",
+        "text": "Shadowing activates your speaking center (Broca's area) far more than plain listening, which only uses your comprehension center (Wernicke's area). That's why you can read the menu but freeze the second you have to talk to the waiter. In my own lessons I see it firsthand: learners who shadow for 15 minutes daily speak noticeably more fluently within a few weeks."
+      },
+      {
+        "icon": "check",
+        "title": "The grammar",
+        "text": "While your mouth is speaking, your brain quietly locks in grammar patterns along the way — no rule tables required. Linguist Shuhei Kadota describes exactly this effect: grammar is learned through use, not through drilling (Kadota, 2019)."
+      },
+      {
+        "icon": "star",
+        "title": "Your confidence",
+        "text": "Speaking isn't just a skill problem — it's a fear problem. Research on shadowing shows learners don't just improve, they genuinely enjoy speaking more. I see the same thing with my own students: the fear fades once the mouth has already said the words a few times."
+      }
+    ],
+    "closing": "Not grammar tables. Not perfect scores. Just you, speaking — without the fear standing in your way.",
+    "sources": [
+      {
+        "text": "Kadota, S. (2019). Shadowing as a Practice in Second Language Acquisition: Connecting Inputs and Outputs. Routledge.",
+        "url": "https://www.routledge.com/Shadowing-as-a-Practice-in-Second-Language-Acquisition-Connecting-Inputs-and-Outputs/Kadota/p/book/9781032092836"
+      }
+    ]
+  },
   "method": {
     "title": "How you really learn to speak",
     "pillarsLead": "Language is made of three building blocks:",
@@ -53,7 +80,7 @@
       { "icon": "chat", "title": "Vocabulary" },
       { "icon": "star", "title": "Confidence" }
     ],
-    "pillarsText": "You probably already have the first two. We work on the third one — with real sentences, speaking out loud and no pressure to be perfect.",
+    "pillarsText": "You probably already have the first two, at least partly. We work on the third one — with real sentences, speaking out loud and no pressure to be perfect.",
     "formula": ["Real sentence", "repeat out loud", "get feedback", "use it in conversation"],
     "cards": [
       {
@@ -77,7 +104,7 @@
     "title": "About Jonas",
     "tagline": "Stop Studying, Start Speaking.",
     "bio": [
-      "I'm Jonas – passionate about languages and convinced that you don't just learn a language in your head, but above all with your mouth. I teach in German, English and Spanish – whichever works best for you.",
+      "I'm Jonas – passionate about languages and convinced that you don't just learn a language in your head, but above all with your mouth. I teach German – and if your language level makes something tricky, I'll help you out in English or Spanish, so nothing gets lost in translation.",
       "I know firsthand how big the gap is between \"studying a language\" and \"actually speaking it.\" That's exactly why my lessons aren't built on more theory, but on real sentences and conversations you actually need in daily life.",
       "Together with my team, I've built a social media reach of over 1,000,000 followers. With Expatly, we follow one clear idea: Stop studying. Start speaking.",
       "In my 1:1 online lessons, I help you speak German more naturally, more spontaneously and with more confidence – whether that's daily life, work, the doctor, paperwork or small talk."
@@ -213,31 +240,34 @@
       {
         "label": "Starter",
         "hours": "10 hours of personalized speaking coaching",
-        "perHour": "€59.50",
+        "perHour": "€89",
         "perHourUnit": "/ hour",
-        "price": "€595",
+        "price": "€890",
         "tagline": "For your first breakthrough",
         "tag": null,
+        "saveBadge": null,
         "highlight": false
       },
       {
         "label": "Progress",
         "hours": "20 hours of personalized speaking coaching",
-        "perHour": "€54.75",
+        "perHour": "€82",
         "perHourUnit": "/ hour",
-        "price": "€1,095",
+        "price": "€1,640",
         "tagline": "For real speaking confidence",
         "tag": "Most popular",
+        "saveBadge": "Save 8%",
         "highlight": true
       },
       {
         "label": "Fluency",
         "hours": "30 hours of personalized speaking coaching",
-        "perHour": "€49.83",
+        "perHour": "€75",
         "perHourUnit": "/ hour",
-        "price": "€1,495",
+        "price": "€2,250",
         "tagline": "For long-term speaking routine",
         "tag": "Best value",
+        "saveBadge": "Save 16%",
         "highlight": false
       }
     ],
@@ -272,7 +302,7 @@
       },
       {
         "q": "Which languages can the lessons be taught in?",
-        "a": "I teach in German, English and Spanish – whichever works best for you at the start."
+        "a": "Lessons are in German. If your language level makes something tricky, I'll help you out in English or Spanish, so nothing gets lost in translation."
       },
       {
         "q": "How is this different from normal German lessons?",
@@ -309,7 +339,6 @@
     "title": "The first step is not more theory.",
     "sub": "In the free trial lesson, we look at your current German level, your goals and the situations where you want to speak with more confidence – all comfortably online. After that, you'll know exactly which plan fits you — whether you are A1, B1 or C1.",
     "button": "Book a free trial lesson",
-    "microtext": "Find out how I can help you",
     "whatsappText": "Feel free to message me directly on WhatsApp"
   },
   "footer": {
