@@ -78,35 +78,14 @@ function pillarBlocks(pillars) {
     .join('');
 }
 
-function evidenceBar(s) {
-  if (s.before == null || s.after == null) return '';
-  const beforeWidth = Math.round((s.before / s.after) * 100);
-  return `
-          <div class="evidence-bar">
-            <div class="evidence-bar-row">
-              <span class="evidence-bar-tag">${esc(s.beforeLabel)}</span>
-              <div class="evidence-bar-track"><div class="evidence-bar-fill evidence-bar-fill--before" style="width:${beforeWidth}%"></div></div>
-              <span class="evidence-bar-num">${esc(s.before)}</span>
-            </div>
-            <div class="evidence-bar-row">
-              <span class="evidence-bar-tag">${esc(s.afterLabel)}</span>
-              <div class="evidence-bar-track"><div class="evidence-bar-fill evidence-bar-fill--after" style="width:100%"></div></div>
-              <span class="evidence-bar-num">${esc(s.after)}</span>
-            </div>
-          </div>`;
-}
-
 function evidenceStats(stats) {
   return stats
     .map(
       (s) => `
         <div class="evidence-stat reveal">
           <img class="evidence-stat-icon" src="${icon(s.icon)}" alt="" />
-          <span class="evidence-stat-value">${esc(s.value)}</span>
-          <span class="evidence-stat-label">${esc(s.label)}</span>
-          ${evidenceBar(s)}
+          <h3 class="evidence-stat-title">${esc(s.title)}</h3>
           <p class="evidence-stat-text">${esc(s.text)}</p>
-          ${s.comparison ? `<p class="evidence-stat-comparison">${esc(s.comparison)}</p>` : ''}
         </div>`
     )
     .join('');
@@ -513,7 +492,6 @@ ${faviconTags()}
           <span class="evidence-badge"><img src="${icon('check')}" alt="" />${esc(t.evidence.badge)}</span>
           <h2>${esc(t.evidence.title)}</h2>
           <p>${esc(t.evidence.intro)}</p>
-          <p class="evidence-authority">${esc(t.evidence.authority)}</p>
         </div>
         <div class="evidence-stats">${evidenceStats(t.evidence.stats)}
         </div>

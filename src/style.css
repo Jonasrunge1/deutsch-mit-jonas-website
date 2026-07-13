@@ -11,11 +11,12 @@ body {
   background: var(--color-creme);
   color: var(--color-black);
   -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word;
 }
 img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
-h1, h2, h3, h4 { margin: 0; font-weight: var(--fw-black); line-height: 1.15; }
-p { margin: 0; line-height: 1.55; }
+h1, h2, h3, h4 { margin: 0; font-weight: var(--fw-black); line-height: 1.15; overflow-wrap: break-word; }
+p { margin: 0; line-height: 1.55; overflow-wrap: break-word; }
 ul { margin: 0; padding: 0; list-style: none; }
 button { font-family: var(--font-family); }
 
@@ -24,6 +25,21 @@ button { font-family: var(--font-family); }
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 var(--space-4);
+}
+
+/* Grid items default to a min-content min-width, which lets long
+   unbreakable text (esp. in EN/ES) force a track wider than its
+   fair share and overflow the viewport. Reset it everywhere. */
+.social-proof-grid > *,
+.evidence-stats > *,
+.method-grid > *,
+.painpoints-grid > *,
+.benefits-grid > *,
+.courses-grid > *,
+.offers-grid > *,
+.outcomes-grid > *,
+.pricing-grid > * {
+  min-width: 0;
 }
 
 section { padding: var(--space-7) 0; }
@@ -94,6 +110,10 @@ section { padding: var(--space-7) 0; }
 .btn--ghost { background: var(--color-white); }
 .btn--block { width: 100%; }
 
+@media (max-width: 640px) {
+  .btn { white-space: normal; text-align: center; }
+}
+
 /* ============================================================
    Header
    ============================================================ */
@@ -131,7 +151,6 @@ section { padding: var(--space-7) 0; }
   display: flex;
   align-items: center;
   gap: var(--space-4);
-  min-width: 0;
 }
 .main-nav ul {
   display: flex;
@@ -154,7 +173,7 @@ section { padding: var(--space-7) 0; }
 .lang-toggle a {
   border: none;
   background: transparent;
-  padding: 6px 14px;
+  padding: 11px 14px;
   font-weight: var(--fw-bold);
   font-size: 13px;
   cursor: pointer;
@@ -180,7 +199,7 @@ section { padding: var(--space-7) 0; }
 @media (max-width: 640px) {
   .btn--header { display: none; }
 }
-@media (max-width: 860px) {
+@media (max-width: 1150px) {
   .main-nav {
     position: fixed;
     inset: 65px 0 0 0;
@@ -196,6 +215,14 @@ section { padding: var(--space-7) 0; }
   .main-nav.open { transform: translateY(0); }
   .main-nav ul { flex-direction: column; gap: var(--space-4); font-size: 20px; }
   .nav-toggle { display: flex; }
+}
+
+@media (max-width: 380px) {
+  .brand { font-size: 16px; gap: 6px; }
+  .brand-logo { width: 32px; height: 32px; }
+  .header-actions { gap: 6px; }
+  .lang-toggle a { padding: 11px 8px; font-size: 12px; }
+  .nav-toggle { width: 36px; height: 36px; }
 }
 
 /* ============================================================
@@ -328,6 +355,7 @@ section { padding: var(--space-7) 0; }
   text-align: center;
   padding: 0 var(--space-3);
   border-left: 2px solid var(--color-black);
+  min-width: 0;
 }
 .social-tile:first-child { border-left: none; }
 .social-value {
@@ -344,12 +372,12 @@ section { padding: var(--space-7) 0; }
   opacity: .75;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 900px) {
   .social-proof-grid { grid-template-columns: repeat(2, 1fr); row-gap: var(--space-4); }
   .social-tile:nth-child(3) { border-left: none; }
   .social-tile:nth-child(even) { border-left: 2px solid var(--color-black); }
 }
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   .social-proof-grid { grid-template-columns: 1fr; row-gap: var(--space-4); }
   .social-tile { border-left: none !important; border-top: 2px solid var(--color-black); padding-top: var(--space-3); }
   .social-tile:first-child { border-top: none; padding-top: 0; }
@@ -373,12 +401,6 @@ section { padding: var(--space-7) 0; }
   margin-bottom: var(--space-3);
 }
 .evidence-badge img { width: 14px; height: 14px; }
-.evidence-authority {
-  font-size: 14px;
-  font-style: italic;
-  opacity: .7;
-  margin-top: var(--space-2);
-}
 .evidence-stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -396,38 +418,8 @@ section { padding: var(--space-7) 0; }
 }
 .evidence-stat:hover { transform: translate(-3px, -3px); box-shadow: 8px 8px 0 0 var(--color-black); }
 .evidence-stat-icon { width: 30px; height: 30px; margin: 0 auto var(--space-2); }
-.evidence-stat-value { display: block; font-size: 26px; font-weight: var(--fw-black); color: var(--color-orange); }
-.evidence-stat-label { display: block; font-size: 13px; font-weight: var(--fw-bold); margin-bottom: var(--space-3); }
+.evidence-stat-title { font-size: 19px; font-weight: var(--fw-black); color: var(--color-orange); margin-bottom: var(--space-2); }
 .evidence-stat-text { font-size: 14px; opacity: .8; }
-.evidence-stat-comparison {
-  font-size: 12.5px;
-  font-weight: var(--fw-bold);
-  margin-top: var(--space-2);
-  padding-top: var(--space-2);
-  border-top: 2px dashed var(--color-black);
-  opacity: .75;
-}
-
-.evidence-bar { margin: var(--space-3) 0; text-align: left; }
-.evidence-bar-row {
-  display: grid;
-  grid-template-columns: 52px 1fr 32px;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 6px;
-}
-.evidence-bar-tag { font-size: 11px; font-weight: var(--fw-bold); opacity: .7; }
-.evidence-bar-track {
-  height: 10px;
-  background: var(--color-white);
-  border: 2px solid var(--color-black);
-  border-radius: var(--radius-pill);
-  overflow: hidden;
-}
-.evidence-bar-fill { height: 100%; border-radius: var(--radius-pill); }
-.evidence-bar-fill--before { background: var(--color-black); opacity: .3; }
-.evidence-bar-fill--after { background: var(--color-orange); }
-.evidence-bar-num { font-size: 12px; font-weight: var(--fw-black); text-align: right; }
 
 .evidence-closing {
   text-align: center;
@@ -742,6 +734,10 @@ section { padding: var(--space-7) 0; }
   .about-badge--1 { left: 8px; }
 }
 
+@media (max-width: 400px) {
+  .about-badge { white-space: normal; max-width: calc(100% - 16px); }
+}
+
 /* ============================================================
    Courses
    ============================================================ */
@@ -829,7 +825,6 @@ section { padding: var(--space-7) 0; }
   transition: transform .15s ease, box-shadow .15s ease;
 }
 .offer-card:hover { transform: translate(-3px, -3px); box-shadow: 10px 10px 0 0 var(--color-black); }
-.offer-icon { width: 44px; height: 44px; }
 .offer-card h3 { font-size: 20px; }
 .offer-card p { font-size: 15px; opacity: .8; flex-grow: 1; }
 .offer-card .btn { white-space: normal; }
@@ -949,6 +944,7 @@ section { padding: var(--space-7) 0; }
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
+  min-width: 0;
   transition: transform .15s ease, box-shadow .15s ease;
 }
 .price-card:hover { transform: translate(-3px, -3px); box-shadow: 10px 10px 0 0 var(--color-black); }
@@ -1096,7 +1092,7 @@ section { padding: var(--space-7) 0; }
 .footer-link-btn {
   background: none;
   border: none;
-  padding: 0;
+  padding: 10px 0;
   margin: 0;
   font: inherit;
   color: inherit;
