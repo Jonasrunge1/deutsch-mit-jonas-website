@@ -26,7 +26,7 @@
         "title": "telc B1",
         "text": "Curso estructurado de 4 semanas con un plan claro para tu examen telc B1.",
         "cta": "Ver detalles del curso",
-        "href": "/telc-b1-kurs.html",
+        "href": "/telc-b1-kurs",
         "external": false
       },
       {
@@ -242,7 +242,7 @@
         "title": "Curso de preparación telc B1",
         "text": "Curso en vivo con un plan claro para tu examen telc B1: todas las partes del examen, feedback real y una simulación final realista.",
         "badge": "En vivo · 4 semanas",
-        "href": "/telc-b1-kurs.html",
+        "href": "/telc-b1-kurs",
         "ctaLabel": "Ver detalles del curso"
       }
     ]

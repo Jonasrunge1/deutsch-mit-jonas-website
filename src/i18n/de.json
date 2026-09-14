@@ -26,7 +26,7 @@
         "title": "TELC B1",
         "text": "Strukturierter 4-Wochen-Kurs mit klarem Plan für deine telc-B1-Prüfung.",
         "cta": "Kursdetails ansehen",
-        "href": "/telc-b1-kurs.html",
+        "href": "/telc-b1-kurs",
         "external": false
       },
       {
@@ -242,7 +242,7 @@
         "title": "telc B1 Prüfungsvorbereitung",
         "text": "Live-Kurs mit klarem Plan für deine telc-B1-Prüfung: alle Prüfungsteile, echtes Feedback und eine realistische Abschlusssimulation.",
         "badge": "Live · 4 Wochen",
-        "href": "/telc-b1-kurs.html",
+        "href": "/telc-b1-kurs",
         "ctaLabel": "Kursdetails ansehen"
       }
     ]
