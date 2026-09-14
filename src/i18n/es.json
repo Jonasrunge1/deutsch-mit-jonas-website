@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Alemán con Jonas – Deja de estudiar. Empieza a hablar.",
-    "description": "Clases de alemán online 1:1 con Jonas, adaptadas a ti. Frases reales y situaciones cotidianas en vez de más teoría. Clase de prueba gratuita."
+    "description": "Clases de alemán online 1:1 con Jonas, adaptadas a ti. Frases reales y situaciones cotidianas en vez de más teoría."
   },
   "brand": {
     "pre": "Alemán con ",
@@ -11,17 +11,33 @@
     "about": "Sobre mí",
     "benefits": "Por qué yo",
     "how": "Cómo funciona",
-    "pricing": "Precios",
+    "pricing": "Oferta",
     "contact": "Contacto",
-    "cta": "Reservar clase de prueba"
+    "cta": "Escríbeme"
   },
   "hero": {
     "kicker": "Deja de estudiar. Empieza a hablar.",
     "headline": "¿Entiendes alemán, pero no puedes hablarlo?",
     "subline": "Clases de alemán 1:1 – adaptadas a ti.",
-    "question": "¿Qué te bloquea a la hora de hablar?",
-    "ctaPrimary": "Reserva tu clase de prueba gratuita",
-    "ctaSecondary": "Ver el método",
+    "question": "¿Qué encaja contigo?",
+    "choices": [
+      {
+        "badge": "Curso en vivo",
+        "title": "telc B1",
+        "text": "Curso estructurado de 4 semanas con un plan claro para tu examen telc B1.",
+        "cta": "Ver detalles del curso",
+        "href": "/telc-b1-kurs.html",
+        "external": false
+      },
+      {
+        "title": "Clase de prueba individual",
+        "text": "¿Prefieres hablarlo antes sin compromiso? Escríbeme por WhatsApp y descubrimos juntos qué encaja contigo.",
+        "cta": "Escríbeme por WhatsApp",
+        "href": "{{WHATSAPP_LINK}}",
+        "external": true,
+        "ghost": true
+      }
+    ],
     "supportLine": "100% online · Para principiantes y niveles avanzados (A1–C1)",
     "badge": "Jonas · Speaking Coach y profesor de alemán"
   },
@@ -72,31 +88,28 @@
       }
     ]
   },
-  "method": {
-    "title": "Cómo aprendes a hablar de verdad",
-    "pillarsLead": "El idioma se compone de tres pilares:",
-    "pillars": [
-      { "icon": "check", "title": "Gramática" },
-      { "icon": "chat", "title": "Vocabulario" },
-      { "icon": "star", "title": "Confianza" }
-    ],
-    "pillarsText": "Puede que ya tengas parte de los dos primeros. En el tercero trabajamos juntos – con frases reales, hablando en voz alta y sin presión de ser perfecto.",
-    "formula": ["Frase real", "repetir en voz alta", "recibir feedback", "usarla en una conversación"],
-    "cards": [
+  "skills": {
+    "title": "Lo que aprendes conmigo",
+    "items": [
       {
-        "icon": "chat",
-        "title": "Frases reales del día a día",
-        "text": "Aprendes frases que de verdad necesitas – en el médico, en el trabajo, con trámites, con vecinos o en una charla informal."
+        "image": "/brand_assets/telc-b1/reading-language.jpg",
+        "title": "Leer",
+        "text": "Entiendes textos, mensajes y cosas del día a día de forma rápida y segura."
       },
       {
-        "icon": "speak",
-        "title": "Hablar en voz alta, no quedarte callado",
-        "text": "Repites frases reales en voz alta hasta que salgan con naturalidad — y se queden contigo de forma natural."
+        "image": "/brand_assets/telc-b1/speaking.jpg",
+        "title": "Hablar",
+        "text": "Te atreves a decir frases reales en voz alta – en la conversación, no solo en tu cabeza."
       },
       {
-        "icon": "star",
-        "title": "Hablar antes que ser perfecto",
-        "text": "No necesitas ser perfecto. Necesitas entrar en la conversación – y eso es exactamente lo que entrenamos."
+        "image": "/brand_assets/telc-b1/writing.jpg",
+        "title": "Escribir",
+        "text": "Escribes mensajes, correos y textos con claridad, sin pensarlo demasiado."
+      },
+      {
+        "image": "/brand_assets/telc-b1/listening.jpg",
+        "title": "Escuchar",
+        "text": "Sigues conversaciones y situaciones cotidianas sin perder el hilo."
       }
     ]
   },
@@ -130,7 +143,7 @@
       "estás cansado/a de los ejercicios de gramática aburridos.",
       "quieres hablar sin traducir antes cada frase en tu cabeza."
     ],
-    "closing": "Entonces la clase de prueba gratuita es el primer paso correcto."
+    "closing": "Entonces solo tienes que escribirme – encontramos juntos el camino que encaja contigo."
   },
   "benefits": {
     "title": "Por qué con este método hablarás más rápido",
@@ -164,8 +177,8 @@
     "steps": [
       {
         "number": "1",
-        "title": "Clase de prueba gratuita",
-        "text": "En la clase de prueba gratuita no solo miramos tu nivel. Descubrimos qué curso, qué situaciones y qué plan de speaking encajan realmente contigo."
+        "title": "Un primer saludo",
+        "text": "Escríbeme por WhatsApp o por correo electrónico. Hablamos brevemente sobre tu nivel, tus objetivos y tu estilo al hablar."
       },
       {
         "number": "2",
@@ -178,7 +191,7 @@
         "text": "En las clases online entrenamos pronunciación, reacciones, corrección y conversación libre — adaptado a tu nivel, de A1 a C1."
       }
     ],
-    "ctaButton": "Reserva tu clase de prueba gratuita"
+    "ctaButton": "Escríbeme por WhatsApp"
   },
   "courses": {
     "kicker": "No es un curso de gramática. Es un curso de conversación.",
@@ -206,14 +219,14 @@
     "explanation": "Cada curso tiene una base gramatical clara. Pero no aprendes la gramática de forma aislada, sino a través de frases, situaciones y repetición. Así el conocimiento se convierte en capacidad real de hablar.",
     "accordionQ": "¿Qué hay detrás de los cursos?",
     "accordionA": "Cada curso tiene, de fondo, una estructura gramatical clara – desde las primeras frases sencillas hasta patrones de conversación naturales. Nunca la aprendes de forma aislada, siempre integrada en frases, situaciones y repetición reales.",
-    "ctaText": "En la clase de prueba gratuita descubrimos dónde empiezas y a qué ritmo avanzas.",
-    "ctaButton": "Reserva tu clase de prueba gratuita"
+    "ctaText": "Escríbeme y descubrimos juntos dónde empiezas y a qué ritmo avanzas.",
+    "ctaButton": "Escríbeme por WhatsApp"
   },
   "offers": {
     "title": "Así puedes aprender conmigo",
     "sub": "Tres formas de hablar más – elige la que encaje contigo.",
     "comingSoon": "Próximamente",
-    "ctaButton": "Reserva tu clase de prueba gratuita",
+    "ctaButton": "Escríbeme por WhatsApp",
     "cards": [
       {
         "title": "Clases privadas de Speaking 1:1",
@@ -234,47 +247,6 @@
       }
     ]
   },
-  "offer": {
-    "title": "Elige tu paquete de Speaking 1:1",
-    "sub": "Decide una vez y entrena el habla con foco. Todos los paquetes incluyen clases online 1:1 de 60 minutos con feedback personal y práctica real de speaking.",
-    "totalLabel": "Total:",
-    "plans": [
-      {
-        "label": "Starter",
-        "hours": "10 horas de coaching de speaking personalizado",
-        "perHour": "89 €",
-        "perHourUnit": "/ hora",
-        "price": "890 €",
-        "tagline": "Para tu primer avance",
-        "tag": null,
-        "saveBadge": null,
-        "highlight": false
-      },
-      {
-        "label": "Progress",
-        "hours": "20 horas de coaching de speaking personalizado",
-        "perHour": "82 €",
-        "perHourUnit": "/ hora",
-        "price": "1.640 €",
-        "tagline": "Para hablar con seguridad real",
-        "tag": "Más popular",
-        "saveBadge": "Ahorras 8%",
-        "highlight": true
-      },
-      {
-        "label": "Fluency",
-        "hours": "30 horas de coaching de speaking personalizado",
-        "perHour": "75 €",
-        "perHourUnit": "/ hora",
-        "price": "2.250 €",
-        "tagline": "Para una rutina a largo plazo",
-        "tag": "Mejor precio",
-        "saveBadge": "Ahorras 16%",
-        "highlight": false
-      }
-    ],
-    "note": "¿No estás seguro/a de qué paquete encaja contigo? Justo para eso está la clase de prueba gratuita."
-  },
   "outcomes": {
     "title": "En qué puedo ayudarte",
     "items": [
@@ -285,18 +257,18 @@
       "Mantener charlas informales con más naturalidad",
       "Hablar más en vez de solo estudiar"
     ],
-    "ctaButton": "Quiero hablar de esto en la clase de prueba"
+    "ctaButton": "Quiero hablar de esto con Jonas"
   },
   "faq": {
     "title": "Preguntas frecuentes",
     "items": [
       {
         "q": "¿Para qué nivel es esta oferta?",
-        "a": "Las clases son para estudiantes de A1 a C1 – desde principiantes absolutos hasta niveles avanzados que quieren sonar más naturales y seguros. En la clase de prueba gratuita miramos primero tu nivel actual y descubrimos qué plan encaja contigo."
+        "a": "Las clases son para estudiantes de A1 a C1 – desde principiantes absolutos hasta niveles avanzados que quieren sonar más naturales y seguros. Escríbeme por WhatsApp y miramos juntos tu nivel actual para descubrir qué plan encaja contigo."
       },
       {
-        "q": "¿Cómo es la clase de prueba gratuita?",
-        "a": "Miramos tu nivel actual de alemán, hablamos de tus objetivos e identificamos dónde te bloqueas al hablar. Después recibes una recomendación clara sobre qué entrenamiento y qué paquete encajan contigo — de A1 a C1."
+        "q": "¿Cómo es el primer contacto?",
+        "a": "Me escribes por WhatsApp o por correo electrónico. Hablamos brevemente de tu nivel actual, tus objetivos y dónde te bloqueas al hablar. Después recibes una recomendación clara sobre qué entrenamiento encaja contigo — de A1 a C1."
       },
       {
         "q": "¿Las clases son online?",
@@ -328,20 +300,19 @@
       },
       {
         "q": "¿En qué zona horaria das clases?",
-        "a": "Doy clases en horario de Europa Central (CET/CEST). Reservas tu cita directamente por Calendly, que te muestra automáticamente los horarios adaptados a tu zona horaria."
+        "a": "Doy clases en horario de Europa Central (CET/CEST). El horario que mejor te encaje lo coordinamos directamente por WhatsApp."
       },
       {
         "q": "¿Hay cursos grupales o un Speaking Club?",
-        "a": "Sí, está previsto un German Speaking Club. Si te interesa, puedes mencionarlo en la clase de prueba o preguntar por la lista de espera."
+        "a": "Sí, está previsto un German Speaking Club. Si te interesa, puedes escribirme por WhatsApp sin compromiso."
       }
     ]
   },
   "cta": {
-    "tagline": "En la clase de prueba gratuita descubrimos qué plan encaja contigo.",
+    "tagline": "Escríbeme y descubrimos qué camino encaja contigo.",
     "title": "El primer paso no es más teoría.",
-    "sub": "En la clase de prueba gratuita miramos tu nivel actual de alemán, tus objetivos y las situaciones en las que quieres hablar con más seguridad – todo cómodamente online. Después sabrás exactamente qué plan encaja contigo — ya seas A1, B1 o C1.",
-    "button": "Reserva tu clase de prueba gratuita",
-    "whatsappText": "Escríbeme directamente por WhatsApp"
+    "sub": "Escríbeme por WhatsApp y cuéntame brevemente tu nivel actual de alemán y tus objetivos – de forma sencilla. Después sabrás exactamente qué camino encaja contigo — ya seas A1, B1 o C1.",
+    "button": "Escríbeme por WhatsApp"
   },
   "footer": {
     "tagline": "Coaching de speaking online 1:1 con Jonas.",

@@ -1,4 +1,3 @@
-const CALENDLY_URL = 'https://calendly.com/learngermanwithjonas';
 const WHATSAPP_URL = 'https://wa.me/4915225631994';
 const SITE_URL = 'https://learngermanwithjonas.de';
 
@@ -66,14 +65,31 @@ function resultChips(chips) {
     .join('');
 }
 
-function pillarBlocks(pillars) {
-  return pillars
+function heroChoices(choices) {
+  return choices
     .map(
-      (p, i) => `${i > 0 ? '<span class="pillar-plus">+</span>' : ''}
-        <div class="pillar-block">
-          <img class="pillar-icon" src="${icon(p.icon)}" alt="" />
-          <span>${esc(p.title)}</span>
+      (c) => `
+        <div class="hero-choice reveal">
+          ${c.badge ? `<span class="hero-choice-badge">${esc(c.badge)}</span>` : ''}
+          <h3>${esc(c.title)}</h3>
+          <p>${esc(c.text)}</p>
+          <a class="btn btn--block${c.ghost ? ' btn--ghost' : ''}" href="${esc(c.href)}"${c.external ? ' target="_blank" rel="noopener"' : ''}>${esc(c.cta)}</a>
         </div>`
+    )
+    .join('');
+}
+
+function skillCards(items) {
+  return items
+    .map(
+      (s) => `
+      <div class="skill-card reveal">
+        <div class="skill-photo"><img src="${s.image}" alt="" /></div>
+        <div class="skill-body">
+          <h3>${esc(s.title)}</h3>
+          <p>${esc(s.text)}</p>
+        </div>
+      </div>`
     )
     .join('');
 }
@@ -100,28 +116,6 @@ function evidenceSources(sources) {
           )
           .join('')}
         </ol>`;
-}
-
-function methodFormula(steps) {
-  return steps
-    .map(
-      (step, i, arr) =>
-        `<span class="formula-step">${esc(step)}</span>${i < arr.length - 1 ? '<span class="formula-arrow">→</span>' : ''}`
-    )
-    .join('');
-}
-
-function methodCards(cards) {
-  return cards
-    .map(
-      (c) => `
-      <div class="method-card reveal">
-        <img class="method-icon" src="${icon(c.icon)}" alt="" />
-        <h3>${esc(c.title)}</h3>
-        <p>${esc(c.text)}</p>
-      </div>`
-    )
-    .join('');
 }
 
 function painpointCards(cards) {
@@ -195,7 +189,7 @@ function courseCards(cards, duration) {
 function offerCards(cards, ctaButton, comingSoon) {
   return cards
     .map((card) => {
-      const href = card.href || CALENDLY_URL;
+      const href = card.href || WHATSAPP_URL;
       const external = !card.href;
       const label = card.ctaLabel || ctaButton;
       const badge = card.badge || (card.soon ? comingSoon : null);
@@ -207,26 +201,6 @@ function offerCards(cards, ctaButton, comingSoon) {
         <a class="btn btn--block" href="${esc(href)}"${external ? ' target="_blank" rel="noopener"' : ''}>${esc(label)}</a>
       </div>`;
     })
-    .join('');
-}
-
-function pricingCards(plans, totalLabel, ctaLabel) {
-  return plans
-    .map(
-      (plan) => `
-      <div class="price-card ${plan.highlight ? 'price-card--highlight' : ''} reveal">
-        ${plan.tag ? `<span class="tag">${esc(plan.tag)}</span>` : ''}
-        <div class="price-card-label">${esc(plan.label)}</div>
-        <h3>${esc(plan.hours)}</h3>
-        <div class="price-card-tagline">${esc(plan.tagline)}</div>
-        <div class="price-hero">
-          <span class="price-hero-amount">${esc(plan.perHour)}</span>
-          <span class="price-hero-unit">${esc(plan.perHourUnit)}</span>
-        </div>
-        <div class="price-total">${esc(totalLabel)} ${esc(plan.price)}${plan.saveBadge ? ` <span class="save-badge">${esc(plan.saveBadge)}</span>` : ''}</div>
-        <a class="btn btn--block ${plan.highlight ? 'btn--ghost' : ''}" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(ctaLabel)}</a>
-      </div>`
-    )
     .join('');
 }
 
@@ -284,13 +258,13 @@ ${faviconTags()}
           <li><a href="#about">${esc(t.nav.about)}</a></li>
           <li><a href="#benefits">${esc(t.nav.benefits)}</a></li>
           <li><a href="#how">${esc(t.nav.how)}</a></li>
-          <li><a href="#pricing">${esc(t.nav.pricing)}</a></li>
+          <li><a href="#offers">${esc(t.nav.pricing)}</a></li>
           <li><a href="#contact">${esc(t.nav.contact)}</a></li>
         </ul>
       </nav>
 
       <div class="header-actions">${langSwitcher(lang)}
-        <a class="btn btn--header" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.nav.cta)}</a>
+        <a class="btn btn--header" href="${WHATSAPP_URL}" target="_blank" rel="noopener">${esc(t.nav.cta)}</a>
         <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
           <svg viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
         </button>
@@ -302,15 +276,15 @@ ${faviconTags()}
 
     <!-- Hero -->
     <section class="hero">
+      <div class="hero-blob hero-blob--1"></div>
+      <div class="hero-blob hero-blob--2"></div>
       <div class="container">
         <div class="hero-copy">
           <span class="eyebrow">${esc(t.hero.kicker)}</span>
           <h1>${esc(t.hero.headline)}</h1>
           <p class="hero-subline">${esc(t.hero.subline)}</p>
           <p class="hero-question">${esc(t.hero.question)}</p>
-          <div class="hero-actions">
-            <a class="btn" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.hero.ctaPrimary)}</a>
-            <a class="btn btn--ghost" href="#method">${esc(t.hero.ctaSecondary)}</a>
+          <div class="hero-choices">${heroChoices(t.hero.choices)}
           </div>
           <p class="hero-support">${esc(t.hero.supportLine)}</p>
         </div>
@@ -344,20 +318,13 @@ ${faviconTags()}
       </div>
     </section>
 
-    <!-- Method -->
-    <section id="method">
+    <!-- Skills -->
+    <section id="skills">
       <div class="container">
         <div class="section-head center reveal">
-          <h2>${esc(t.method.title)}</h2>
+          <h2>${esc(t.skills.title)}</h2>
         </div>
-        <div class="pillars reveal">
-          <p class="pillars-lead">${esc(t.method.pillarsLead)}</p>
-          <div class="pillars-grid">${pillarBlocks(t.method.pillars)}
-          </div>
-          <p class="pillars-text">${esc(t.method.pillarsText)}</p>
-        </div>
-        <div class="method-formula reveal">${methodFormula(t.method.formula)}</div>
-        <div class="method-grid">${methodCards(t.method.cards)}
+        <div class="skills-grid">${skillCards(t.skills.items)}
         </div>
       </div>
     </section>
@@ -407,7 +374,7 @@ ${faviconTags()}
         </div>
         <ul class="perfect-list reveal">${perfectBullets(t.perfect.bullets)}
         </ul>
-        <a class="perfect-closing reveal" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.perfect.closing)}</a>
+        <a class="perfect-closing reveal" href="${WHATSAPP_URL}" target="_blank" rel="noopener">${esc(t.perfect.closing)}</a>
       </div>
     </section>
 
@@ -433,7 +400,7 @@ ${faviconTags()}
         <div class="how-steps">${howSteps(t.how.steps)}
         </div>
         <div class="how-cta">
-          <a class="btn" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.how.ctaButton)}</a>
+          <a class="btn" href="${WHATSAPP_URL}" target="_blank" rel="noopener">${esc(t.how.ctaButton)}</a>
         </div>
       </div>
     </section>
@@ -459,7 +426,7 @@ ${faviconTags()}
         </div>
         <div class="courses-cta reveal">
           <p>${esc(t.courses.ctaText)}</p>
-          <a class="btn" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.courses.ctaButton)}</a>
+          <a class="btn" href="${WHATSAPP_URL}" target="_blank" rel="noopener">${esc(t.courses.ctaButton)}</a>
         </div>
       </div>
     </section>
@@ -473,19 +440,6 @@ ${faviconTags()}
         </div>
         <div class="offers-grid">${offerCards(t.offers.cards, t.offers.ctaButton, t.offers.comingSoon)}
         </div>
-      </div>
-    </section>
-
-    <!-- Pricing -->
-    <section id="pricing">
-      <div class="container">
-        <div class="section-head center reveal">
-          <h2>${esc(t.offer.title)}</h2>
-          <p>${esc(t.offer.sub)}</p>
-        </div>
-        <div class="pricing-grid">${pricingCards(t.offer.plans, t.offer.totalLabel, t.nav.cta)}
-        </div>
-        <a class="offer-note" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.offer.note)}</a>
       </div>
     </section>
 
@@ -513,7 +467,7 @@ ${faviconTags()}
         <div class="outcomes-grid">${outcomeChips(t.outcomes.items)}
         </div>
         <div class="outcomes-cta">
-          <a class="btn" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.outcomes.ctaButton)}</a>
+          <a class="btn" href="${WHATSAPP_URL}" target="_blank" rel="noopener">${esc(t.outcomes.ctaButton)}</a>
         </div>
       </div>
     </section>
@@ -535,8 +489,7 @@ ${faviconTags()}
         <p class="final-cta-tagline">${esc(t.cta.tagline)}</p>
         <h2>${esc(t.cta.title)}</h2>
         <p>${esc(t.cta.sub)}</p>
-        <a class="btn" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.cta.button)}</a>
-        <a class="final-cta-whatsapp" href="${WHATSAPP_URL}" target="_blank" rel="noopener">${esc(t.cta.whatsappText)}</a>
+        <a class="btn" href="${WHATSAPP_URL}" target="_blank" rel="noopener">${esc(t.cta.button)}</a>
       </div>
     </section>
 
@@ -557,7 +510,6 @@ ${faviconTags()}
           <ul>
             <li><a href="mailto:hey@expatly.de">hey@expatly.de</a></li>
             <li><a href="${WHATSAPP_URL}" target="_blank" rel="noopener">${esc(t.footer.whatsapp)}</a></li>
-            <li><a href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(t.nav.cta)}</a></li>
           </ul>
         </div>
         <div class="footer-col">

@@ -73,9 +73,15 @@
 :root {
   /* ---- Colors ---- */
   --color-creme:  #FBF5F2;   /* page background */
-  --color-black:  #1A1A1A;   /* text, outlines, hard shadows */
+  --color-alt:    #FBF9F9;   /* near-white banding tone (alt sections) */
+  --color-black:  #1A1A1A;   /* text */
   --color-orange: #FF881A;   /* accent, CTA */
   --color-white:  #FFFFFF;   /* cards on creme */
+  --color-orange-soft: #FFE6CC;  /* soft orange fill (badges, checks) */
+  --color-orange-press: #E8730A; /* text on soft-orange fills */
+  --color-border-soft: rgba(26, 26, 26, .08);   /* thin card borders */
+  --color-line-soft:   rgba(26, 26, 26, .12);   /* thin dividers */
+  --color-ink-faint:   #9a938c;                 /* muted helper text */
 
   /* ---- Typography ---- */
   --font-family: 'Rubik', system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -84,20 +90,26 @@
   --fw-bold:    700;
   --fw-black:   800;
 
-  /* ---- Border / Outline (brutalist = thick, always black) ---- */
-  --border-width: 3px;
-  --border: var(--border-width) solid var(--color-black);
+  /* ---- Border / Outline (soft — thin, low-contrast) ---- */
+  --border-width: 1px;
+  --border: var(--border-width) solid var(--color-border-soft);
 
   /* ---- Radius scale ---- */
-  --radius-sm:   8px;
-  --radius-md:  14px;
-  --radius-lg:  22px;
+  --radius-sm:   10px;
+  --radius-md:  16px;
+  --radius-lg:  24px;
   --radius-pill: 999px;
 
-  /* ---- Hard offset shadows (NO blur, solid black) ---- */
-  --shadow-sm: 4px 4px 0 0 var(--color-black);
-  --shadow-md: 6px 6px 0 0 var(--color-black);
-  --shadow-lg: 8px 8px 0 0 var(--color-black);
+  /* ---- Soft shadows (blurred, low-opacity black — no hard offset) ---- */
+  --shadow-sm: 0 6px 18px rgba(26, 26, 26, .06);
+  --shadow-md: 0 10px 28px rgba(26, 26, 26, .08);
+  --shadow-lg: 0 22px 52px rgba(26, 26, 26, .13);
+  --shadow-hover: 0 16px 36px rgba(26, 26, 26, .12);
+  --shadow-header: 0 14px 34px rgba(26, 26, 26, .1);
+
+  /* ---- Button shadow (soft orange glow) ---- */
+  --shadow-btn: 0 8px 20px rgba(255, 136, 26, .28);
+  --shadow-btn-hover: 0 10px 24px rgba(255, 136, 26, .34);
 
   /* ---- Spacing scale ---- */
   --space-1: 4px;

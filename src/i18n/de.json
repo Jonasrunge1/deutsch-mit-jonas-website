@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Deutsch mit Jonas – Hör auf zu lernen. Fang an zu sprechen.",
-    "description": "1:1 Online-Deutschunterricht mit Jonas – individuell auf dich zugeschnitten. Echte Sätze und Alltagssituationen statt noch mehr Theorie. Kostenlose Probestunde."
+    "description": "1:1 Online-Deutschunterricht mit Jonas – individuell auf dich zugeschnitten. Echte Sätze und Alltagssituationen statt noch mehr Theorie."
   },
   "brand": {
     "pre": "Deutsch mit ",
@@ -11,17 +11,33 @@
     "about": "Über mich",
     "benefits": "Warum ich",
     "how": "Ablauf",
-    "pricing": "Preise",
+    "pricing": "Angebot",
     "contact": "Kontakt",
-    "cta": "Probestunde buchen"
+    "cta": "Schreib mir"
   },
   "hero": {
     "kicker": "Hör auf zu lernen. Fang an zu sprechen.",
     "headline": "Du verstehst Deutsch, aber kannst nicht sprechen?",
     "subline": "1:1 Deutschunterricht – individuell auf dich zugeschnitten.",
-    "question": "Was blockiert dich beim Sprechen?",
-    "ctaPrimary": "Kostenlose Probestunde buchen",
-    "ctaSecondary": "Methode ansehen",
+    "question": "Was passt zu dir?",
+    "choices": [
+      {
+        "badge": "Live-Kurs",
+        "title": "TELC B1",
+        "text": "Strukturierter 4-Wochen-Kurs mit klarem Plan für deine telc-B1-Prüfung.",
+        "cta": "Kursdetails ansehen",
+        "href": "/telc-b1-kurs.html",
+        "external": false
+      },
+      {
+        "title": "Individuelle Probestunde",
+        "text": "Lieber erst unverbindlich austauschen? Schreib mir auf WhatsApp, dann finden wir gemeinsam heraus, was zu dir passt.",
+        "cta": "Auf WhatsApp schreiben",
+        "href": "{{WHATSAPP_LINK}}",
+        "external": true,
+        "ghost": true
+      }
+    ],
     "supportLine": "100% online · Für Anfänger bis Fortgeschrittene (A1–C1)",
     "badge": "Jonas · Speaking Coach & Deutschlehrer"
   },
@@ -72,31 +88,28 @@
       }
     ]
   },
-  "method": {
-    "title": "Wie du wirklich sprechen lernst",
-    "pillarsLead": "Sprache besteht aus drei Bausteinen:",
-    "pillars": [
-      { "icon": "check", "title": "Grammatik" },
-      { "icon": "chat", "title": "Vokabeln" },
-      { "icon": "star", "title": "Selbstbewusstsein" }
-    ],
-    "pillarsText": "Die ersten beiden bringst du vielleicht schon teilweise mit. Am dritten arbeiten wir – mit echten Sätzen, lautem Sprechen und ohne Perfektionsdruck.",
-    "formula": ["Echter Satz", "laut nachsprechen", "Feedback bekommen", "im Gespräch benutzen"],
-    "cards": [
+  "skills": {
+    "title": "Was du bei mir lernst",
+    "items": [
       {
-        "icon": "chat",
-        "title": "Echte Alltagssätze",
-        "text": "Du lernst Sätze, die du wirklich brauchst – beim Arzt, im Job, bei Behörden, mit Nachbarn oder im Smalltalk."
+        "image": "/brand_assets/telc-b1/reading-language.jpg",
+        "title": "Lesen",
+        "text": "Du verstehst Texte, Nachrichten und Alltagsdinge schnell und sicher."
       },
       {
-        "icon": "speak",
-        "title": "Laut sprechen statt schweigen",
-        "text": "Du sprichst echte Sätze laut nach, bis sie dir leicht über die Lippen gehen — und ganz natürlich bei dir bleiben."
+        "image": "/brand_assets/telc-b1/speaking.jpg",
+        "title": "Sprechen",
+        "text": "Du traust dich, echte Sätze laut zu sagen – im Gespräch, nicht nur im Kopf."
       },
       {
-        "icon": "star",
-        "title": "Sprechen vor Perfektion",
-        "text": "Du musst nicht perfekt sein. Du musst ins Gespräch kommen – und genau das trainieren wir."
+        "image": "/brand_assets/telc-b1/writing.jpg",
+        "title": "Schreiben",
+        "text": "Du schreibst Nachrichten, E-Mails und Texte klar und ohne langes Nachdenken."
+      },
+      {
+        "image": "/brand_assets/telc-b1/listening.jpg",
+        "title": "Hören",
+        "text": "Du folgst Gesprächen und Alltagssituationen, ohne den Faden zu verlieren."
       }
     ]
   },
@@ -130,7 +143,7 @@
       "keine Lust mehr auf trockene Grammatikübungen hast.",
       "sprechen willst, ohne jeden Satz vorher im Kopf zu übersetzen."
     ],
-    "closing": "Dann ist die kostenlose Probestunde der richtige erste Schritt."
+    "closing": "Dann schreib mir einfach – wir finden gemeinsam den passenden Weg."
   },
   "benefits": {
     "title": "Warum du mit dieser Methode schneller ins Sprechen kommst",
@@ -164,8 +177,8 @@
     "steps": [
       {
         "number": "1",
-        "title": "Kostenlose Probestunde",
-        "text": "In der kostenlosen Probestunde schauen wir nicht nur auf dein Level. Wir finden heraus, welcher Kurs, welche Situationen und welcher Speaking-Plan wirklich zu dir passen."
+        "title": "Kurzes Kennenlernen",
+        "text": "Schreib mir auf WhatsApp oder per E-Mail. Wir tauschen uns kurz aus – über dein Level, deine Ziele und deinen Sprechstil."
       },
       {
         "number": "2",
@@ -178,7 +191,7 @@
         "text": "In den Online-Stunden trainieren wir Aussprache, Reaktionen, Korrektur und freie Gespräche — passend zu deinem Level von A1 bis C1."
       }
     ],
-    "ctaButton": "Kostenlose Probestunde buchen"
+    "ctaButton": "Schreib mir auf WhatsApp"
   },
   "courses": {
     "kicker": "Kein Grammatikkurs. Ein Sprechkurs.",
@@ -206,14 +219,14 @@
     "explanation": "Jeder Kurs hat einen klaren Grammatik-Backbone. Aber du lernst die Grammatik nicht isoliert, sondern über Sätze, Situationen und Wiederholung. So wird aus Wissen echte Sprechfähigkeit.",
     "accordionQ": "Was steckt hinter den Kursen?",
     "accordionA": "Jeder Kurs hat im Hintergrund einen klaren grammatischen Aufbau – von den ersten einfachen Sätzen bis zu natürlichen Gesprächsmustern. Du lernst ihn nie isoliert, sondern immer eingebettet in echte Sätze, Situationen und Wiederholung.",
-    "ctaText": "In der kostenlosen Probestunde finden wir heraus, wo du startest und wie schnell du vorankommst.",
-    "ctaButton": "Kostenlose Probestunde buchen"
+    "ctaText": "Schreib mir, dann finden wir heraus, wo du startest und wie schnell du vorankommst.",
+    "ctaButton": "Schreib mir auf WhatsApp"
   },
   "offers": {
     "title": "So kannst du mit mir lernen",
     "sub": "Drei Wege, um mehr zu sprechen – wähle, was zu dir passt.",
     "comingSoon": "Coming soon",
-    "ctaButton": "Kostenlose Probestunde buchen",
+    "ctaButton": "Schreib mir auf WhatsApp",
     "cards": [
       {
         "title": "Private 1:1 Speaking Lessons",
@@ -234,47 +247,6 @@
       }
     ]
   },
-  "offer": {
-    "title": "Wähle dein 1:1 Speaking-Paket",
-    "sub": "Einmal entscheiden, dann gezielt sprechen trainieren. Alle Pakete enthalten 60-minütige 1:1 Online-Stunden mit persönlichem Feedback und echter Speaking Practice.",
-    "totalLabel": "Gesamt:",
-    "plans": [
-      {
-        "label": "Starter",
-        "hours": "10 Stunden personalisiertes Speaking-Coaching",
-        "perHour": "89 €",
-        "perHourUnit": "/ Stunde",
-        "price": "890 €",
-        "tagline": "Für den ersten Durchbruch",
-        "tag": null,
-        "saveBadge": null,
-        "highlight": false
-      },
-      {
-        "label": "Progress",
-        "hours": "20 Stunden personalisiertes Speaking-Coaching",
-        "perHour": "82 €",
-        "perHourUnit": "/ Stunde",
-        "price": "1.640 €",
-        "tagline": "Für echte Sprechsicherheit",
-        "tag": "Beliebt",
-        "saveBadge": "Sparst 8%",
-        "highlight": true
-      },
-      {
-        "label": "Fluency",
-        "hours": "30 Stunden personalisiertes Speaking-Coaching",
-        "perHour": "75 €",
-        "perHourUnit": "/ Stunde",
-        "price": "2.250 €",
-        "tagline": "Für langfristige Routine",
-        "tag": "Bester Preis",
-        "saveBadge": "Sparst 16%",
-        "highlight": false
-      }
-    ],
-    "note": "Nicht sicher, welches Paket passt? Genau dafür ist die kostenlose Probestunde da."
-  },
   "outcomes": {
     "title": "Wobei ich dir helfen kann",
     "items": [
@@ -285,18 +257,18 @@
       "Smalltalk natürlicher führen",
       "Mehr sprechen statt nur lernen"
     ],
-    "ctaButton": "Das will ich in der Probestunde besprechen"
+    "ctaButton": "Das will ich mit Jonas besprechen"
   },
   "faq": {
     "title": "Häufige Fragen",
     "items": [
       {
         "q": "Für welches Sprachniveau eignet sich das Angebot?",
-        "a": "Der Unterricht eignet sich für Lernende von A1 bis C1 – vom absoluten Anfänger bis zu Fortgeschrittenen, die natürlicher und sicherer klingen wollen. In der kostenlosen Probestunde schauen wir zuerst auf dein aktuelles Level und finden heraus, welcher Plan zu dir passt."
+        "a": "Der Unterricht eignet sich für Lernende von A1 bis C1 – vom absoluten Anfänger bis zu Fortgeschrittenen, die natürlicher und sicherer klingen wollen. Schreib mir einfach auf WhatsApp, dann schauen wir gemeinsam auf dein aktuelles Level und finden heraus, welcher Plan zu dir passt."
       },
       {
-        "q": "Wie läuft die kostenlose Probestunde ab?",
-        "a": "In der kostenlosen Probestunde schauen wir uns dein aktuelles Deutschlevel an, sprechen über deine Ziele und finden heraus, wo du beim Sprechen blockierst. Danach bekommst du eine klare Empfehlung, welches Training und welches Paket zu dir passt – von A1 bis C1."
+        "q": "Wie läuft der Einstieg ab?",
+        "a": "Du schreibst mir auf WhatsApp oder per E-Mail. Wir sprechen kurz über dein aktuelles Level, deine Ziele und wo du beim Sprechen blockierst. Danach bekommst du eine klare Empfehlung, welches Training zu dir passt – von A1 bis C1."
       },
       {
         "q": "Findet der Unterricht online statt?",
@@ -328,20 +300,19 @@
       },
       {
         "q": "In welcher Zeitzone unterrichtest du?",
-        "a": "Ich unterrichte nach mitteleuropäischer Zeit (MEZ/MESZ). Deinen Termin buchst du direkt über Calendly – dort siehst du automatisch passende Zeiten für deine Zeitzone."
+        "a": "Ich unterrichte nach mitteleuropäischer Zeit (MEZ/MESZ). Passende Zeiten stimmen wir einfach direkt über WhatsApp ab."
       },
       {
         "q": "Gibt es auch Gruppenkurse oder einen Speaking Club?",
-        "a": "Ja, ein German Speaking Club ist geplant. Wenn du Interesse hast, kannst du in der Probestunde oder über die Warteliste Bescheid geben."
+        "a": "Ja, ein German Speaking Club ist geplant. Wenn du Interesse hast, kannst du mir gerne auf WhatsApp Bescheid geben."
       }
     ]
   },
   "cta": {
-    "tagline": "In der kostenlosen Probestunde finden wir heraus, welcher Plan zu DIR passt.",
+    "tagline": "Schreib mir, dann finden wir heraus, welcher Weg zu dir passt.",
     "title": "Der erste Schritt ist nicht noch mehr Theorie.",
-    "sub": "In der kostenlosen Probestunde schauen wir auf dein aktuelles Deutschlevel, deine Ziele und die Situationen, in denen du sicherer sprechen willst – ganz bequem online. Danach weißt du genau, welcher Plan zu dir passt – egal ob A1, B1 oder C1.",
-    "button": "Kostenlose Probestunde buchen",
-    "whatsappText": "Schreib mir gerne direkt auf WhatsApp"
+    "sub": "Schreib mir auf WhatsApp und erzähl mir kurz von deinem aktuellen Deutschlevel und deinen Zielen – ganz unkompliziert. Danach weißt du genau, welcher Weg zu dir passt – egal ob A1, B1 oder C1.",
+    "button": "Auf WhatsApp schreiben"
   },
   "footer": {
     "tagline": "1:1 Online-Speaking-Coaching mit Jonas.",
