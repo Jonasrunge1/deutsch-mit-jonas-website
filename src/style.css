@@ -227,6 +227,17 @@ section { padding: var(--space-7) 0; }
   .nav-toggle { width: 36px; height: 36px; }
 }
 
+/* The telc page keeps its header CTA visible at every width (unlike the
+   homepage, which hides .btn--header below 640px) — so it needs its own,
+   earlier shrink to stop the brand lockup from wrapping onto 3 lines. */
+@media (max-width: 480px) {
+  body.telc-page .brand { font-size: 15px; gap: 6px; white-space: nowrap; }
+  body.telc-page .brand-logo { width: 30px; height: 30px; }
+  body.telc-page .header-actions { gap: 6px; }
+  body.telc-page .telc-btn--sm { padding: 8px 14px; font-size: 13px; }
+  body.telc-page .nav-toggle { width: 36px; height: 36px; }
+}
+
 /* ============================================================
    Hero
    ============================================================ */
@@ -1693,7 +1704,7 @@ body.telc-page .site-header {
 .telc-details-note { display: flex; flex-direction: column; gap: 3px; margin-top: 14px; }
 .telc-details-note span { font-size: 13px; font-weight: var(--fw-medium); line-height: 1.4; color: #9a938c; }
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .telc-course-hero { grid-template-columns: 1fr; }
   .telc-course-hero-photo { aspect-ratio: 16 / 10; }
   .telc-course-hero-body { padding: 40px 24px 32px; }
