@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "telc B1 Exam Prep Course – Deutsch mit Jonas",
+    "description": "Live 4-week telc B1 exam preparation with Jonas. Learn what earns you points, practise every section under realistic exam conditions, and walk into exam day knowing exactly what to do."
+  },
+  "nav": {
+    "skills": "Exam sections",
+    "course": "The course",
+    "teacher": "Your teacher",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "startNow": "Start now"
+  },
+  "hero": {
+    "eyebrow": "Live · 4-week telc B1 preparation",
+    "headline": "Pass your telc B1 exam with a clear plan.",
+    "subline": "Learn what earns you points, practise every section under realistic exam conditions and walk into exam day knowing exactly what to do.",
+    "caption": "Live online · 4 weeks · €270",
+    "cta": "Start now ↓",
+    "badgeLive": "Live",
+    "badgeNextCohort": "Next cohort",
+    "badgeTitle": "A new group starts every month.",
+    "badgeDate": "Starts October 6, 2026"
+  },
+  "trust": [
+    { "value": "4–6M", "label": "learners every month" },
+    { "value": "500K+", "label": "followers across social media" },
+    { "value": "10+ years", "label": "teaching experience" }
+  ],
+  "skillsSection": {
+    "title": "One 4-week course. Every part of your telc B1 exam.",
+    "sub": "Everything you need to prepare for reading, listening, language elements, writing and speaking.",
+    "cards": [
+      {
+        "image": "/brand_assets/telc-b1/speaking.jpg",
+        "title": "Speaking",
+        "text": "Introduce yourself, discuss a topic and plan something together with a partner."
+      },
+      {
+        "image": "/brand_assets/telc-b1/listening.jpg",
+        "title": "Listening",
+        "text": "Follow conversations, interviews and announcements without losing focus."
+      },
+      {
+        "image": "/brand_assets/telc-b1/writing.jpg",
+        "title": "Writing",
+        "text": "Respond to every required point and structure your message clearly."
+      },
+      {
+        "image": "/brand_assets/telc-b1/reading-language.jpg",
+        "title": "Reading & Language Elements",
+        "text": "Understand texts efficiently and choose the right grammar and vocabulary under time pressure."
+      }
+    ]
+  },
+  "courseSection": {
+    "title": "The course",
+    "sub": "Structured live classes, complete materials, and a group to go through it with.",
+    "features": [
+      {
+        "image": "/brand_assets/telc-b1/live-classes.jpg",
+        "title": "Twice-weekly live classes",
+        "text": "Two live sessions every week, in a small group, with direct feedback — enough structure to make real progress in four weeks."
+      },
+      {
+        "image": "/brand_assets/telc-b1/materials.jpg",
+        "title": "Course materials",
+        "text": "A full workbook plus additional exercises for every exam section, so you always know exactly what to work on next."
+      },
+      {
+        "image": "/brand_assets/telc-b1/community.jpg",
+        "title": "Community & WhatsApp support",
+        "text": "Stay connected with your group in a shared WhatsApp chat: ask questions, share progress and keep each other motivated."
+      }
+    ],
+    "banner": {
+      "title": "Start your 4-week telc B1 course today.",
+      "text": "Everything you need for exam day, in one clear plan.",
+      "cta": "Start now →"
+    }
+  },
+  "teacher": {
+    "title": "Meet your teacher",
+    "sub": "A teacher who knows exactly where you're stuck.",
+    "stats": [
+      {
+        "value": "10+ years",
+        "title": "Teaching German, online and in person.",
+        "bullets": [
+          "All levels, from A1 to C1",
+          "Exam preparation is a core focus",
+          "Individual and group lessons",
+          "Continuously refined teaching materials"
+        ]
+      },
+      {
+        "value": "5 languages",
+        "title": "German, English, Spanish, Dutch, Italian.",
+        "bullets": [
+          "Learned every one of them as an adult",
+          "Knows exactly where learners get stuck",
+          "Multilingual perspective on grammar and speaking"
+        ]
+      },
+      {
+        "value": "Practical focus",
+        "title": "Real communication first, grammar rules second.",
+        "bullets": [
+          "Real situations, not textbook drills",
+          "Direct, structured feedback",
+          "Confidence before perfection"
+        ]
+      },
+      {
+        "value": "500K+",
+        "title": "Following the method across social media.",
+        "bullets": [
+          "Active across YouTube, Instagram and TikTok",
+          "Method tested with learners worldwide"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Community",
+    "title": "What other learners think.",
+    "items": [
+      {
+        "avatar": "A",
+        "name": "Dr. Alejandro M.",
+        "role": "Individual lessons · Medical exam prep",
+        "quote": "Dank Jonas habe ich meine Fachsprachprüfung souverän bestanden. Die Arzt-Patient-Simulationen waren extrem realitätsnah."
+      },
+      {
+        "avatar": "I",
+        "name": "Igor Z.",
+        "role": "Individual lessons · Technical German",
+        "quote": "Perfekter Unterricht für Ingenieure. Mein Fachdeutsch für Meetings und Präsentationen hat sich extrem verbessert."
+      },
+      {
+        "avatar": "M",
+        "name": "Mira K.",
+        "role": "Individual lessons · telc C1 for university",
+        "quote": "Sehr strukturiert, intensiv und durch seine Art extrem viel Spaß gemacht. Absolute Empfehlung."
+      },
+      {
+        "avatar": "E",
+        "name": "Elia",
+        "role": "Individual lessons · B1 exam prep",
+        "quote": "Gut strukturiert und genau das, was ich für meine B1-Prüfung gebraucht habe."
+      },
+      {
+        "avatar": "S",
+        "name": "Sara",
+        "role": "Individual lessons",
+        "quote": "Nach drei Monaten sehe ich echten Fortschritt. Ich fühle mich beim Deutschsprechen viel sicherer."
+      },
+      {
+        "avatar": "S",
+        "name": "Silvio",
+        "role": "Individual lessons",
+        "quote": "Sehr geduldig und gut strukturiert. Er ermutigt einen, viel zu sprechen, praxisnahes Lernen."
+      }
+    ]
+  },
+  "details": {
+    "badgeCircle": "Everything you need",
+    "kicker": "The course",
+    "headingBlack": "4 weeks.",
+    "headingOrange": "One clear plan.",
+    "sub": "Live online. Starting soon.",
+    "pills": [
+      "Tuesdays & Thursdays · 7:00 to 9:00 PM",
+      "120 minutes per session · 8 sessions total",
+      "Max. 10 people per group"
+    ],
+    "dates": "6 / 8 / 13 / 15 / 20 / 22 / 27 / 29 October 2026",
+    "list": [
+      "Live online classes twice a week",
+      "Initial diagnostic assessment",
+      "Strategies for every exam section",
+      "Speaking and writing practice with feedback",
+      "Realistic final exam simulation",
+      "Course materials included"
+    ],
+    "price": "€270",
+    "priceUnit": "per person",
+    "cta": "Join the next cohort",
+    "note1": "Limited places per cohort. Exam registration and fee not included.",
+    "note2": "Exam prep course, you should already be close to B1 level."
+  },
+  "oncall": {
+    "kicker": "On request",
+    "title": "Need more personal preparation?",
+    "text": "Individual telc B1 lessons are available on request and can focus on your exam date, your current level and the sections you find most difficult.",
+    "cta": "Request individual lessons"
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Before you join.",
+    "items": [
+      {
+        "q": "Is this course right for me?",
+        "a": "It is right for you if you plan to take the telc B1 exam and want to know exactly what happens in every part of it. It is exam preparation, not a full A2 to B1 language course."
+      },
+      {
+        "q": "Do I already need to be at B1 level?",
+        "a": "You should already be close to B1. The course prepares you for the exam format and tasks, it does not teach the level from the beginning."
+      },
+      {
+        "q": "Is the official telc exam included?",
+        "a": "No. Registration and the exam fee are arranged separately with your exam centre."
+      },
+      {
+        "q": "Which parts of the exam will we practise?",
+        "a": "All of them: reading and language elements, listening, writing, and speaking."
+      },
+      {
+        "q": "Will I receive feedback?",
+        "a": "Yes. You get feedback on your writing tasks and on your speaking practice during the course."
+      },
+      {
+        "q": "Will we complete a mock exam?",
+        "a": "Yes. The course ends with a realistic simulation under exam conditions."
+      },
+      {
+        "q": "Can you guarantee that I will pass?",
+        "a": "No. No course can guarantee a result. What the course does is make sure you know the format, the scoring and the tasks before exam day."
+      },
+      {
+        "q": "Are individual lessons available?",
+        "a": "Yes, on request. They can focus on your exam date, your level and the sections you find most difficult."
+      }
+    ]
+  },
+  "final": {
+    "eyebrow": "Your next step",
+    "title": "Your exam date is fixed. Your preparation should be too.",
+    "text": "Join the next four-week course and walk into your telc B1 exam knowing what to do.",
+    "ctaPrimary": "Join the next cohort →",
+    "ctaSecondary": "Request individual lessons"
+  },
+  "footer": {
+    "tagline": "1:1 online speaking coaching with Jonas.",
+    "contactTitle": "Contact",
+    "legalTitle": "Legal",
+    "impressum": "Impressum",
+    "datenschutz": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy",
+    "cookieSettings": "Cookie Settings",
+    "whatsapp": "Feel free to message me directly on WhatsApp",
+    "rights": "Deutsch mit Jonas"
+  },
+  "whatsapp": {
+    "label": "Message on WhatsApp"
+  }
+}

@@ -7,7 +7,7 @@ function i18nWatcher() {
     configureServer(server) {
       const rebuild = (file) => {
         if (!file) return;
-        if (file.includes('/src/i18n/') || file.includes('/src/templates/page.mjs')) {
+        if (file.includes('/src/i18n/') || file.includes('/src/templates/')) {
           try {
             execSync('node scripts/build-pages.mjs', { cwd: server.config.root, stdio: 'inherit' });
             server.ws.send({ type: 'full-reload' });
@@ -33,7 +33,9 @@ export default defineConfig({
         impressum: 'impressum.html',
         datenschutz: 'datenschutz.html',
         cookiePolicy: 'cookie-policy.html',
-        telcB1Kurs: 'telc-b1-kurs.html'
+        telcB1Kurs: 'telc-b1-kurs.html',
+        telcB1KursEn: 'en/telc-b1-kurs.html',
+        telcB1KursEs: 'es/telc-b1-kurs.html'
       }
     }
   }

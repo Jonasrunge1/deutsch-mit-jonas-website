@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "telc B1 Prüfungsvorbereitung – Deutsch mit Jonas",
+    "description": "Live-4-Wochen-Kurs zur telc-B1-Prüfungsvorbereitung mit Jonas. Lerne, was wirklich Punkte bringt, übe jeden Prüfungsteil unter realistischen Bedingungen und geh am Prüfungstag genau vorbereitet rein."
+  },
+  "nav": {
+    "skills": "Prüfungsteile",
+    "course": "Der Kurs",
+    "teacher": "Dein Lehrer",
+    "pricing": "Preis",
+    "faq": "FAQ",
+    "startNow": "Jetzt starten"
+  },
+  "hero": {
+    "eyebrow": "Live · 4-Wochen-telc-B1-Vorbereitung",
+    "headline": "Bestehe deine telc-B1-Prüfung mit einem klaren Plan.",
+    "subline": "Lerne, was wirklich Punkte bringt, übe jeden Prüfungsteil unter realistischen Bedingungen und geh am Prüfungstag genau vorbereitet rein.",
+    "caption": "Live online · 4 Wochen · 270 €",
+    "cta": "Jetzt starten ↓",
+    "badgeLive": "Live",
+    "badgeNextCohort": "Nächster Kurs",
+    "badgeTitle": "Jeden Monat startet eine neue Gruppe.",
+    "badgeDate": "Start: 6. Oktober 2026"
+  },
+  "trust": [
+    { "value": "4–6 Mio.", "label": "Lernende jeden Monat" },
+    { "value": "500K+", "label": "Follower in sozialen Medien" },
+    { "value": "10+ Jahre", "label": "Unterrichtserfahrung" }
+  ],
+  "skillsSection": {
+    "title": "Ein 4-Wochen-Kurs. Jeder Teil deiner telc-B1-Prüfung.",
+    "sub": "Alles, was du für Lesen, Hören, Sprachbausteine, Schreiben und Sprechen brauchst.",
+    "cards": [
+      {
+        "image": "/brand_assets/telc-b1/speaking.jpg",
+        "title": "Sprechen",
+        "text": "Dich vorstellen, ein Thema diskutieren und mit einem Partner etwas gemeinsam planen."
+      },
+      {
+        "image": "/brand_assets/telc-b1/listening.jpg",
+        "title": "Hören",
+        "text": "Gesprächen, Interviews und Durchsagen folgen, ohne den Faden zu verlieren."
+      },
+      {
+        "image": "/brand_assets/telc-b1/writing.jpg",
+        "title": "Schreiben",
+        "text": "Auf jeden geforderten Punkt eingehen und deine Nachricht klar strukturieren."
+      },
+      {
+        "image": "/brand_assets/telc-b1/reading-language.jpg",
+        "title": "Lesen & Sprachbausteine",
+        "text": "Texte effizient verstehen und unter Zeitdruck die richtige Grammatik und Wortwahl treffen."
+      }
+    ]
+  },
+  "courseSection": {
+    "title": "Der Kurs",
+    "sub": "Strukturierte Live-Classes, vollständige Materialien und eine Gruppe, mit der du es gemeinsam durchziehst.",
+    "features": [
+      {
+        "image": "/brand_assets/telc-b1/live-classes.jpg",
+        "title": "Zweimal wöchentlich Live-Classes",
+        "text": "Zwei Live-Sessions pro Woche in einer kleinen Gruppe mit direktem Feedback — genug Struktur, um in vier Wochen wirklich voranzukommen."
+      },
+      {
+        "image": "/brand_assets/telc-b1/materials.jpg",
+        "title": "Kursmaterialien",
+        "text": "Ein vollständiges Workbook plus Zusatzübungen für jeden Prüfungsteil, damit du immer genau weißt, woran du als Nächstes arbeitest."
+      },
+      {
+        "image": "/brand_assets/telc-b1/community.jpg",
+        "title": "Community & WhatsApp-Support",
+        "text": "Bleib mit deiner Gruppe in einem gemeinsamen WhatsApp-Chat verbunden: Fragen stellen, Fortschritte teilen und euch gegenseitig motivieren."
+      }
+    ],
+    "banner": {
+      "title": "Starte noch heute deinen 4-Wochen-telc-B1-Kurs.",
+      "text": "Alles, was du für den Prüfungstag brauchst, in einem klaren Plan.",
+      "cta": "Jetzt starten →"
+    }
+  },
+  "teacher": {
+    "title": "Dein Lehrer",
+    "sub": "Ein Lehrer, der genau weiß, wo es bei dir hakt.",
+    "stats": [
+      {
+        "value": "10+ Jahre",
+        "title": "Deutschunterricht, online und persönlich.",
+        "bullets": [
+          "Alle Niveaus, von A1 bis C1",
+          "Prüfungsvorbereitung als Kernkompetenz",
+          "Einzel- und Gruppenunterricht",
+          "Ständig weiterentwickelte Lehrmaterialien"
+        ]
+      },
+      {
+        "value": "5 Sprachen",
+        "title": "Deutsch, Englisch, Spanisch, Niederländisch, Italienisch.",
+        "bullets": [
+          "Jede davon selbst als Erwachsener gelernt",
+          "Weiß genau, wo Lernende hängen bleiben",
+          "Mehrsprachige Perspektive auf Grammatik und Sprechen"
+        ]
+      },
+      {
+        "value": "Praxisnah",
+        "title": "Echte Kommunikation zuerst, Grammatikregeln danach.",
+        "bullets": [
+          "Echte Situationen statt Lehrbuch-Drill",
+          "Direktes, strukturiertes Feedback",
+          "Selbstvertrauen vor Perfektion"
+        ]
+      },
+      {
+        "value": "500K+",
+        "title": "Folgen der Methode in sozialen Medien.",
+        "bullets": [
+          "Aktiv auf YouTube, Instagram und TikTok",
+          "Methode weltweit mit Lernenden getestet"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Community",
+    "title": "Was andere Lernende sagen.",
+    "items": [
+      {
+        "avatar": "A",
+        "name": "Dr. Alejandro M.",
+        "role": "Einzelunterricht · FSP-Vorbereitung",
+        "quote": "Dank Jonas habe ich meine Fachsprachprüfung souverän bestanden. Die Arzt-Patient-Simulationen waren extrem realitätsnah."
+      },
+      {
+        "avatar": "I",
+        "name": "Igor Z.",
+        "role": "Einzelunterricht · Technisches Deutsch",
+        "quote": "Perfekter Unterricht für Ingenieure. Mein Fachdeutsch für Meetings und Präsentationen hat sich extrem verbessert."
+      },
+      {
+        "avatar": "M",
+        "name": "Mira K.",
+        "role": "Einzelunterricht · telc C1 Hochschule",
+        "quote": "Sehr strukturiert, intensiv und durch seine Art extrem viel Spaß gemacht. Absolute Empfehlung."
+      },
+      {
+        "avatar": "E",
+        "name": "Elia",
+        "role": "Einzelunterricht · B1-Prüfungsvorbereitung",
+        "quote": "Gut strukturiert und genau das, was ich für meine B1-Prüfung gebraucht habe."
+      },
+      {
+        "avatar": "S",
+        "name": "Sara",
+        "role": "Einzelunterricht",
+        "quote": "Nach drei Monaten sehe ich echten Fortschritt. Ich fühle mich beim Deutschsprechen viel sicherer."
+      },
+      {
+        "avatar": "S",
+        "name": "Silvio",
+        "role": "Einzelunterricht",
+        "quote": "Sehr geduldig und gut strukturiert. Er ermutigt einen, viel zu sprechen, praxisnahes Lernen."
+      }
+    ]
+  },
+  "details": {
+    "badgeCircle": "Alles, was du brauchst",
+    "kicker": "Der Kurs",
+    "headingBlack": "4 Wochen.",
+    "headingOrange": "Ein klarer Plan.",
+    "sub": "Live online. Start in Kürze.",
+    "pills": [
+      "Dienstags & Donnerstags · 19:00–21:00 Uhr",
+      "120 Minuten pro Session · 8 Sessions insgesamt",
+      "Max. 10 Personen pro Gruppe"
+    ],
+    "dates": "6. / 8. / 13. / 15. / 20. / 22. / 27. / 29. Oktober 2026",
+    "list": [
+      "Live-Online-Classes zweimal pro Woche",
+      "Diagnostik zu Kursbeginn",
+      "Strategien für jeden Prüfungsteil",
+      "Sprech- und Schreibpraxis mit Feedback",
+      "Realistische Abschlusssimulation",
+      "Kursmaterialien inklusive"
+    ],
+    "price": "270 €",
+    "priceUnit": "pro Person",
+    "cta": "Jetzt Platz sichern",
+    "note1": "Begrenzte Plätze pro Kurs. Prüfungsanmeldung und -gebühr nicht enthalten.",
+    "note2": "Prüfungsvorbereitungskurs — du solltest bereits nah an B1 dran sein."
+  },
+  "oncall": {
+    "kicker": "Auf Anfrage",
+    "title": "Brauchst du eine individuellere Vorbereitung?",
+    "text": "Individuelle telc-B1-Stunden sind auf Anfrage verfügbar und können sich gezielt auf deinen Prüfungstermin, dein aktuelles Niveau und deine schwierigsten Bereiche konzentrieren.",
+    "cta": "Individuelle Stunden anfragen"
+  },
+  "faq": {
+    "eyebrow": "Fragen",
+    "title": "Bevor du dabei bist.",
+    "items": [
+      {
+        "q": "Ist dieser Kurs das Richtige für mich?",
+        "a": "Er ist genau richtig für dich, wenn du die telc-B1-Prüfung ablegen willst und genau wissen möchtest, was in jedem Teil passiert. Es ist Prüfungsvorbereitung, kein kompletter A2-bis-B1-Sprachkurs."
+      },
+      {
+        "q": "Muss ich schon auf B1-Niveau sein?",
+        "a": "Du solltest bereits nah an B1 dran sein. Der Kurs bereitet dich auf das Prüfungsformat und die Aufgaben vor, er bringt dir das Niveau nicht von Grund auf bei."
+      },
+      {
+        "q": "Ist die offizielle telc-Prüfung im Kurs enthalten?",
+        "a": "Nein. Anmeldung und Prüfungsgebühr werden separat mit deinem Prüfungszentrum geregelt."
+      },
+      {
+        "q": "Welche Prüfungsteile üben wir?",
+        "a": "Alle: Lesen und Sprachbausteine, Hören, Schreiben und Sprechen."
+      },
+      {
+        "q": "Bekomme ich Feedback?",
+        "a": "Ja. Du bekommst Feedback zu deinen Schreibaufgaben und zu deiner Sprechpraxis während des Kurses."
+      },
+      {
+        "q": "Machen wir eine Prüfungssimulation?",
+        "a": "Ja. Der Kurs endet mit einer realistischen Simulation unter Prüfungsbedingungen."
+      },
+      {
+        "q": "Kannst du garantieren, dass ich bestehe?",
+        "a": "Nein. Kein Kurs kann ein Ergebnis garantieren. Der Kurs sorgt dafür, dass du das Format, die Bewertung und die Aufgaben vor dem Prüfungstag genau kennst."
+      },
+      {
+        "q": "Gibt es individuellen Unterricht?",
+        "a": "Ja, auf Anfrage. Er kann sich gezielt auf deinen Prüfungstermin, dein Niveau und deine schwierigsten Bereiche konzentrieren."
+      }
+    ]
+  },
+  "final": {
+    "eyebrow": "Dein nächster Schritt",
+    "title": "Dein Prüfungstermin steht fest. Deine Vorbereitung sollte es auch.",
+    "text": "Steig in den nächsten Vier-Wochen-Kurs ein und geh in deine telc-B1-Prüfung, ohne Zweifel, was zu tun ist.",
+    "ctaPrimary": "Jetzt Platz sichern →",
+    "ctaSecondary": "Individuelle Stunden anfragen"
+  },
+  "footer": {
+    "tagline": "1:1 Online-Speaking-Coaching mit Jonas.",
+    "contactTitle": "Kontakt",
+    "legalTitle": "Rechtliches",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "cookieSettings": "Cookie-Einstellungen",
+    "whatsapp": "Schreib mir gerne direkt auf WhatsApp",
+    "rights": "Deutsch mit Jonas"
+  },
+  "whatsapp": {
+    "label": "Auf WhatsApp schreiben"
+  }
+}

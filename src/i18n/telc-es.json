@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "Curso de preparación telc B1 – Alemán con Jonas",
+    "description": "Curso en vivo de 4 semanas para preparar el examen telc B1 con Jonas. Aprende qué suma puntos, practica cada parte del examen en condiciones realistas y llega al día del examen sabiendo exactamente qué hacer."
+  },
+  "nav": {
+    "skills": "Partes del examen",
+    "course": "El curso",
+    "teacher": "Tu profesor",
+    "pricing": "Precio",
+    "faq": "Preguntas",
+    "startNow": "Empezar ahora"
+  },
+  "hero": {
+    "eyebrow": "En vivo · Preparación telc B1 de 4 semanas",
+    "headline": "Aprueba tu examen telc B1 con un plan claro.",
+    "subline": "Aprende qué suma puntos, practica cada parte del examen en condiciones realistas y llega al día del examen sabiendo exactamente qué hacer.",
+    "caption": "En vivo, online · 4 semanas · 270 €",
+    "cta": "Empezar ahora ↓",
+    "badgeLive": "En vivo",
+    "badgeNextCohort": "Próximo grupo",
+    "badgeTitle": "Cada mes empieza un grupo nuevo.",
+    "badgeDate": "Comienza el 6 de octubre de 2026"
+  },
+  "trust": [
+    { "value": "4–6 M", "label": "estudiantes cada mes" },
+    { "value": "500K+", "label": "seguidores en redes sociales" },
+    { "value": "10+ años", "label": "de experiencia docente" }
+  ],
+  "skillsSection": {
+    "title": "Un curso de 4 semanas. Cada parte de tu examen telc B1.",
+    "sub": "Todo lo que necesitas para preparar comprensión lectora, comprensión auditiva, elementos gramaticales, expresión escrita y expresión oral.",
+    "cards": [
+      {
+        "image": "/brand_assets/telc-b1/speaking.jpg",
+        "title": "Hablar",
+        "text": "Preséntate, comenta un tema y planea algo junto a un compañero."
+      },
+      {
+        "image": "/brand_assets/telc-b1/listening.jpg",
+        "title": "Escuchar",
+        "text": "Sigue conversaciones, entrevistas y anuncios sin perder el hilo."
+      },
+      {
+        "image": "/brand_assets/telc-b1/writing.jpg",
+        "title": "Escribir",
+        "text": "Responde a cada punto requerido y estructura tu mensaje con claridad."
+      },
+      {
+        "image": "/brand_assets/telc-b1/reading-language.jpg",
+        "title": "Leer y elementos gramaticales",
+        "text": "Comprende textos de forma eficiente y elige la gramática y el vocabulario correctos bajo presión de tiempo."
+      }
+    ]
+  },
+  "courseSection": {
+    "title": "El curso",
+    "sub": "Clases en vivo estructuradas, materiales completos y un grupo con el que avanzar.",
+    "features": [
+      {
+        "image": "/brand_assets/telc-b1/live-classes.jpg",
+        "title": "Clases en vivo dos veces por semana",
+        "text": "Dos sesiones en vivo cada semana, en un grupo pequeño, con feedback directo — la estructura justa para avanzar de verdad en cuatro semanas."
+      },
+      {
+        "image": "/brand_assets/telc-b1/materials.jpg",
+        "title": "Materiales del curso",
+        "text": "Un cuaderno de ejercicios completo más ejercicios adicionales para cada parte del examen, para que siempre sepas en qué trabajar a continuación."
+      },
+      {
+        "image": "/brand_assets/telc-b1/community.jpg",
+        "title": "Comunidad y soporte por WhatsApp",
+        "text": "Mantente conectado con tu grupo en un chat compartido de WhatsApp: haz preguntas, comparte tu progreso y motívense mutuamente."
+      }
+    ],
+    "banner": {
+      "title": "Empieza hoy tu curso telc B1 de 4 semanas.",
+      "text": "Todo lo que necesitas para el día del examen, en un plan claro.",
+      "cta": "Empezar ahora →"
+    }
+  },
+  "teacher": {
+    "title": "Tu profesor",
+    "sub": "Un profesor que sabe exactamente dónde te atascas.",
+    "stats": [
+      {
+        "value": "10+ años",
+        "title": "Enseñando alemán, online y presencial.",
+        "bullets": [
+          "Todos los niveles, de A1 a C1",
+          "La preparación de exámenes es un foco central",
+          "Clases individuales y grupales",
+          "Materiales didácticos en constante mejora"
+        ]
+      },
+      {
+        "value": "5 idiomas",
+        "title": "Alemán, inglés, español, neerlandés, italiano.",
+        "bullets": [
+          "Aprendió cada uno de ellos siendo adulto",
+          "Sabe exactamente dónde se atascan los estudiantes",
+          "Perspectiva multilingüe sobre gramática y speaking"
+        ]
+      },
+      {
+        "value": "Enfoque práctico",
+        "title": "Comunicación real primero, reglas gramaticales después.",
+        "bullets": [
+          "Situaciones reales, no ejercicios de libro de texto",
+          "Feedback directo y estructurado",
+          "Confianza antes que perfección"
+        ]
+      },
+      {
+        "value": "500K+",
+        "title": "Siguen el método en redes sociales.",
+        "bullets": [
+          "Activo en YouTube, Instagram y TikTok",
+          "Método probado con estudiantes de todo el mundo"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Comunidad",
+    "title": "Lo que opinan otros estudiantes.",
+    "items": [
+      {
+        "avatar": "A",
+        "name": "Dr. Alejandro M.",
+        "role": "Clases individuales · Preparación de examen médico",
+        "quote": "Dank Jonas habe ich meine Fachsprachprüfung souverän bestanden. Die Arzt-Patient-Simulationen waren extrem realitätsnah."
+      },
+      {
+        "avatar": "I",
+        "name": "Igor Z.",
+        "role": "Clases individuales · Alemán técnico",
+        "quote": "Perfekter Unterricht für Ingenieure. Mein Fachdeutsch für Meetings und Präsentationen hat sich extrem verbessert."
+      },
+      {
+        "avatar": "M",
+        "name": "Mira K.",
+        "role": "Clases individuales · telc C1 para la universidad",
+        "quote": "Sehr strukturiert, intensiv und durch seine Art extrem viel Spaß gemacht. Absolute Empfehlung."
+      },
+      {
+        "avatar": "E",
+        "name": "Elia",
+        "role": "Clases individuales · Preparación examen B1",
+        "quote": "Gut strukturiert und genau das, was ich für meine B1-Prüfung gebraucht habe."
+      },
+      {
+        "avatar": "S",
+        "name": "Sara",
+        "role": "Clases individuales",
+        "quote": "Nach drei Monaten sehe ich echten Fortschritt. Ich fühle mich beim Deutschsprechen viel sicherer."
+      },
+      {
+        "avatar": "S",
+        "name": "Silvio",
+        "role": "Clases individuales",
+        "quote": "Sehr geduldig und gut strukturiert. Er ermutigt einen, viel zu sprechen, praxisnahes Lernen."
+      }
+    ]
+  },
+  "details": {
+    "badgeCircle": "Todo lo que necesitas",
+    "kicker": "El curso",
+    "headingBlack": "4 semanas.",
+    "headingOrange": "Un plan claro.",
+    "sub": "En vivo, online. Empieza pronto.",
+    "pills": [
+      "Martes y jueves · 19:00–21:00 h",
+      "120 minutos por sesión · 8 sesiones en total",
+      "Máx. 10 personas por grupo"
+    ],
+    "dates": "6 / 8 / 13 / 15 / 20 / 22 / 27 / 29 de octubre de 2026",
+    "list": [
+      "Clases en vivo online dos veces por semana",
+      "Evaluación diagnóstica inicial",
+      "Estrategias para cada parte del examen",
+      "Práctica de speaking y writing con feedback",
+      "Simulación final realista del examen",
+      "Materiales del curso incluidos"
+    ],
+    "price": "270 €",
+    "priceUnit": "por persona",
+    "cta": "Reservar mi plaza",
+    "note1": "Plazas limitadas por grupo. Inscripción y tasa del examen no incluidas.",
+    "note2": "Curso de preparación de examen: deberías estar ya cerca del nivel B1."
+  },
+  "oncall": {
+    "kicker": "Bajo petición",
+    "title": "¿Necesitas una preparación más personalizada?",
+    "text": "Las clases individuales de telc B1 están disponibles bajo petición y pueden centrarse en tu fecha de examen, tu nivel actual y las partes que más se te dificultan.",
+    "cta": "Solicitar clases individuales"
+  },
+  "faq": {
+    "eyebrow": "Preguntas",
+    "title": "Antes de apuntarte.",
+    "items": [
+      {
+        "q": "¿Es este curso adecuado para mí?",
+        "a": "Es adecuado para ti si planeas presentarte al examen telc B1 y quieres saber exactamente qué ocurre en cada parte. Es preparación de examen, no un curso completo de alemán de A2 a B1."
+      },
+      {
+        "q": "¿Ya necesito tener nivel B1?",
+        "a": "Deberías estar ya cerca del nivel B1. El curso te prepara para el formato y las tareas del examen, no enseña el nivel desde cero."
+      },
+      {
+        "q": "¿Incluye el examen oficial telc?",
+        "a": "No. La inscripción y la tasa del examen se gestionan por separado con tu centro examinador."
+      },
+      {
+        "q": "¿Qué partes del examen practicaremos?",
+        "a": "Todas: comprensión lectora y elementos gramaticales, comprensión auditiva, expresión escrita y expresión oral."
+      },
+      {
+        "q": "¿Recibiré feedback?",
+        "a": "Sí. Recibes feedback sobre tus tareas de escritura y sobre tu práctica de speaking durante el curso."
+      },
+      {
+        "q": "¿Haremos un examen simulado?",
+        "a": "Sí. El curso termina con una simulación realista en condiciones de examen."
+      },
+      {
+        "q": "¿Puedes garantizar que aprobaré?",
+        "a": "No. Ningún curso puede garantizar un resultado. Lo que sí hace el curso es asegurarse de que conozcas el formato, la evaluación y las tareas antes del día del examen."
+      },
+      {
+        "q": "¿Hay clases individuales disponibles?",
+        "a": "Sí, bajo petición. Pueden centrarse en tu fecha de examen, tu nivel y las partes que más se te dificultan."
+      }
+    ]
+  },
+  "final": {
+    "eyebrow": "Tu próximo paso",
+    "title": "Tu fecha de examen ya está fijada. Tu preparación también debería estarlo.",
+    "text": "Apúntate al próximo curso de cuatro semanas y llega a tu examen telc B1 sabiendo exactamente qué hacer.",
+    "ctaPrimary": "Reservar mi plaza →",
+    "ctaSecondary": "Solicitar clases individuales"
+  },
+  "footer": {
+    "tagline": "Coaching de speaking online 1:1 con Jonas.",
+    "contactTitle": "Contacto",
+    "legalTitle": "Aviso legal",
+    "impressum": "Aviso legal",
+    "datenschutz": "Privacidad",
+    "cookiePolicy": "Política de cookies",
+    "cookieSettings": "Configuración de cookies",
+    "whatsapp": "Escríbeme directamente por WhatsApp",
+    "rights": "Deutsch mit Jonas"
+  },
+  "whatsapp": {
+    "label": "Escribir por WhatsApp"
+  }
+}
