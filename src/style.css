@@ -443,7 +443,19 @@ section { padding: var(--space-7) 0; }
 /* ============================================================
    Evidence-based learning
    ============================================================ */
-.evidence { background: var(--color-white); border-top: var(--border); border-bottom: var(--border); }
+.evidence { position: relative; overflow: hidden; background: var(--color-white); border-top: var(--border); border-bottom: var(--border); }
+.evidence::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/brand_assets/patterns/orange-dots.png');
+  background-repeat: repeat;
+  background-size: 260px auto;
+  opacity: .06;
+  pointer-events: none;
+  z-index: 0;
+}
+.evidence .container { position: relative; z-index: 1; }
 .evidence-badge {
   display: inline-flex;
   align-items: center;
@@ -508,6 +520,20 @@ section { padding: var(--space-7) 0; }
 /* ============================================================
    Skills ("Was du bei mir lernst")
    ============================================================ */
+#skills { position: relative; overflow: hidden; }
+#skills::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/brand_assets/patterns/orange-dots.png');
+  background-repeat: repeat;
+  background-size: 260px auto;
+  opacity: .07;
+  pointer-events: none;
+  z-index: 0;
+}
+#skills .container { position: relative; z-index: 1; }
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
