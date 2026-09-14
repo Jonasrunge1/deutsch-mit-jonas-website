@@ -32,7 +32,8 @@ export default defineConfig({
         es: 'es/index.html',
         impressum: 'impressum.html',
         datenschutz: 'datenschutz.html',
-        cookiePolicy: 'cookie-policy.html'
+        cookiePolicy: 'cookie-policy.html',
+        telcB1Kurs: 'telc-b1-kurs.html'
       }
     }
   }

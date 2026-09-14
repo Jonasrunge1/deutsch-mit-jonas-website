@@ -226,9 +226,11 @@
         "soon": false
       },
       {
-        "title": "German Speaking Club",
-        "text": "Small groups, real conversation topics and regular speaking practice. Ideal if you want to speak more, but do not always need 1:1 lessons.",
-        "soon": true
+        "title": "telc B1 Exam Prep Course",
+        "text": "A live course with a clear plan for your telc B1 exam: every exam section, real feedback, and a realistic final simulation.",
+        "badge": "Live · 4 weeks",
+        "href": "/telc-b1-kurs.html",
+        "ctaLabel": "See course details"
       }
     ]
   },

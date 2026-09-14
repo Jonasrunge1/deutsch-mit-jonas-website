@@ -194,15 +194,19 @@ function courseCards(cards, duration) {
 
 function offerCards(cards, ctaButton, comingSoon) {
   return cards
-    .map(
-      (card) => `
+    .map((card) => {
+      const href = card.href || CALENDLY_URL;
+      const external = !card.href;
+      const label = card.ctaLabel || ctaButton;
+      const badge = card.badge || (card.soon ? comingSoon : null);
+      return `
       <div class="offer-card reveal">
-        ${card.soon ? `<span class="tag tag--soon">${esc(comingSoon)}</span>` : ''}
+        ${badge ? `<span class="tag tag--soon">${esc(badge)}</span>` : ''}
         <h3>${esc(card.title)}</h3>
         <p>${esc(card.text)}</p>
-        <a class="btn btn--block" href="${CALENDLY_URL}" target="_blank" rel="noopener">${esc(ctaButton)}</a>
-      </div>`
-    )
+        <a class="btn btn--block" href="${esc(href)}"${external ? ' target="_blank" rel="noopener"' : ''}>${esc(label)}</a>
+      </div>`;
+    })
     .join('');
 }
 

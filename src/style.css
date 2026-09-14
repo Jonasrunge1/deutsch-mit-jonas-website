@@ -1248,3 +1248,385 @@ section { padding: var(--space-7) 0; }
   .cookie-banner-actions { flex-direction: column; align-items: stretch; }
   .cookie-banner-actions .btn { width: 100%; }
 }
+
+/* ============================================================
+   telc B1 course page
+   Rebuilt 1:1 from the telc-b1 Claude Design export (bundled
+   preview + _ds tokens). Own, independent visual language for
+   this page: soft shadows and pill buttons, not the brutalist
+   hard-offset-shadow system used on the rest of the site.
+   Section backgrounds alternate creme / near-white in bands;
+   the boundary between bands gets a 48px curve, -48px overlap,
+   raised z-index and a hairline shadow instead of a hard edge.
+   ============================================================ */
+.telc-page { background: var(--color-creme); }
+
+/* Page-scoped header override: white, floating, soft shadow (no border) */
+body.telc-page .site-header {
+  background: var(--color-white);
+  border-bottom: none;
+  box-shadow: 0 14px 34px rgba(26, 26, 26, 0.1);
+}
+
+.telc-band { position: relative; padding: var(--space-7) 0; }
+.telc-band--creme { background: var(--color-creme); }
+.telc-band--alt { background: var(--telc-alt, #FBF9F9); }
+.telc-band--transparent { background: transparent; padding-top: 0; }
+.telc-curve {
+  border-radius: 48px 48px 0 0;
+  margin-top: -48px;
+  z-index: 2;
+  box-shadow: 0 -2px 0 rgba(26, 26, 26, 0.06);
+}
+
+@media (max-width: 720px) {
+  .telc-band { padding: var(--space-6) 0; }
+  .telc-curve { border-radius: 32px 32px 0 0; margin-top: -32px; }
+}
+
+.telc-head { max-width: 640px; margin: 0 0 var(--space-6); }
+.telc-head.center { margin-inline: auto; text-align: center; }
+.telc-head h2 { font-size: 32px; margin-bottom: var(--space-2); letter-spacing: -.02em; }
+.telc-head p { font-size: 17px; opacity: .75; }
+
+.telc-eyebrow {
+  display: block;
+  font-size: 13px;
+  font-weight: var(--fw-black);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--color-orange);
+  margin-bottom: var(--space-2);
+}
+
+/* ---- Buttons: pill, no border, soft shadow ---- */
+.telc-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: var(--fw-bold);
+  font-size: 17px;
+  cursor: pointer;
+  background: var(--color-orange);
+  color: var(--color-black);
+  border: none;
+  border-radius: 999px;
+  padding: 16px 30px;
+  box-shadow: 0 8px 20px rgba(255, 136, 26, .32);
+  transition: transform .15s ease, box-shadow .15s ease;
+  white-space: nowrap;
+}
+.telc-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(255, 136, 26, .4); }
+.telc-btn--ghost { background: var(--color-white); box-shadow: 0 6px 18px rgba(26, 26, 26, .1); }
+.telc-btn--ghost:hover { box-shadow: 0 10px 24px rgba(26, 26, 26, .16); }
+.telc-btn--block { width: 100%; }
+.telc-btn--sm { padding: 11px 22px; font-size: 14px; box-shadow: 0 5px 14px rgba(255, 136, 26, .3); }
+
+@media (max-width: 640px) {
+  .telc-btn { white-space: normal; text-align: center; }
+}
+
+/* ---- Content surfaces: white, thin light border, soft shadow ---- */
+.telc-card {
+  background: var(--color-white);
+  border: 1px solid rgba(26, 26, 26, .08);
+  border-radius: 22px;
+  box-shadow: 0 8px 24px rgba(26, 26, 26, .06);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.telc-card:hover { transform: translateY(-4px); box-shadow: 0 16px 36px rgba(26, 26, 26, .1); }
+.telc-card--elevated { box-shadow: 0 22px 52px rgba(26, 26, 26, .13); }
+.telc-card--testimonial { border-radius: 18px; box-shadow: 0 6px 18px rgba(26, 26, 26, .06); }
+
+/* ---- Glass surfaces (floating badges, callouts) ---- */
+.telc-glass {
+  background: rgba(255, 255, 255, .68);
+  border: 1px solid rgba(255, 255, 255, .6);
+  border-radius: 26px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 14px 34px rgba(26, 26, 26, .12), 0 0 40px rgba(255, 136, 26, .18);
+}
+
+/* ---- Hero ---- */
+.telc-hero { overflow: hidden; }
+.telc-hero .container {
+  display: grid;
+  grid-template-columns: 1fr .95fr;
+  gap: var(--space-6);
+  align-items: center;
+  position: relative;
+}
+.telc-hero-blob {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--color-orange);
+  filter: blur(70px);
+  opacity: .18;
+  pointer-events: none;
+  z-index: 0;
+}
+.telc-hero-blob--1 { width: 340px; height: 340px; top: -140px; left: -120px; }
+.telc-hero-blob--2 { width: 220px; height: 220px; bottom: -80px; left: 20%; opacity: .12; }
+
+.telc-hero-copy { position: relative; z-index: 1; }
+.telc-hero-copy h1 { font-size: 48px; margin: 0 0 var(--space-3); letter-spacing: -.02em; line-height: 1.08; }
+.telc-hero-subline { font-size: 18px; opacity: .8; max-width: 480px; margin-bottom: var(--space-2); }
+.telc-hero-caption { font-size: 14px; font-weight: var(--fw-medium); opacity: .6; margin-bottom: var(--space-5); }
+
+.telc-hero-visual { position: relative; z-index: 1; }
+.telc-hero-photo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 0 0 0 64px;
+  overflow: hidden;
+}
+.telc-hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 15%; }
+.telc-hero-badge {
+  position: absolute;
+  bottom: -22px;
+  left: -22px;
+  padding: 14px 18px;
+  max-width: 240px;
+}
+.telc-hero-badge-top { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.telc-live-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--color-black);
+  color: var(--color-white);
+  font-size: 11px;
+  font-weight: var(--fw-bold);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+.telc-live-tag .dot { width: 7px; height: 7px; border-radius: 50%; background: #3ecf6a; }
+.telc-hero-badge-top span:last-child { font-size: 12.5px; font-weight: var(--fw-medium); opacity: .6; }
+.telc-hero-badge strong { display: block; font-size: 14px; font-weight: var(--fw-bold); color: var(--color-orange); margin-bottom: 2px; }
+.telc-hero-badge span.date { font-size: 12.5px; opacity: .6; }
+
+@media (max-width: 860px) {
+  .telc-hero .container { grid-template-columns: 1fr; }
+  .telc-hero-visual { order: -1; margin-bottom: var(--space-7); }
+  .telc-hero-copy h1 { font-size: 34px; }
+  .telc-hero-photo { aspect-ratio: 4 / 3; border-radius: 24px; max-width: 420px; margin: 0 auto; }
+}
+
+/* ---- Trust bar ---- */
+.telc-trust-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin-bottom: var(--space-7);
+}
+.telc-trust-tile { padding: 0 var(--space-3); border-left: 1px solid rgba(26, 26, 26, .12); }
+.telc-trust-tile:first-child { border-left: none; }
+.telc-trust-value { display: block; font-size: 26px; font-weight: var(--fw-black); color: var(--color-orange); margin-bottom: 4px; }
+.telc-trust-label { display: block; font-size: 14px; font-weight: var(--fw-medium); opacity: .7; }
+
+@media (max-width: 720px) {
+  .telc-trust-grid { grid-template-columns: 1fr; gap: var(--space-3); margin-bottom: var(--space-6); }
+  .telc-trust-tile { border-left: none; border-top: 1px solid rgba(26, 26, 26, .12); padding-top: var(--space-3); }
+  .telc-trust-tile:first-child { border-top: none; padding-top: 0; }
+}
+
+/* ---- Exam skill cards ---- */
+.telc-skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+}
+.telc-skill-card { overflow: hidden; padding: 0; display: flex; flex-direction: column; }
+.telc-skill-photo { aspect-ratio: 4 / 3; overflow: hidden; }
+.telc-skill-photo img { width: 100%; height: 100%; object-fit: cover; }
+.telc-skill-body { padding: var(--space-4); display: flex; flex-direction: column; gap: 6px; flex-grow: 1; }
+.telc-skill-meta { font-size: 12px; font-weight: var(--fw-bold); text-transform: uppercase; letter-spacing: .04em; color: var(--color-orange); }
+.telc-skill-card h3 { font-size: 19px; }
+.telc-skill-card p { font-size: 14.5px; opacity: .75; }
+
+@media (max-width: 980px) {
+  .telc-skills-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .telc-skills-grid { grid-template-columns: 1fr; }
+}
+
+/* ---- Course content features ---- */
+.telc-features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+.telc-feature-card { overflow: hidden; padding: 0; }
+.telc-feature-photo { aspect-ratio: 4 / 3; overflow: hidden; }
+.telc-feature-photo img { width: 100%; height: 100%; object-fit: cover; }
+.telc-feature-body { padding: var(--space-4); }
+.telc-feature-card h3 { font-size: 18px; margin-bottom: 6px; }
+.telc-feature-card p { font-size: 14.5px; opacity: .75; }
+
+@media (max-width: 860px) {
+  .telc-features-grid { grid-template-columns: 1fr; }
+}
+
+/* ---- Mid-page CTA banner ---- */
+.telc-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  padding: var(--space-5) var(--space-6);
+  margin-bottom: var(--space-7);
+}
+.telc-banner h3 { font-size: 22px; margin-bottom: 4px; }
+.telc-banner p { font-size: 15px; opacity: .75; }
+
+/* ---- Teacher ---- */
+.telc-teacher-layout {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: var(--space-6);
+  align-items: center;
+}
+.telc-teacher-photo {
+  max-width: 320px;
+  justify-self: center;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 22px 52px rgba(26, 26, 26, .13);
+}
+.telc-teacher-photo img { aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 15%; display: block; }
+.telc-teacher-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+}
+.telc-teacher-stat { padding: var(--space-4); }
+.telc-teacher-stat-value { font-size: 24px; font-weight: var(--fw-black); color: var(--color-orange); margin-bottom: 2px; }
+.telc-teacher-stat-title { font-size: 15.5px; font-weight: var(--fw-bold); margin-bottom: var(--space-2); }
+.telc-teacher-stat ul { display: flex; flex-direction: column; gap: 6px; }
+.telc-teacher-stat li { font-size: 13.5px; opacity: .75; padding-left: 14px; position: relative; }
+.telc-teacher-stat li::before { content: '•'; position: absolute; left: 0; color: var(--color-orange); font-weight: var(--fw-black); }
+
+@media (max-width: 860px) {
+  .telc-teacher-layout { grid-template-columns: 1fr; }
+  .telc-teacher-photo { margin-bottom: var(--space-5); }
+}
+@media (max-width: 560px) {
+  .telc-teacher-stats { grid-template-columns: 1fr; }
+}
+
+/* ---- Testimonials ---- */
+.telc-testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+}
+.telc-testimonial-card { padding: var(--space-4); display: flex; flex-direction: column; gap: var(--space-3); }
+.telc-testimonial-head { display: flex; align-items: center; gap: var(--space-2); }
+.telc-testimonial-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--fw-black);
+  font-size: 15px;
+  color: var(--color-black);
+  flex-shrink: 0;
+}
+.telc-testimonial-name { font-size: 15px; font-weight: var(--fw-bold); }
+.telc-testimonial-role { font-size: 12.5px; opacity: .6; }
+.telc-testimonial-card p { font-size: 14.5px; opacity: .82; }
+.telc-testimonial-heart { color: var(--color-orange); font-size: 13px; opacity: .7; }
+
+@media (max-width: 980px) {
+  .telc-testimonial-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .telc-testimonial-grid { grid-template-columns: 1fr; }
+}
+
+/* ---- Course details / pricing ---- */
+.telc-details-wrap { max-width: 640px; margin: 0 auto; }
+.telc-details-card { padding: var(--space-6); border-radius: 26px; }
+.telc-details-schedule { font-size: 16px; font-weight: var(--fw-bold); margin-bottom: 2px; }
+.telc-details-sub { font-size: 13.5px; opacity: .6; margin-bottom: var(--space-4); line-height: 1.6; }
+.telc-details-list { display: flex; flex-direction: column; gap: var(--space-2); margin-bottom: var(--space-5); }
+.telc-details-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 15px; font-weight: var(--fw-medium); }
+.telc-details-list li::before {
+  content: '✓';
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(255, 136, 26, .15);
+  color: var(--color-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: var(--fw-black);
+  margin-top: 1px;
+}
+.telc-details-price-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  border-top: 1px dashed rgba(26, 26, 26, .15);
+  padding-top: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+.telc-details-price { font-size: 38px; font-weight: var(--fw-black); }
+.telc-details-price span { font-size: 14px; font-weight: var(--fw-bold); opacity: .6; }
+.telc-details-note { font-size: 13px; opacity: .6; margin-top: var(--space-3); text-align: center; }
+.telc-details-legal { font-size: 12.5px; opacity: .5; margin-top: var(--space-3); text-align: center; }
+.telc-details-legal a { text-decoration: underline; color: inherit; }
+.telc-details-legal a:hover { color: var(--color-orange); }
+
+.telc-oncall {
+  max-width: 640px;
+  margin: var(--space-5) auto 0;
+  padding: var(--space-5) var(--space-6);
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+.telc-oncall-eyebrow { font-size: 11.5px; font-weight: var(--fw-black); letter-spacing: .08em; text-transform: uppercase; color: var(--color-orange); margin-bottom: 4px; }
+.telc-oncall-title { font-size: 15px; font-weight: var(--fw-bold); margin-bottom: 2px; }
+.telc-oncall p { font-size: 13.5px; opacity: .7; max-width: 380px; }
+
+/* ---- FAQ (soft variant for this page) ---- */
+body.telc-page .faq-item {
+  background: var(--color-white);
+  border: 1px solid rgba(26, 26, 26, .08);
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(26, 26, 26, .05);
+}
+body.telc-page .faq-icon {
+  background: rgba(255, 136, 26, .15);
+  color: var(--color-orange);
+  border: none;
+}
+
+/* ---- Final CTA ---- */
+.telc-final .container { text-align: center; max-width: 640px; }
+.telc-final h2 { font-size: 32px; margin-bottom: var(--space-3); letter-spacing: -.02em; }
+.telc-final p { font-size: 17px; opacity: .75; margin-bottom: var(--space-5); }
+.telc-final-actions { display: flex; justify-content: center; gap: var(--space-3); flex-wrap: wrap; }
+
+/* ---- Footer (page-scoped near-white variant) ---- */
+body.telc-page .site-footer.telc-band--alt { background: var(--telc-alt, #FBF9F9); }
