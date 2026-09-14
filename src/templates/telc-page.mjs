@@ -142,7 +142,7 @@ ${faviconTags()}
         </ul>
       </nav>
 
-      <div class="header-actions">
+      <div class="header-actions">${langSwitcher(lang, pageLangs)}
         <a class="telc-btn telc-btn--sm" href="${STRIPE_URL}" target="_blank" rel="noopener">${esc(t.nav.startNow)}</a>
         <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
           <svg viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>

@@ -227,14 +227,16 @@ section { padding: var(--space-7) 0; }
   .nav-toggle { width: 36px; height: 36px; }
 }
 
-/* The telc page keeps its header CTA visible at every width (unlike the
-   homepage, which hides .btn--header below 640px) — so it needs its own,
-   earlier shrink to stop the brand lockup from wrapping onto 3 lines. */
+/* Now that the telc header also carries the lang switcher, mirror the
+   homepage exactly: hide the header CTA below 640px so brand + lang
+   switcher + hamburger have room (same breakpoint as .btn--header). */
+@media (max-width: 640px) {
+  .header-actions .telc-btn--sm { display: none; }
+}
 @media (max-width: 480px) {
   body.telc-page .brand { font-size: 15px; gap: 6px; white-space: nowrap; }
   body.telc-page .brand-logo { width: 30px; height: 30px; }
   body.telc-page .header-actions { gap: 6px; }
-  body.telc-page .telc-btn--sm { padding: 8px 14px; font-size: 13px; }
   body.telc-page .nav-toggle { width: 36px; height: 36px; }
 }
 
