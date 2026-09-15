@@ -1,4 +1,4 @@
-import { WHATSAPP_URL, esc, faviconTags, hreflangTags, langSwitcher, whatsappFloat } from './shared.mjs';
+import { WHATSAPP_URL, esc, picture, faviconTags, hreflangTags, langSwitcher, whatsappFloat } from './shared.mjs';
 
 const STRIPE_URL = 'https://buy.stripe.com/bJedRbfDXbfW7Mw3hD53O00';
 
@@ -26,7 +26,7 @@ function skillCards(cards) {
     .map(
       (c) => `
           <div class="telc-skill-card telc-card">
-            <div class="telc-skill-photo"><img src="${esc(c.image)}" alt="" /></div>
+            <div class="telc-skill-photo">${picture(c.image, { sizes: '(max-width: 640px) 50vw, 280px' })}</div>
             <div class="telc-skill-body">
               <h3>${esc(c.title)}</h3>
               <p>${esc(c.text)}</p>
@@ -41,7 +41,7 @@ function featureCards(features) {
     .map(
       (f) => `
           <div class="telc-feature-card telc-card">
-            <div class="telc-feature-photo"><img src="${esc(f.image)}" alt="" /></div>
+            <div class="telc-feature-photo">${picture(f.image, { sizes: '(max-width: 640px) 50vw, 280px' })}</div>
             <div class="telc-feature-body">
               <h3>${esc(f.title)}</h3>
               <p>${esc(f.text)}</p>
@@ -171,7 +171,7 @@ ${faviconTags()}
 
         <div class="telc-hero-visual">
           <div class="telc-hero-photo">
-            <img src="/brand_assets/telc-b1/hero-bestanden-berlin.jpg" alt="Learner celebrating with her passed telc certificate on a Berlin street" />
+            ${picture('/brand_assets/telc-b1/hero-bestanden-berlin.jpg', { alt: 'Learner celebrating with her passed telc certificate on a Berlin street', sizes: '(max-width: 860px) 90vw, 620px', loading: 'eager' })}
           </div>
           <div class="telc-hero-badge telc-glass">
             <div class="telc-hero-badge-top">
@@ -220,7 +220,7 @@ ${faviconTags()}
 
         <div id="teacher" class="telc-teacher-layout">
           <div class="telc-teacher-photo">
-            <img src="/brand_assets/telc-b1/jonas-teacher.jpg" alt="Jonas, German teacher" />
+            ${picture('/brand_assets/telc-b1/jonas-teacher.jpg', { alt: 'Jonas, German teacher', sizes: '(max-width: 860px) 90vw, 420px' })}
           </div>
           <div>
             <div class="telc-head">
@@ -235,7 +235,7 @@ ${faviconTags()}
     </section>
 
     <!-- Testimonials -->
-    <section class="telc-band telc-band--transparent">
+    <section id="testimonials" class="telc-band telc-band--transparent">
       <div class="container">
         <div class="telc-head center">
           <span class="telc-eyebrow">${esc(t.testimonials.eyebrow)}</span>
@@ -252,7 +252,7 @@ ${faviconTags()}
         <div class="telc-details-wrap">
           <div class="telc-course-hero">
             <div class="telc-course-hero-photo">
-              <img src="/brand_assets/telc-b1/celebration.jpg" alt="Three learners jumping with their passed telc certificates" />
+              ${picture('/brand_assets/telc-b1/celebration.jpg', { alt: 'Three learners jumping with their passed telc certificates', sizes: '(max-width: 860px) 90vw, 480px' })}
             </div>
             <div class="telc-course-hero-body">
               <div class="telc-badge-circle">${esc(t.details.badgeCircle)}</div>

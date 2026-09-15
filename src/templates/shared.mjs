@@ -10,6 +10,48 @@ export const LANGUAGES = [
 export const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 export const icon = (name) => `/brand_assets/icons/${name}.svg`;
 
+// Original width + generated small-variant width (px) for every photo that has
+// WebP + resized siblings (see brand_assets/*/gen_webp.py output). Used by
+// picture() to build a correct srcset without probing the files at build time.
+const IMAGE_DIMS = {
+  'jonas-web.jpg': { ow: 933, sw: 480 },
+  'hero-bestanden-berlin.jpg': { ow: 1200, sw: 480 },
+  'jonas-teacher.jpg': { ow: 1400, sw: 480 },
+  'celebration.jpg': { ow: 896, sw: 480 },
+  'speaking.jpg': { ow: 1344, sw: 420 },
+  'listening.jpg': { ow: 1344, sw: 420 },
+  'writing.jpg': { ow: 1344, sw: 420 },
+  'reading-language.jpg': { ow: 1344, sw: 420 },
+  'live-classes.jpg': { ow: 896, sw: 420 },
+  'materials.jpg': { ow: 896, sw: 420 },
+  'community.jpg': { ow: 896, sw: 420 },
+};
+
+/**
+ * Renders a <picture> with a WebP source (+ small mobile variant) and a
+ * same-sized JPG fallback, so mobile doesn't download the full desktop
+ * resolution. Falls back to a plain <img> for photos without generated
+ * variants (e.g. non-photographic assets).
+ * @param {string} src - JPG path, e.g. '/brand_assets/telc-b1/speaking.jpg'
+ * @param {{alt?:string, className?:string, sizes?:string, loading?:'lazy'|'eager'}} [opts]
+ */
+export function picture(src, opts = {}) {
+  const { alt = '', className = '', sizes = '100vw', loading = 'lazy' } = opts;
+  const name = src.split('/').pop();
+  const dims = IMAGE_DIMS[name];
+  const cls = className ? ` class="${className}"` : '';
+  if (!dims) {
+    return `<img${cls} src="${src}" alt="${esc(alt)}" loading="${loading}" />`;
+  }
+  const base = src.replace(/\.jpg$/, '');
+  const { ow, sw } = dims;
+  return `<picture>
+            <source type="image/webp" srcset="${base}-${sw}w.webp ${sw}w, ${base}.webp ${ow}w" sizes="${sizes}" />
+            <source type="image/jpeg" srcset="${base}-${sw}w.jpg ${sw}w, ${base}.jpg ${ow}w" sizes="${sizes}" />
+            <img${cls} src="${src}" alt="${esc(alt)}" loading="${loading}" />
+          </picture>`;
+}
+
 export function faviconTags() {
   return `
   <link rel="icon" type="image/png" sizes="32x32" href="/brand_assets/favicon/favicon-32.png" />

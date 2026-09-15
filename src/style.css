@@ -4,6 +4,7 @@
    Base
    ============================================================ */
 * { box-sizing: border-box; }
+picture { display: block; width: 100%; height: 100%; }
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
@@ -269,17 +270,19 @@ section { padding: var(--space-7) 0; }
   position: absolute;
   pointer-events: none;
   z-index: 0;
-  opacity: .5;
+  opacity: .18;
+  filter: blur(1.5px);
 }
-.hero-ring--1 { width: 130px; top: 8%; left: 2%; transform: rotate(-8deg); }
-.hero-ring--2 { width: 90px; bottom: 10%; left: 14%; opacity: .35; transform: rotate(12deg); }
+.hero-ring--1 { width: 320px; top: -4%; left: -4%; transform: rotate(-8deg); }
+.hero-ring--2 { width: 220px; bottom: -2%; left: 10%; opacity: .14; transform: rotate(12deg); }
 
 .final-cta-ring {
   position: absolute;
-  width: 160px;
-  top: -40px;
-  right: 4%;
-  opacity: .1;
+  width: 380px;
+  top: -120px;
+  right: -6%;
+  opacity: .08;
+  filter: blur(1.5px);
   pointer-events: none;
   z-index: 0;
 }
@@ -584,6 +587,27 @@ section { padding: var(--space-7) 0; }
   z-index: 0;
 }
 #pricing .container { position: relative; z-index: 1; }
+
+/* Shared, used by both the homepage and the telc-b1 page */
+#faq, #about, #courses, #outcomes, #course, #testimonials {
+  position: relative;
+  overflow: hidden;
+}
+#faq::before, #about::before, #courses::before, #outcomes::before, #course::before, #testimonials::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/brand_assets/patterns/orange-dots.png');
+  background-repeat: repeat;
+  background-size: 260px auto;
+  opacity: .06;
+  pointer-events: none;
+  z-index: 0;
+}
+#faq .container, #about .container, #courses .container, #outcomes .container, #course .container, #testimonials .container {
+  position: relative;
+  z-index: 1;
+}
 
 .skills-grid {
   display: grid;
@@ -1461,10 +1485,11 @@ body.telc-page .site-header {
   position: absolute;
   pointer-events: none;
   z-index: 0;
-  opacity: .5;
+  opacity: .18;
+  filter: blur(1.5px);
 }
-.telc-hero-ring--1 { width: 130px; top: 6%; left: 2%; transform: rotate(-8deg); }
-.telc-hero-ring--2 { width: 90px; bottom: 8%; left: 12%; opacity: .35; transform: rotate(12deg); }
+.telc-hero-ring--1 { width: 320px; top: -6%; left: -4%; transform: rotate(-8deg); }
+.telc-hero-ring--2 { width: 220px; bottom: -4%; left: 8%; opacity: .14; transform: rotate(12deg); }
 
 .telc-hero-copy { position: relative; z-index: 1; }
 .telc-hero-copy h1 { font-size: 48px; margin: 0 0 var(--space-3); letter-spacing: -.02em; line-height: 1.08; }
@@ -1512,10 +1537,22 @@ body.telc-page .site-header {
 
 @media (max-width: 860px) {
   .telc-hero .container { grid-template-columns: 1fr; }
-  .telc-hero-visual { order: -1; margin-bottom: var(--space-7); }
+  .telc-hero-visual { order: -1; margin-bottom: var(--space-7); display: flex; flex-direction: column; align-items: center; }
   .telc-hero-copy h1 { font-size: 34px; }
   .telc-hero-photo { aspect-ratio: 4 / 3; border-radius: 24px; max-width: 420px; margin: 0 auto; }
   .telc-hero-photo img { object-position: 50% 22%; }
+}
+
+/* Below ~430px the fixed-size floating badge starts covering the
+   "BESTANDEN" text on the narrower photo, so it drops out of the
+   photo and sits as a stacked card instead. */
+@media (max-width: 430px) {
+  .telc-hero-badge {
+    position: static;
+    margin-top: -20px;
+    width: calc(100% - 24px);
+    max-width: 396px;
+  }
 }
 
 /* ---- Trust bar ---- */

@@ -1,4 +1,4 @@
-import { WHATSAPP_URL, esc, icon, faviconTags, hreflangTags, langSwitcher, whatsappFloat } from './shared.mjs';
+import { WHATSAPP_URL, esc, icon, picture, faviconTags, hreflangTags, langSwitcher, whatsappFloat } from './shared.mjs';
 
 function socialTiles(items) {
   return items
@@ -43,7 +43,7 @@ function skillCards(items) {
     .map(
       (s) => `
       <div class="skill-card reveal">
-        <div class="skill-photo"><img src="${s.image}" alt="" /></div>
+        <div class="skill-photo">${picture(s.image, { sizes: '(max-width: 640px) 50vw, 280px' })}</div>
         <div class="skill-body">
           <h3>${esc(s.title)}</h3>
           <p>${esc(s.text)}</p>
@@ -252,7 +252,7 @@ ${faviconTags()}
         <div class="hero-visual">
           <img class="hero-shape" src="/brand_assets/shapes/burst.svg" alt="" />
           <div class="hero-photo-frame">
-            <img class="photo-warm" src="/brand_assets/portrait-web/jonas-web.jpg" alt="Jonas, Deutschlehrer" />
+            ${picture('/brand_assets/portrait-web/jonas-web.jpg', { alt: 'Jonas, Deutschlehrer', className: 'photo-warm', sizes: '(max-width: 860px) 90vw, 420px', loading: 'eager' })}
           </div>
           <div class="hero-badge">
             <span class="dot"></span>
@@ -295,7 +295,7 @@ ${faviconTags()}
       <div class="container about-layout">
         <div class="about-visual reveal">
           <div class="about-photo">
-            <img class="photo-warm" src="/brand_assets/portrait-web/jonas-web.jpg" alt="Jonas" />
+            ${picture('/brand_assets/portrait-web/jonas-web.jpg', { alt: 'Jonas', className: 'photo-warm', sizes: '(max-width: 860px) 90vw, 320px' })}
           </div>
           <div class="about-badge about-badge--1">
             <span class="dot"></span>
