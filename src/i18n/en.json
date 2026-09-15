@@ -13,7 +13,7 @@
     "how": "How it works",
     "pricing": "Offers",
     "contact": "Contact",
-    "cta": "Message me"
+    "cta": "Message me on WhatsApp"
   },
   "hero": {
     "kicker": "Stop Studying, Start Speaking.",
@@ -25,7 +25,7 @@
         "badge": "Live course",
         "title": "telc B1",
         "text": "A structured 4-week course with a clear plan for your telc B1 exam.",
-        "cta": "See course details",
+        "cta": "Enroll now",
         "href": "/en/telc-b1-kurs",
         "external": false
       },
@@ -143,7 +143,7 @@
       "are tired of dry grammar exercises.",
       "want to speak without translating every sentence in your head first."
     ],
-    "closing": "Then just message me — we'll find the right way together."
+    "closing": "Message me on WhatsApp"
   },
   "benefits": {
     "title": "Why this method gets you speaking faster",
@@ -243,7 +243,7 @@
         "text": "A live course with a clear plan for your telc B1 exam: every exam section, real feedback, and a realistic final simulation.",
         "badge": "Live · 4 weeks",
         "href": "/en/telc-b1-kurs",
-        "ctaLabel": "See course details"
+        "ctaLabel": "Enroll now"
       }
     ]
   },
@@ -257,7 +257,7 @@
       "Have more natural small talk",
       "Speak more instead of only studying"
     ],
-    "ctaButton": "I want to talk to Jonas about this"
+    "ctaButton": "Message me on WhatsApp"
   },
   "faq": {
     "title": "Frequently asked questions",
@@ -322,10 +322,10 @@
     "datenschutz": "Privacy Policy",
     "cookiePolicy": "Cookie Policy",
     "cookieSettings": "Cookie Settings",
-    "whatsapp": "Feel free to message me directly on WhatsApp",
+    "whatsapp": "Message me on WhatsApp",
     "rights": "German with Jonas"
   },
   "whatsapp": {
-    "label": "Message on WhatsApp"
+    "label": "Message me on WhatsApp"
   }
 }

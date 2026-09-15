@@ -13,7 +13,7 @@
     "how": "Ablauf",
     "pricing": "Angebot",
     "contact": "Kontakt",
-    "cta": "Schreib mir"
+    "cta": "Auf WhatsApp schreiben"
   },
   "hero": {
     "kicker": "Hör auf zu lernen. Fang an zu sprechen.",
@@ -25,7 +25,7 @@
         "badge": "Live-Kurs",
         "title": "TELC B1",
         "text": "Strukturierter 4-Wochen-Kurs mit klarem Plan für deine telc-B1-Prüfung.",
-        "cta": "Kursdetails ansehen",
+        "cta": "Jetzt anmelden",
         "href": "/telc-b1-kurs",
         "external": false
       },
@@ -143,7 +143,7 @@
       "keine Lust mehr auf trockene Grammatikübungen hast.",
       "sprechen willst, ohne jeden Satz vorher im Kopf zu übersetzen."
     ],
-    "closing": "Dann schreib mir einfach – wir finden gemeinsam den passenden Weg."
+    "closing": "Auf WhatsApp schreiben"
   },
   "benefits": {
     "title": "Warum du mit dieser Methode schneller ins Sprechen kommst",
@@ -191,7 +191,7 @@
         "text": "In den Online-Stunden trainieren wir Aussprache, Reaktionen, Korrektur und freie Gespräche — passend zu deinem Level von A1 bis C1."
       }
     ],
-    "ctaButton": "Schreib mir auf WhatsApp"
+    "ctaButton": "Auf WhatsApp schreiben"
   },
   "courses": {
     "kicker": "Kein Grammatikkurs. Ein Sprechkurs.",
@@ -220,13 +220,13 @@
     "accordionQ": "Was steckt hinter den Kursen?",
     "accordionA": "Jeder Kurs hat im Hintergrund einen klaren grammatischen Aufbau – von den ersten einfachen Sätzen bis zu natürlichen Gesprächsmustern. Du lernst ihn nie isoliert, sondern immer eingebettet in echte Sätze, Situationen und Wiederholung.",
     "ctaText": "Schreib mir, dann finden wir heraus, wo du startest und wie schnell du vorankommst.",
-    "ctaButton": "Schreib mir auf WhatsApp"
+    "ctaButton": "Auf WhatsApp schreiben"
   },
   "offers": {
     "title": "So kannst du mit mir lernen",
     "sub": "Drei Wege, um mehr zu sprechen – wähle, was zu dir passt.",
     "comingSoon": "Coming soon",
-    "ctaButton": "Schreib mir auf WhatsApp",
+    "ctaButton": "Auf WhatsApp schreiben",
     "cards": [
       {
         "title": "Private 1:1 Speaking Lessons",
@@ -243,7 +243,7 @@
         "text": "Live-Kurs mit klarem Plan für deine telc-B1-Prüfung: alle Prüfungsteile, echtes Feedback und eine realistische Abschlusssimulation.",
         "badge": "Live · 4 Wochen",
         "href": "/telc-b1-kurs",
-        "ctaLabel": "Kursdetails ansehen"
+        "ctaLabel": "Jetzt anmelden"
       }
     ]
   },
@@ -257,7 +257,7 @@
       "Smalltalk natürlicher führen",
       "Mehr sprechen statt nur lernen"
     ],
-    "ctaButton": "Das will ich mit Jonas besprechen"
+    "ctaButton": "Auf WhatsApp schreiben"
   },
   "faq": {
     "title": "Häufige Fragen",
@@ -322,7 +322,7 @@
     "datenschutz": "Datenschutz",
     "cookiePolicy": "Cookie-Richtlinie",
     "cookieSettings": "Cookie-Einstellungen",
-    "whatsapp": "Schreib mir gerne direkt auf WhatsApp",
+    "whatsapp": "Auf WhatsApp schreiben",
     "rights": "Deutsch mit Jonas"
   },
   "whatsapp": {

@@ -9,14 +9,14 @@
     "teacher": "Your teacher",
     "pricing": "Pricing",
     "faq": "FAQ",
-    "startNow": "Start now"
+    "startNow": "Enroll now"
   },
   "hero": {
     "eyebrow": "Live · 4-week telc B1 preparation",
     "headline": "Pass your telc B1 exam with a clear plan.",
     "subline": "Learn what earns you points, practise every section under realistic exam conditions and walk into exam day knowing exactly what to do.",
     "caption": "Live online · 4 weeks · €270",
-    "cta": "Start now ↓",
+    "cta": "Enroll now",
     "badgeLive": "Live",
     "badgeNextCohort": "Next cohort",
     "badgeTitle": "A new group starts every month.",
@@ -76,7 +76,7 @@
     "banner": {
       "title": "Start your 4-week telc B1 course today.",
       "text": "Everything you need for exam day, in one clear plan.",
-      "cta": "Start now →"
+      "cta": "Enroll now"
     }
   },
   "teacher": {
@@ -185,7 +185,7 @@
     ],
     "price": "€270",
     "priceUnit": "per person",
-    "cta": "Join the next cohort",
+    "cta": "Enroll now",
     "note1": "Limited places per cohort. Exam registration and fee not included.",
     "note2": "Exam prep course, you should already be close to B1 level."
   },
@@ -193,7 +193,7 @@
     "kicker": "On request",
     "title": "Need more personal preparation?",
     "text": "Individual telc B1 lessons are available on request and can focus on your exam date, your current level and the sections you find most difficult.",
-    "cta": "Request individual lessons"
+    "cta": "Message me on WhatsApp"
   },
   "faq": {
     "eyebrow": "Questions",
@@ -237,8 +237,8 @@
     "eyebrow": "Your next step",
     "title": "Your exam date is fixed. Your preparation should be too.",
     "text": "Join the next four-week course and walk into your telc B1 exam knowing what to do.",
-    "ctaPrimary": "Join the next cohort →",
-    "ctaSecondary": "Request individual lessons"
+    "ctaPrimary": "Enroll now",
+    "ctaSecondary": "Message me on WhatsApp"
   },
   "footer": {
     "tagline": "1:1 online speaking coaching with Jonas.",
@@ -248,7 +248,7 @@
     "datenschutz": "Privacy Policy",
     "cookiePolicy": "Cookie Policy",
     "cookieSettings": "Cookie Settings",
-    "whatsapp": "Feel free to message me directly on WhatsApp",
+    "whatsapp": "Message me on WhatsApp",
     "rights": "Deutsch mit Jonas"
   },
   "whatsapp": {

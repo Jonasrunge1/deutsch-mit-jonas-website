@@ -9,14 +9,14 @@
     "teacher": "Dein Lehrer",
     "pricing": "Preis",
     "faq": "FAQ",
-    "startNow": "Jetzt starten"
+    "startNow": "Jetzt anmelden"
   },
   "hero": {
     "eyebrow": "Live · 4-Wochen-telc-B1-Vorbereitung",
     "headline": "Bestehe deine telc-B1-Prüfung mit einem klaren Plan.",
     "subline": "Lerne, was wirklich Punkte bringt, übe jeden Prüfungsteil unter realistischen Bedingungen und geh am Prüfungstag genau vorbereitet rein.",
     "caption": "Live online · 4 Wochen · 270 €",
-    "cta": "Jetzt starten ↓",
+    "cta": "Jetzt anmelden",
     "badgeLive": "Live",
     "badgeNextCohort": "Nächster Kurs",
     "badgeTitle": "Jeden Monat startet eine neue Gruppe.",
@@ -76,7 +76,7 @@
     "banner": {
       "title": "Starte noch heute deinen 4-Wochen-telc-B1-Kurs.",
       "text": "Alles, was du für den Prüfungstag brauchst, in einem klaren Plan.",
-      "cta": "Jetzt starten →"
+      "cta": "Jetzt anmelden"
     }
   },
   "teacher": {
@@ -185,7 +185,7 @@
     ],
     "price": "270 €",
     "priceUnit": "pro Person",
-    "cta": "Jetzt Platz sichern",
+    "cta": "Jetzt anmelden",
     "note1": "Begrenzte Plätze pro Kurs. Prüfungsanmeldung und -gebühr nicht enthalten.",
     "note2": "Prüfungsvorbereitungskurs — du solltest bereits nah an B1 dran sein."
   },
@@ -193,7 +193,7 @@
     "kicker": "Auf Anfrage",
     "title": "Brauchst du eine individuellere Vorbereitung?",
     "text": "Individuelle telc-B1-Stunden sind auf Anfrage verfügbar und können sich gezielt auf deinen Prüfungstermin, dein aktuelles Niveau und deine schwierigsten Bereiche konzentrieren.",
-    "cta": "Individuelle Stunden anfragen"
+    "cta": "Auf WhatsApp schreiben"
   },
   "faq": {
     "eyebrow": "Fragen",
@@ -237,8 +237,8 @@
     "eyebrow": "Dein nächster Schritt",
     "title": "Dein Prüfungstermin steht fest. Deine Vorbereitung sollte es auch.",
     "text": "Steig in den nächsten Vier-Wochen-Kurs ein und geh in deine telc-B1-Prüfung, ohne Zweifel, was zu tun ist.",
-    "ctaPrimary": "Jetzt Platz sichern →",
-    "ctaSecondary": "Individuelle Stunden anfragen"
+    "ctaPrimary": "Jetzt anmelden",
+    "ctaSecondary": "Auf WhatsApp schreiben"
   },
   "footer": {
     "tagline": "1:1 Online-Speaking-Coaching mit Jonas.",
@@ -248,7 +248,7 @@
     "datenschutz": "Datenschutz",
     "cookiePolicy": "Cookie-Richtlinie",
     "cookieSettings": "Cookie-Einstellungen",
-    "whatsapp": "Schreib mir gerne direkt auf WhatsApp",
+    "whatsapp": "Auf WhatsApp schreiben",
     "rights": "Deutsch mit Jonas"
   },
   "whatsapp": {

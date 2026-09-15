@@ -13,7 +13,7 @@
     "how": "Cómo funciona",
     "pricing": "Oferta",
     "contact": "Contacto",
-    "cta": "Escríbeme"
+    "cta": "Escríbeme por WhatsApp"
   },
   "hero": {
     "kicker": "Deja de estudiar. Empieza a hablar.",
@@ -25,7 +25,7 @@
         "badge": "Curso en vivo",
         "title": "telc B1",
         "text": "Curso estructurado de 4 semanas con un plan claro para tu examen telc B1.",
-        "cta": "Ver detalles del curso",
+        "cta": "Inscríbete ahora",
         "href": "/es/telc-b1-kurs",
         "external": false
       },
@@ -143,7 +143,7 @@
       "estás cansado/a de los ejercicios de gramática aburridos.",
       "quieres hablar sin traducir antes cada frase en tu cabeza."
     ],
-    "closing": "Entonces solo tienes que escribirme – encontramos juntos el camino que encaja contigo."
+    "closing": "Escríbeme por WhatsApp"
   },
   "benefits": {
     "title": "Por qué con este método hablarás más rápido",
@@ -243,7 +243,7 @@
         "text": "Curso en vivo con un plan claro para tu examen telc B1: todas las partes del examen, feedback real y una simulación final realista.",
         "badge": "En vivo · 4 semanas",
         "href": "/es/telc-b1-kurs",
-        "ctaLabel": "Ver detalles del curso"
+        "ctaLabel": "Inscríbete ahora"
       }
     ]
   },
@@ -257,7 +257,7 @@
       "Mantener charlas informales con más naturalidad",
       "Hablar más en vez de solo estudiar"
     ],
-    "ctaButton": "Quiero hablar de esto con Jonas"
+    "ctaButton": "Escríbeme por WhatsApp"
   },
   "faq": {
     "title": "Preguntas frecuentes",
@@ -322,10 +322,10 @@
     "datenschutz": "Privacidad",
     "cookiePolicy": "Política de cookies",
     "cookieSettings": "Configuración de cookies",
-    "whatsapp": "Escríbeme directamente por WhatsApp",
+    "whatsapp": "Escríbeme por WhatsApp",
     "rights": "Alemán con Jonas"
   },
   "whatsapp": {
-    "label": "Escribir por WhatsApp"
+    "label": "Escríbeme por WhatsApp"
   }
 }
