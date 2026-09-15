@@ -264,6 +264,30 @@ section { padding: var(--space-7) 0; }
 .hero-blob--1 { width: 340px; height: 340px; top: -140px; left: -120px; }
 .hero-blob--2 { width: 220px; height: 220px; bottom: -100px; left: 22%; opacity: .1; }
 
+/* ---- Recurring organic outline-ring decoration (site-wide) ---- */
+.hero-ring {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+  opacity: .5;
+}
+.hero-ring--1 { width: 130px; top: 8%; left: 2%; transform: rotate(-8deg); }
+.hero-ring--2 { width: 90px; bottom: 10%; left: 14%; opacity: .35; transform: rotate(12deg); }
+
+.final-cta-ring {
+  position: absolute;
+  width: 160px;
+  top: -40px;
+  right: 4%;
+  opacity: .1;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@media (max-width: 860px) {
+  .hero-ring, .final-cta-ring { display: none; }
+}
+
 .hero-copy .eyebrow { margin-bottom: var(--space-4); }
 .hero-copy h1 { font-size: 46px; margin-bottom: var(--space-3); letter-spacing: -.01em; }
 .hero-subline { font-size: 20px; font-weight: var(--fw-bold); color: var(--color-orange); margin-bottom: var(--space-3); max-width: 480px; }
@@ -546,6 +570,20 @@ section { padding: var(--space-7) 0; }
   z-index: 0;
 }
 #skills .container { position: relative; z-index: 1; }
+
+#pricing { position: relative; overflow: hidden; }
+#pricing::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/brand_assets/patterns/orange-dots.png');
+  background-repeat: repeat;
+  background-size: 260px auto;
+  opacity: .06;
+  pointer-events: none;
+  z-index: 0;
+}
+#pricing .container { position: relative; z-index: 1; }
 
 .skills-grid {
   display: grid;
@@ -1065,11 +1103,14 @@ section { padding: var(--space-7) 0; }
    Final CTA
    ============================================================ */
 .final-cta {
+  position: relative;
+  overflow: hidden;
   background: var(--color-black);
   color: var(--color-creme);
   border-top: var(--border);
   border-bottom: var(--border);
 }
+.final-cta .container { position: relative; z-index: 1; }
 .final-cta .container { text-align: center; max-width: 640px; }
 .final-cta-tagline {
   color: var(--color-orange);
@@ -1760,7 +1801,8 @@ body.telc-page .faq-icon {
 }
 
 /* ---- Final CTA ---- */
-.telc-final .container { text-align: center; max-width: 640px; }
+.telc-final { position: relative; overflow: hidden; }
+.telc-final .container { position: relative; z-index: 1; text-align: center; max-width: 640px; }
 .telc-final h2 { font-size: 32px; margin-bottom: var(--space-3); letter-spacing: -.02em; }
 .telc-final p { font-size: 17px; opacity: .75; margin-bottom: var(--space-5); }
 .telc-final-actions { display: flex; justify-content: center; gap: var(--space-3); flex-wrap: wrap; }

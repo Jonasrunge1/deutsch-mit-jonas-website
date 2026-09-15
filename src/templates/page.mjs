@@ -237,6 +237,8 @@ ${faviconTags()}
     <section class="hero">
       <div class="hero-blob hero-blob--1"></div>
       <div class="hero-blob hero-blob--2"></div>
+      <img class="hero-ring hero-ring--1" src="/brand_assets/patterns/ring-01.png" alt="" aria-hidden="true" />
+      <img class="hero-ring hero-ring--2" src="/brand_assets/patterns/ring-02.png" alt="" aria-hidden="true" />
       <div class="container">
         <div class="hero-copy">
           <span class="eyebrow">${esc(t.hero.kicker)}</span>
@@ -444,6 +446,7 @@ ${faviconTags()}
 
     <!-- Final CTA -->
     <section class="final-cta" id="contact">
+      <img class="final-cta-ring" src="/brand_assets/patterns/ring-02.png" alt="" aria-hidden="true" />
       <div class="container">
         <p class="final-cta-tagline">${esc(t.cta.tagline)}</p>
         <h2>${esc(t.cta.title)}</h2>

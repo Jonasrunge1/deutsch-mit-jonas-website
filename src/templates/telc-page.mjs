@@ -302,6 +302,7 @@ ${faviconTags()}
 
     <!-- Final CTA -->
     <section class="telc-final telc-band telc-band--creme telc-curve">
+      <img class="final-cta-ring" src="/brand_assets/patterns/ring-01.png" alt="" aria-hidden="true" />
       <div class="container">
         <span class="telc-eyebrow">${esc(t.final.eyebrow)}</span>
         <h2>${esc(t.final.title)}</h2>
