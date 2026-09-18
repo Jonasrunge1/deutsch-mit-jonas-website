@@ -1,32 +1,31 @@
 // api/stripe-webhook.js
 // Vercel Serverless Function: Stripe -> MailerLite Brücke
 //
-// Was das macht:
-// 1. Empfängt den Stripe-Webhook "checkout.session.completed" (ausgelöst bei jeder
-//    erfolgreichen Zahlung über den Payment Link)
-// 2. Prüft die Stripe-Signatur (sonst könnte jeder gefälschte Zahlungen vortäuschen)
-// 3. Fügt den Käufer per MailerLite-API zur Gruppe "TELC B1 Oktober" hinzu
-//    -> das löst automatisch die MailerLite-Automation "TELC B1 Willkommensmail" aus
+// WICHTIG: Diese Version braucht KEIN npm-Paket (kein "stripe", keine
+// package.json-Änderung nötig) - die Signaturprüfung läuft mit Node's
+// eingebautem crypto-Modul. Das behebt den 500-Fehler, der entstand, weil
+// das "stripe"-Paket nicht in package.json installiert war.
 //
-// Setup (einmalig):
-// 1. Diese Datei unter /api/stripe-webhook.js ins bestehende Vercel-Projekt-Repo legen
-// 2. In den Vercel-Projekteinstellungen zwei Umgebungsvariablen setzen:
-//      STRIPE_WEBHOOK_SECRET   -> bekommst du, sobald der Webhook in Stripe angelegt ist
-//      MAILERLITE_API_KEY      -> euer MailerLite API-Key (Einstellungen -> Integrationen -> API)
-// 3. Deployen (git push), dann Bescheid geben -> ich lege den Stripe-Webhook-Endpoint
-//    per API auf eure endgültige URL an (https://learngermanwithjonas.de/api/stripe-webhook)
+// Was das macht:
+// 1. Empfängt den Stripe-Webhook "checkout.session.completed"
+// 2. Prüft die Stripe-Signatur selbst (HMAC-SHA256), ohne fremdes Paket
+// 3. Fügt den Käufer per MailerLite-API zur Gruppe "TELC B1 Oktober" hinzu
+//    -> löst automatisch die MailerLite-Automation "TELC B1 Willkommensmail" aus
+//
+// Setup (einmalig, unverändert):
+// In den Vercel-Projekteinstellungen zwei Umgebungsvariablen setzen:
+//   STRIPE_WEBHOOK_SECRET   -> aus dem Stripe-Dashboard, Webhook-Endpoint-Details
+//   MAILERLITE_API_KEY      -> MailerLite -> Einstellungen -> Integrationen -> API
+// (STRIPE_SECRET_KEY wird in dieser Version NICHT mehr gebraucht.)
 
-import Stripe from 'stripe';
-
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || '', {
-  apiVersion: '2024-06-20',
-});
+import crypto from 'crypto';
 
 const MAILERLITE_GROUP_ID = '198942403485238321'; // TELC B1 Oktober
+const TOLERANCE_SECONDS = 300; // Stripe-Standard: 5 Minuten
 
 export const config = {
   api: {
-    bodyParser: false, // Stripe braucht den rohen Request-Body für die Signaturprüfung
+    bodyParser: false, // wir brauchen den rohen Request-Body für die Signaturprüfung
   },
 };
 
@@ -39,21 +38,66 @@ function buffer(readable) {
   });
 }
 
+// Verifiziert eine Stripe-Webhook-Signatur ohne das "stripe"-npm-Paket.
+// Wirft einen Error, wenn die Signatur ungültig oder zu alt ist.
+function verifyStripeSignature(rawBody, signatureHeader, secret) {
+  if (!signatureHeader) {
+    throw new Error('Kein stripe-signature Header vorhanden.');
+  }
+
+  const parts = Object.fromEntries(
+    signatureHeader.split(',').map((part) => {
+      const [key, value] = part.split('=');
+      return [key, value];
+    })
+  );
+
+  const timestamp = parts.t;
+  const expectedSignature = parts.v1;
+
+  if (!timestamp || !expectedSignature) {
+    throw new Error('stripe-signature Header hat unerwartetes Format.');
+  }
+
+  const age = Math.floor(Date.now() / 1000) - Number(timestamp);
+  if (age > TOLERANCE_SECONDS) {
+    throw new Error('Zeitstempel außerhalb des Toleranzbereichs.');
+  }
+
+  const signedPayload = `${timestamp}.${rawBody.toString('utf8')}`;
+  const computedSignature = crypto
+    .createHmac('sha256', secret)
+    .update(signedPayload, 'utf8')
+    .digest('hex');
+
+  const expectedBuffer = Buffer.from(expectedSignature, 'utf8');
+  const computedBuffer = Buffer.from(computedSignature, 'utf8');
+
+  if (
+    expectedBuffer.length !== computedBuffer.length ||
+    !crypto.timingSafeEqual(expectedBuffer, computedBuffer)
+  ) {
+    throw new Error('Signatur stimmt nicht überein.');
+  }
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     res.setHeader('Allow', 'POST');
     return res.status(405).end('Method Not Allowed');
   }
 
+  let rawBody;
   let event;
+
   try {
-    const rawBody = await buffer(req);
-    const signature = req.headers['stripe-signature'];
-    event = stripe.webhooks.constructEvent(
+    rawBody = await buffer(req);
+    verifyStripeSignature(
       rawBody,
-      signature,
+      req.headers['stripe-signature'],
       process.env.STRIPE_WEBHOOK_SECRET
     );
+    event = JSON.parse(rawBody.toString('utf8'));
   } catch (err) {
     console.error('Webhook-Signatur ungültig:', err.message);
     return res.status(400).send(`Webhook Error: ${err.message}`);
