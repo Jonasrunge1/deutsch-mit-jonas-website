@@ -1,6 +1,6 @@
 import { WHATSAPP_URL, esc, picture, faviconTags, hreflangTags, langSwitcher, whatsappFloat } from './shared.mjs';
 
-const STRIPE_URL = 'https://buy.stripe.com/bJedRbfDXbfW7Mw3hD53O00';
+const STRIPE_URL = 'https://buy.stripe.com/8x228t8bv0Bi6Is4lH53O02';
 
 // Per-language paths for THIS page, mirroring the homepage's LANGUAGES pattern.
 export const TELC_LANGUAGES = [
